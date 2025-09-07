@@ -321,7 +321,7 @@ const [isVisible, setIsVisible] = useState(false);
     {
       name: "Rajiv Mehta",
       role: "Corporate Client",
-      comment: "I've been coming here monthly for over a year. The deep tissue massage works wonders for my back pain.",
+      comment: "I have been coming here monthly for over a year. The deep tissue massage works wonders for my back pain.",
     },
     {
       name: "Ananya Singh",
@@ -334,7 +334,7 @@ const testimonials = [
       id: 1,
       name: "John Doe",
       role: "Product Manager, TechCorp",
-      content: "This service completely transformed our workflow. The team's attention to detail and innovative approach solved problems we didn't even know we had!",
+      content: "This service completely transformed our workflow. The teams attention to detail and innovative approach solved problems we did not even know we had!",
       date: "April 15, 2023",
       rating: 5,
       initials: "JD",
@@ -354,7 +354,7 @@ const testimonials = [
       id: 3,
       name: "Michael Roberts",
       role: "CTO, InnovateX",
-      content: "As a tech company, we're always skeptical about new tools. But this solution has exceeded our expectations. The API integration was seamless and performance is rock solid.",
+      content: "As a tech company, we are always skeptical about new tools. But this solution has exceeded our expectations. The API integration was seamless and performance is rock solid.",
       date: "June 8, 2023",
       rating: 4,
       initials: "MR",
@@ -1896,7 +1896,7 @@ const features2 = [
                   </p>
                   
                   <p className="text-gray-700">
-                    Whether you're looking to alleviate chronic pain, unwind after a workout, or just need a break from the city's hustle, we offer an experience tailored to your needs.
+                    Whether you are looking to alleviate chronic pain, unwind after a workout, or just need a break from the citys hustle, we offer an experience tailored to your needs.
                   </p>
                   <p className="text-gray-700">
                    All sessions are created with your complete comfort and satisfaction in mind, including hygienic interior and customized treatment. Spa Delhi is where you can rejuvenate and relax your body in the most convenient places at low costs.
