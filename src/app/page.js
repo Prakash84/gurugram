@@ -794,7 +794,7 @@ const features2 = [
                 </div>
 
                 <div className="absolute -right-6 bottom-8 bg-white/90 rounded-3xl px-4 py-2 shadow-lg text-sm">
-                  <div className="font-medium">"Amazing experience — total reset!"</div>
+                  <div className="font-medium">Amazing experience — total reset!</div>
                   <div className="text-xs text-gray-600">— Priya</div>
                 </div>
               </div>
@@ -1164,7 +1164,7 @@ const features2 = [
             </h2>
 
             <p className="text-gray-600 text-base md:text-lg mb-8 max-w-2xl">
-              Are you in Delhi-NCR and searching for a <strong>luxurious spa near in Delhi</strong>, but it’s too hot to step outside? Luxury Body Spa has come to your rescue — whether you want a spa at your home or are visiting Delhi and tired from travel. Our skilled therapists (Indian, Russian, Thai, Afghan) deliver authentic massages that help you unwind and relax.
+              Are you in Delhi-NCR and searching for a <strong>luxurious spa near in Delhi</strong>, but its too hot to step outside? Luxury Body Spa has come to your rescue — whether you want a spa at your home or are visiting Delhi and tired from travel. Our skilled therapists (Indian, Russian, Thai, Afghan) deliver authentic massages that help you unwind and relax.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
@@ -1246,9 +1246,9 @@ const features2 = [
           </div>
         </section>
         {/* Location */}
-    <section className="py-12 bg-gray-50">
-<div className="max-w-7xl mx-auto px-6">
-  {/* Heading */}
+        <section className="py-12 bg-gray-50">
+             <div className="max-w-7xl mx-auto px-6">
+              {/* Heading */}
                   <div className="text-center mb-16">
                     <motion.div
                       className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-emerald-100 rounded-full text-emerald-800 font-medium"
@@ -1286,54 +1286,50 @@ const features2 = [
                        <div className="h-1 w-24 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full"></div>
                      </motion.div>
                   </div>
- 
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
+                {cities.map((c, i) => (
+                <motion.a
+                key={c.name}
+                href={`#/cities/${c.name.toLowerCase()}`}
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.04, duration: 0.35 }}
+                className="group block rounded-2xl overflow-hidden shadow-lg relative transform hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 bg-white"
+                >
+                <div className="relative w-full h-44 sm:h-48 lg:h-52">
+                <Image
+                src={c.img}
+                alt={c.name}
+                fill
+                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                style={{ objectFit: 'cover' }}
+                className="group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
+                </div>
 
 
+                <div className="absolute left-0 right-0 bottom-4 px-4 text-center">
+                <span className="text-white text-lg sm:text-xl font-semibold tracking-wider drop-shadow-lg uppercase">{c.name}</span>
+                </div>
+                </motion.a>
+                ))}
+                </div>
 
-<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
-{cities.map((c, i) => (
-<motion.a
-key={c.name}
-href={`#/cities/${c.name.toLowerCase()}`}
-initial={{ opacity: 0, y: 8 }}
-animate={{ opacity: 1, y: 0 }}
-transition={{ delay: i * 0.04, duration: 0.35 }}
-className="group block rounded-2xl overflow-hidden shadow-lg relative transform hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 bg-white"
->
-<div className="relative w-full h-44 sm:h-48 lg:h-52">
-<Image
-src={c.img}
-alt={c.name}
-fill
-sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
-style={{ objectFit: 'cover' }}
-className="group-hover:scale-105 transition-transform duration-500"
-/>
-<div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
+
+                <div className="flex justify-center mt-10">
+                <a
+                href="#/cities"
+                className="inline-flex items-center gap-3 bg-gradient-to-r from-emerald-600 to-emerald-600 text-white font-semibold px-6 py-3 rounded-full shadow-md transition-all"
+                >
+                View All Cities
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+                </a>
+                </div>
 </div>
-
-
-<div className="absolute left-0 right-0 bottom-4 px-4 text-center">
-<span className="text-white text-lg sm:text-xl font-semibold tracking-wider drop-shadow-lg uppercase">{c.name}</span>
-</div>
-</motion.a>
-))}
-</div>
-
-
-<div className="flex justify-center mt-10">
-<a
-href="#/cities"
-className="inline-flex items-center gap-3 bg-gradient-to-r from-emerald-600 to-emerald-600 text-white font-semibold px-6 py-3 rounded-full shadow-md transition-all"
->
-View All Cities
-<svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-</svg>
-</a>
-</div>
-</div>
-</section>
+        </section>
     {/* End Location */}
         {/* Pricing Section */}
                 <section id= "Pricing" className="py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-emerald-50 relative overflow-hidden">
@@ -1554,6 +1550,235 @@ View All Cities
           ))}</div>
         </section>
         {/* 18+ Section and other sections continue... */}
+        {/* ////// */}
+        <section className="bg-white py-12">
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="text-center mb-8">
+          {/* <h2 className="text-3xl font-semibold text-slate-800">Benefits</h2> */}
+          <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 mb-6 font-serif">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Benefits</span> 
+            </h2>
+          <p className="text-slate-600 mt-2">Physical & spiritual benefits of our spa treatments</p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+          {/* Left: Physical */}
+          <div className="space-y-6">
+            
+            <h3 className="text-2xl font-medium text-slate-800">Physical Benefits</h3>
+
+            <ul className="space-y-4">
+              <li className="flex items-start gap-4">
+                {/* small decorative svg */}
+                <div className="w-6 h-6 relative flex-shrink-0">
+                  <Image
+                    src="/images/physicalbenifits1.png"   // put image in public/images/icons/
+                    alt="booking icon"
+                    fill
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
+                <p className="text-slate-700">Relieves muscle tension — eases stiffness and soreness.</p>
+              </li>
+
+              <li className="flex items-start gap-4">
+               <div className="w-6 h-6 relative flex-shrink-0">
+                  <Image
+                    src="/images/physicalbenifits2.png"   // put image in public/images/icons/
+                    alt="booking icon"
+                    fill
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
+                <p className="text-slate-700">Improves blood circulation — boosts oxygen flow.</p>
+              </li>
+
+              <li className="flex items-start gap-4">
+                <div className="w-6 h-6 relative flex-shrink-0">
+                  <Image
+                    src="/images/physicalbenifits3.png"   // put image in public/images/icons/
+                    alt="booking icon"
+                    fill
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
+                <p className="text-slate-700">Detoxifies the body — helps flush out toxins via massage.</p>
+              </li>
+
+              <li className="flex items-start gap-4">
+                <div className="w-6 h-6 relative flex-shrink-0">
+                  <Image
+                    src="/images/physicalbenifits4.png"   // put image in public/images/icons/
+                    alt="booking icon"
+                    fill
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
+                <p className="text-slate-700">Strengthens immunity — supports the body’s natural defenses.</p>
+              </li>
+            </ul>
+          </div>
+
+          {/* Right: Spiritual */}
+          <div className="space-y-6">
+            <h3 className="text-2xl font-medium text-slate-800">Spiritual Benefits</h3>
+
+            <ul className="space-y-4">
+              <li className="flex items-start gap-4">
+                <svg className="w-6 h-6 text-rose-400 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M12 3c-2 0-4 1-5 3-1 2-1 4 0 6 1 2 3 4 5 4s4-2 5-4c1-2 1-4 0-6-1-2-3-3-5-3z" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                <p className="text-slate-700">Promotes inner peace — calms the mind and reduces emotional stress.</p>
+              </li>
+
+              <li className="flex items-start gap-4">
+                <svg className="w-6 h-6 text-rose-400 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M3 12a9 9 0 0 0 18 0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                <p className="text-slate-700">Balances energy flow — aligns chakras and harmonizes energy.</p>
+              </li>
+
+              <li className="flex items-start gap-4">
+                <svg className="w-6 h-6 text-rose-400 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M21 12a6 6 0 0 0-6-6H9a6 6 0 0 0-6 6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                <p className="text-slate-700">Deepens meditation — prepares body and mind for spiritual practice.</p>
+              </li>
+
+              <li className="flex items-start gap-4">
+                <svg className="w-6 h-6 text-rose-400 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <circle cx="12" cy="12" r="3" strokeWidth="1.5"/>
+                  <path d="M12 2v2M12 20v2" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                <p className="text-slate-700">Cleanses negativity — releases stress and emotional buildup.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="text-center mt-8">
+          <a href="#book" className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full font-medium shadow">
+            Book Now
+          </a>
+        </div>
+      </div>
+    </section>
+        {/* process Section */}
+            <section className="bg-white/5 py-12 lg:py-20">
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="text-center mb-10 lg:mb-14">
+          <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 mb-6 font-serif">
+              Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Process</span> for a Massage in Delhi?
+            </h2>
+          
+          <p className="mt-3 text-sm sm:text-base text-white/80 max-w-2xl mx-auto">
+            Har kadam par dhyaan — humare spa ka process simple, safe aur relaxing hai. Book karo, aao aur reset feel karo.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+          {/* Step 1 */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="bg-gradient-to-b from-emerald-700/10 to-transparent rounded-2xl p-5 flex flex-col items-start gap-4"
+          >
+            <div className="w-full flex items-center gap-4">
+              <div className="flex-shrink-0 bg-emerald-600 text-white rounded-full w-14 h-14 flex items-center justify-center text-lg font-bold">
+                1
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-emerald">Book &amp; Consult</h3>
+                <p className="text-xs text-emerald/70">Online ya call se appointment. Therapist se short consultation hoti hai.</p>
+              </div>
+            </div>
+
+            <div className="relative w-full h-44 rounded-lg overflow-hidden mt-2">
+              <Image
+                src="/images/process1.jpeg"
+                alt="Booking and consultation"
+                fill
+                style={{ objectFit: 'cover' }}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
+              />
+            </div>
+
+            <div className="mt-auto text-sm text-emerald/80">Flexible slots, personalized recommendations, aur safety protocols follow karte hain.</div>
+          </motion.div>
+
+          {/* Step 2 */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="bg-gradient-to-b from-emerald-700/10 to-transparent rounded-2xl p-5 flex flex-col items-start gap-4"
+          >
+            <div className="w-full flex items-center gap-4">
+              <div className="flex-shrink-0 bg-emerald-600 text-white rounded-full w-14 h-14 flex items-center justify-center text-lg font-bold">
+                2
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-emerald">Relaxing Treatment</h3>
+                <p className="text-xs text-emerald/70">Certified therapist ke saath tailored massage aur organic oils.</p>
+              </div>
+            </div>
+
+            <div className="relative w-full h-44 rounded-lg overflow-hidden mt-2">
+              <Image
+                src="/images/process2.jpeg"
+                alt="Relaxing treatment"
+                fill
+                style={{ objectFit: 'cover' }}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
+              />
+            </div>
+
+            <div className="mt-auto text-sm text-emerald/80">Comfortable rooms, calming music aur therapy focused on your needs.</div>
+          </motion.div>
+
+          {/* Step 3 */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="bg-gradient-to-b from-emerald-700/10 to-transparent rounded-2xl p-5 flex flex-col items-start gap-4"
+          >
+            <div className="w-full flex items-center gap-4">
+              <div className="flex-shrink-0 bg-emerald-600 text-white rounded-full w-14 h-14 flex items-center justify-center text-lg font-bold">
+                3
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-emerald">Aftercare &amp; Relax</h3>
+                <p className="text-xs text-emerald/70">Hydration tips, follow-up suggestions aur loyalty offers.</p>
+              </div>
+            </div>
+
+            <div className="relative w-full h-44 rounded-lg overflow-hidden mt-2">
+              <Image
+                src="/images/process3.jpeg"
+                alt="Aftercare and relax"
+                fill
+                style={{ objectFit: 'cover' }}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
+              />
+            </div>
+
+            <div className="mt-auto text-sm text-emerald/80">Personalized notes aur next booking par special discount.</div>
+          </motion.div>
+        </div>
+
+        <div className="text-center mt-10">
+          <a href="#book" className="inline-flex items-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full font-semibold shadow-lg transition">
+            Book Your Session
+          </a>
+        </div>
+      </div>
+    </section>
+    {/* ENd process Section */}
         {/* FAQ Section - fixed apostrophe here by using HTML entity */}
 <section className="py-16 bg-gradient-to-b from-emerald-50 to-white">
   <div className="max-w-5xl mx-auto px-4">
