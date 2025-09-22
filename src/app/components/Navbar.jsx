@@ -111,7 +111,7 @@ export default function Navbar() {
               Home
             </a>
             <a
-              href="/about"
+              href="/About"
               className="font-medium text-gray-800 hover:text-emerald-600 transition"
             >
               About

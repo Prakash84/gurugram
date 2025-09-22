@@ -666,8 +666,50 @@ const features2 = [
 { name: 'CHANDIGARH', img: '/images/pullmanAerocity.jpg' },
 { name: 'JAIPUR', img: '/images/jwmarriott.jpeg' },
 ]
+const teamMembers = [
+  {
+    name: "Chelsea Foster",
+    designation: "Spa Therapist",
+    image: "/images/spamodel.jpg",
+    socials: {
+      facebook: "https://facebook.com",
+      instagram: "https://instagram.com",
+      twitter: "https://twitter.com",
+    },
+  },
+  {
+    name: "Lane Parsons",
+    designation: "Spa Therapist",
+    image: "/images/spaExper2.webp",
+    socials: {
+      facebook: "https://facebook.com",
+      instagram: "https://instagram.com",
+      twitter: "https://twitter.com",
+    },
+  },
+  {
+    name: "Haven West",
+    designation: "Spa Therapist",
+    image: "/images/spamodel2.jpg",
+    socials: {
+      facebook: "https://facebook.com",
+      instagram: "https://instagram.com",
+      twitter: "https://twitter.com",
+    },
+  },
+  {
+    name: "Avery Grace",
+    designation: "Spa Therapist",
+    image: "/images/spaExpert4.jpg",
+    socials: {
+      facebook: "https://facebook.com",
+      instagram: "https://instagram.com",
+      twitter: "https://twitter.com",
+    },
+  },
+];
   return (
-    <main>
+    <main bg-gradient-to-b from-emerald-50 to-white>
       <div className="font-sans overflow-hidden">
         {/* Floating Decorative Elements */}
         <div className="fixed inset-0 pointer-events-none z-0">
@@ -1779,8 +1821,76 @@ const features2 = [
       </div>
     </section>
     {/* ENd process Section */}
+    {/* Our Therapy Experts */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto">
+          
+          <div className="text-center mb-16">
+          <motion.p
+            className="text-emerald-300 uppercase font-semibold tracking-wider mb-4"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Experts Therapy
+          </motion.p>
+          
+          <motion.h2
+            className="text-4xl md:text-5xl font-bold text-emerald-900 font-serif mb-4"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            Our Best<span className="text-emerald-600"> Massage Therapist</span>
+          </motion.h2>
+          
+          <motion.p
+            className="text-gray-600 max-w-2xl mx-auto text-lg"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+            viewport={{ once: true }}
+          >
+             World-class therapists dedicated to your wellness.
+          </motion.p>
+        </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            {teamMembers.map((member, idx) => (
+              <motion.div
+                key={idx}
+                whileHover={{ scale: 1.05 }}
+                className="bg-white rounded-2xl shadow-md overflow-hidden text-center relative group"
+              >
+                <div className="relative h-96 overflow-hidden">
+                  <Image
+                  loading="lazy"
+                    src={member.image}
+                    alt={member.name}
+                    width={400}
+                    height={400}
+                    className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 bg-black/60 p-4">
+                    <h3 className="text-white text-xl font-semibold">
+                      {member.name}
+                    </h3>
+                    <p className="text-yellow-300">{member.designation}</p>
+                  </div>
+                </div>
+                <div className="flex justify-center gap-4 mt-4 pb-4">
+                  <a href={member.socials.facebook} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaFacebookF /></a>
+                  <a href={member.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaInstagram /></a>
+                  <a href={member.socials.twitter} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaTwitter /></a>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+       {/* End Our Therapy Experts */}
         {/* FAQ Section - fixed apostrophe here by using HTML entity */}
-<section className="py-16 bg-gradient-to-b from-emerald-50 to-white">
+<section className="py-16">
   <div className="max-w-5xl mx-auto px-4">
 <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -1888,10 +1998,10 @@ const features2 = [
   </div>
 </section>       
         {/* /// */}
-        <section className="py-14 bg-white">
+        {/* <section className="py-14 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          {/* Left: FAQ list */}
+         
           <div>
             <      h3
               className="text-4xl font-semibold text-emerald-700 mb-6"
@@ -1926,8 +2036,6 @@ const features2 = [
                       </svg>
                     </span>
                   </button>
-
-                  {/* ANSWER: use ref and dynamic maxHeight */}
                   <div
                     ref={(el) => (contentRefs.current[i] = el)}
                     style={{
@@ -1943,8 +2051,6 @@ const features2 = [
               ))}
             </div>
           </div>
-
-          {/* Right: image */}
           <div className="flex justify-center lg:justify-end">
             <div className="w-full max-w-md rounded-lg overflow-hidden shadow-lg">
               <img src="/images/From soothing Swedish.jpeg" alt="Spa FAQ" className="w-full h-80 object-cover" />
@@ -1952,7 +2058,7 @@ const features2 = [
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
         {/* Footer / CTA / Other components */}
 
     </main>
