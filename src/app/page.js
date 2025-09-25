@@ -708,6 +708,46 @@ const teamMembers = [
     },
   },
 ];
+
+  const cards = [
+    {
+      id: 1,
+      title: 'IBIS New Delhi Aerocity',
+      desc:
+        'Experience refreshing massage therapy at the best spa in Aerocity IBIS. Enjoy premium hotel spa services designed for comfort and relaxation, including Foreigner Therapies, near Delhi Airport.',
+      cta: 'CHAT ON TELEGRAM',
+      // replace with your image path or import
+      img: '/images/lajpatnagahotel.avif',
+      badge: null,
+    },
+    {
+      id: 2,
+      title: 'The Park New Delhi\nConnaught Place',
+      desc:
+        'Our spa in Delhi is the perfect choice to put an end to a streak of stress and rejuvenate your body and mind with an expert massage therapist in CP. For experience luxury spa in Connaught Place contact us.',
+      cta: 'CHAT ON TELEGRAM',
+      img: '/images/RoseateHouse.jpg',
+      badge: 'PREMIUM',
+    },
+    {
+      id: 3,
+      title: 'The Park New Delhi\nConnaught Place',
+      desc:
+        'Our spa in Delhi is the perfect choice to put an end to a streak of stress and rejuvenate your body and mind with an expert massage therapist in CP. For experience luxury spa in Connaught Place contact us.',
+      cta: 'CHAT ON TELEGRAM',
+      img: '/images/holidayIn_CP.jpg',
+      badge: 'PREMIUM',
+    },
+    {
+      id: 4,
+      title: 'The Park New Delhi\nConnaught Place',
+      desc:
+        'Our spa in Delhi is the perfect choice to put an end to a streak of stress and rejuvenate your body and mind with an expert massage therapist in CP. For experience luxury spa in Connaught Place contact us.',
+      cta: 'CHAT ON TELEGRAM',
+      img: '/images/JwMarriott_CP.jpg',
+      badge: 'PREMIUM',
+    },
+  ]
   return (
     <main bg-gradient-to-b from-emerald-50 to-white>
       <div className="font-sans overflow-hidden">
@@ -1373,6 +1413,192 @@ const teamMembers = [
 </div>
         </section>
     {/* End Location */}
+    {/* hotel section */}
+    <section className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="text-center mb-16">
+                    <motion.div
+                      className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-emerald-100 rounded-full text-emerald-800 font-medium"
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                    >
+                      <FaStar className="text-emerald-500" />
+                      Luxury Treatments
+                    </motion.div>
+                    <motion.h2
+                      className="text-4xl md:text-5xl font-bold text-emerald-900 font-serif mb-4"
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: 0.1 }}
+                    >
+                      Our Hotel <span className="text-emerald-600">Outlets</span>
+                    </motion.h2>
+                    <motion.p
+                      className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: 0.2 }}
+                    >
+                      Meet our diverse team of professionals who bring excellence and passion to every engagement.
+                    </motion.p>
+                    <motion.div
+                       className="flex justify-center mt-10"
+                       initial={{ opacity: 0, y: 20 }}
+                       whileInView={{ opacity: 1, y: 0 }}
+                       transition={{ delay: 0.5, duration: 0.5 }}
+                     >
+                       <div className="h-1 w-24 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full"></div>
+                     </motion.div>
+                  </div>
+
+
+        
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          {/* Left card: image left, content right */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.45 }}
+            className="flex flex-col md:flex-row items-stretch"
+          >
+            <div className="md:w-1/2 bg-white rounded-md shadow-lg overflow-hidden mr-0 md:mr-6">
+              <div className="relative h-64 md:h-full">
+                <Image
+                  src={cards[0].img}
+                  alt={cards[0].title}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+
+            <div className="md:w-1/2 bg-white rounded-md shadow-md p-8 flex flex-col justify-between">
+              <div>
+                <h3 className="text-2xl font-bold text-emerald-600">{cards[0].title}</h3>
+                <p className="mt-4 text-gray-600 leading-relaxed whitespace-pre-wrap">{cards[0].desc}</p>
+              </div>
+
+              <a href="#" className="mt-6 text-indigo-600 font-medium">
+                {cards[0].cta}
+              </a>
+            </div>
+          </motion.div>
+
+          {/* Right card: content right, image left with badge */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.45, delay: 0.1 }}
+            className="flex flex-col md:flex-row-reverse items-stretch"
+          >
+            <div className="md:w-1/2 bg-white rounded-md shadow-md p-8 flex flex-col justify-between">
+              <div>
+                <h3 className="text-2xl font-bold text-emerald-600 whitespace-pre-line">{cards[1].title}</h3>
+                <p className="mt-4 text-gray-600 leading-relaxed">{cards[1].desc}</p>
+              </div>
+
+              <a href="#" className="mt-6 text-indigo-600 font-medium">
+                {cards[1].cta}
+              </a>
+            </div>
+
+            <div className="md:w-1/2 relative bg-white rounded-md shadow-lg overflow-hidden ml-0 md:ml-6">
+              {/* Badge */}
+              {cards[1].badge && (
+                <div className="absolute left-4 top-4 z-20">
+                  <span className="px-3 py-1 rounded text-sm font-semibold bg-amber-400 text-white shadow">{cards[1].badge}</span>
+                </div>
+              )}
+
+              <div className="relative h-64 md:h-full">
+                <Image
+                  src={cards[1].img}
+                  alt={cards[1].title}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Left card: image left, content right */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.45 }}
+            className="flex flex-col md:flex-row items-stretch"
+          >
+            <div className="md:w-1/2 bg-white rounded-md shadow-lg overflow-hidden mr-0 md:mr-6">
+              <div className="relative h-64 md:h-full">
+                <Image
+                  src={cards[2].img}
+                  alt={cards[2].title}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+
+            <div className="md:w-1/2 bg-white rounded-md shadow-md p-8 flex flex-col justify-between">
+              <div>
+                <h3 className="text-2xl font-bold text-emerald-600">{cards[2].title}</h3>
+                <p className="mt-4 text-gray-600 leading-relaxed whitespace-pre-wrap">{cards[2].desc}</p>
+              </div>
+
+              <a href="#" className="mt-6 text-indigo-600 font-medium">
+                {cards[2].cta}
+              </a>
+            </div>
+          </motion.div>
+
+          {/* Right card: content right, image left with badge */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.45, delay: 0.1 }}
+            className="flex flex-col md:flex-row-reverse items-stretch"
+          >
+            <div className="md:w-1/2 bg-white rounded-md shadow-md p-8 flex flex-col justify-between">
+              <div>
+                <h3 className="text-2xl font-bold text-emerald-600 whitespace-pre-line">{cards[3].title}</h3>
+                <p className="mt-4 text-gray-600 leading-relaxed">{cards[3].desc}</p>
+              </div>
+
+              <a href="#" className="mt-6 text-indigo-600 font-medium">
+                {cards[3].cta}
+              </a>
+            </div>
+
+            <div className="md:w-1/2 relative bg-white rounded-md shadow-lg overflow-hidden ml-0 md:ml-6">
+              {/* Badge */}
+              {cards[3].badge && (
+                <div className="absolute left-4 top-4 z-20">
+                  <span className="px-3 py-1 rounded text-sm font-semibold bg-amber-400 text-white shadow">{cards[3].badge}</span>
+                </div>
+              )}
+
+              <div className="relative h-64 md:h-full">
+                <Image
+                  src={cards[3].img}
+                  alt={cards[3].title}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+    {/* end hotel section */}
         {/* Pricing Section */}
                 <section id= "Pricing" className="py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-emerald-50 relative overflow-hidden">
                 {/* Decorative elements */}

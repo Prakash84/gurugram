@@ -1251,9 +1251,6 @@ export default function About({
       </div>
     </section>
     {/* ///////////// */}
-    
-    {/* ///////// */}
-    
       {/* new content */}
        
             {/* icon uytlet */}
@@ -1375,14 +1372,6 @@ export default function About({
     {/* icon uytlet */}
 
       {/* About Us Section */}
-      
-     
-      {/* content */}
-
-       {/* end */}
-      
-      {/* end content */}
-      
                     {/* 18+ Exclusive Section */}
       <section 
   className="relative py-20 px-6 text-center bg-cover bg-center bg-no-repeat overflow-hidden"
@@ -1522,8 +1511,7 @@ export default function About({
             ))}
           </div>
         </div>
-      </section>
-      
+      </section>   
           {/* F&Q Section */}
                 <section className="py-16 bg-gradient-to-b from-emerald-50 to-white">
                   <div className="max-w-5xl mx-auto px-4">
@@ -1638,9 +1626,6 @@ export default function About({
                     </motion.div> */}
                   </div>
                 </section>
-      
-      
-
     </div>
     
   );
