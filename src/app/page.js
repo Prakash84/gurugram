@@ -763,7 +763,7 @@ const teamMembers = [
         <div className="absolute inset-0">
           <div className="relative h-full w-full">
             <Image
-              src="/images/spa_banner_resized_1680x588.jpeg"   // put image at /public/images/spa/spa-hero.jpg
+              src="/images/luxury-aromatherapy-spa-treatment-with-scented-candle-flame-generated-by-ai.jpg"   // put image at /public/images/spa/spa-hero.jpg
               alt="Relaxing spa background"
               fill
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 1200px"

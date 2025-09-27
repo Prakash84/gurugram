@@ -291,7 +291,7 @@ const faqs = [
     const Button = ({ href, children }) => (
       <a
         href={href}
-        className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-gradient-to-r from-purple-700 to-pink-500 text-white font-semibold shadow-lg hover:brightness-110 transition-all duration-300"
+        className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-gradient-to-r from-purple-700 to-emerald-500 text-white font-semibold shadow-lg hover:brightness-110 transition-all duration-300"
       >
         {children}
       </a>
@@ -300,136 +300,131 @@ const faqs = [
     return (
       <main>
       <div className="w-full">
-        {/* Banner */}         
-      <div className="relative overflow-hidden bg-gradient-to-br from-emerald-50 to-rose-50">
-        {/* Floating decorative elements */}
-        <div className="absolute top-10 left-10 w-24 h-24 bg-rose-100 rounded-full opacity-20 animate-float"></div>
-        <div className="absolute top-1/3 right-20 w-16 h-16 bg-emerald-100 rounded-full opacity-30 animate-float animation-delay-2000"></div>
-        <div className="absolute bottom-20 left-1/4 w-20 h-20 bg-teal-100 rounded-full opacity-25 animate-float animation-delay-4000"></div>
-        
-        {/* Main content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 py-16 md:py-24 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          {/* Text content - more minimal */}
-          <div className="space-y-6 text-center lg:text-left">
-            <div className="inline-flex items-center space-x-2 mb-6">
-              <div className="w-12 h-px bg-emerald-600"></div>
-              <span className="text-emerald-600 font-light tracking-widest">OUR SERVICES</span>
-              <div className="w-12 h-px bg-emerald-600"></div>
-            </div>
-            
-            <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-              <span className="block font-serif text-5xl md:text-6xl mb-3 text-emerald-800">Book Best</span>
-            Massage service
-              <span className="block mt-2 font-medium">in Delhi by <span className="text-rose-600">International Therapists</span></span>
-            </h1>
-            
-            <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            At LuxeSpa, we offer a sanctuary where each treatment is a journey. Our expert therapists craft personalized experiences using premium products and techniques that honor both tradition and innovation.
-            </p>
-            
-            <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
-              <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600">
-                 {/* Hotel Icon */}
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 21V3h18v18M9 21v-6h6v6" />
-              </svg>
-                </div>
-                <span className="text-sm text-gray-700">24+ Spa Outlet</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600">
-                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2C10.8954 2 10 2.89543 10 4V6H8C6.89543 6 6 6.89543 6 8V20C6 21.1046 6.89543 22 8 22H16C17.1046 22 18 21.1046 18 20V8C18 6.89543 17.1046 6 16 6H14V4C14 2.89543 13.1046 2 12 2ZM12 9C13.1046 9 14 9.89543 14 11C14 12.1046 13.1046 13 12 13C10.8954 13 10 12.1046 10 11C10 9.89543 10.8954 9 12 9Z" />
-                  </svg>
-                </div>
-                <span className="text-sm text-gray-700">12+ Hotel OutLet</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600">
-                  {/* Muscle Relief / Healing Hand Icon */}
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16c0-1.1.9-2 2-2h2v-5a2 2 0 114 0v5h2a2 2 0 110 4h-1l-1 3-1-3H6a2 2 0 01-2-2z" />
-            </svg>
-                </div>
-                <span className="text-sm text-gray-700">Home Spa</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                  </svg>
-                </div>
-                <span className="text-sm text-gray-700">Delhi NCR</span>
-              </div>
-            </div>
+        {/* banner */}
+               <header className="relative w-full h-[55vh] md:h-[75vh] min-h-[345px] flex items-center">
+      {/* Background image - place your image at /public/images/hero-banner.jpg */}
+      <div className="absolute inset-0 -z-20">
+        <Image
+          src="/images/modern-luxury-bedroom-design-illuminated-with-electric-lamps-generated-by-ai.jpg"
+          alt="Luxury spa background"
+          fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
+          style={{ objectFit: 'cover', objectPosition: 'center' }}
+          priority
+        />
+        {/* dark overlay to keep text readable */}
+        <div className="absolute inset-0 bg-black/35 backdrop-blur-sm -z-10" />
+        {/* soft gradient vignette */}
+        <div className="absolute inset-0 pointer-events-none bg-gradient-to-b from-transparent via-black/10 to-black/30" />
+      </div>
 
-            <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-emerald-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
-                <span>View All Services</span>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-              </button>
-              <button className=" text-blue-500 rounded-sm  hover:bg-emerald-50 transition-colors duration-300 flex items-center space-x-2">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
-                <a 
-                                        href="https://t.me/Tanuspa" 
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
-                                      >
-                                        <FaTelegram className="text-xl mr-3" />
-                                        Meet Our Team
-                                      </a>
-              </button>
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 w-full">
+        <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-8">
+          {/* Left content */}
+          <div className="lg:col-span-7">
+            <motion.h1
+              initial={{ opacity: 0, y: -12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-white"
+            >
+              Variety of <span className="text-emerald-500">Escort Services</span>
+              <br /> in Delhi for <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-500 to-emerald-500">Your</span>
+            </motion.h1>
+
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.2, duration: 0.6 }}
+              className="mt-6 max-w-2xl text-gray-600"
+            >
+              Trusted, discreet and professional companionship for events, travel, and curated experiences across Delhi. Book verified profiles for safe and tailored services.
+            </motion.p>
+
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.4 }}
+              className="mt-8 flex flex-wrap gap-4"
+            >
+              <a href="#book" className="inline-flex items-center gap-3 bg-gradient-to-r from-emerald-600 to-emerald-800 text-white px-6 py-3 rounded-full shadow-lg hover:scale-[1.02] transform transition">
+                Book a Consultation
+              </a>
+
+              <a href="#services" className="inline-flex items-center gap-3 bg-white border border-gray-200 px-6 py-3 rounded-full shadow-sm text-gray-700 hover:shadow-md transition">
+                View Services
+              </a>
+            </motion.div>
+
+            <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div className="p-4 bg-white/80 rounded-xl shadow-md">
+                <div className="text-emerald-500 text-2xl">✔️</div>
+                <p className="mt-2 font-semibold">Verified Profiles</p>
+                <p className="text-sm text-gray-500">Identity & background-checked</p>
+              </div>
+
+              <div className="p-4 bg-white/80 rounded-xl shadow-md">
+                <div className="text-emerald-500 text-2xl">🔒</div>
+                <p className="mt-2 font-semibold">Discreet Booking</p>
+                <p className="text-sm text-gray-500">Secure & private handling</p>
+              </div>
+
+              <div className="p-4 bg-white/80 rounded-xl shadow-md">
+                <div className="text-emerald-500 text-2xl">⭐</div>
+                <p className="mt-2 font-semibold">Personal Concierge</p>
+                <p className="text-sm text-gray-500">Tailored experiences & planning</p>
+              </div>
             </div>
           </div>
 
-          {/* Image section - more elegant */}
-          <div className="relative h-80 md:h-96 lg:h-[450px]">
-    <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
-      <div className="relative w-full h-full">
-        <img
-          src="/images/improvebloodflow.webp" // ✅ Yahan apna image path daal
-          alt="Spa Environment"
-          className="w-full h-full object-cover"
+          {/* Decorative right panel with card stack - purely visual on banner */}
+          <div className="lg:col-span-5 hidden lg:block">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.98 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6 }}
+              className="relative w-full max-w-[360px] ml-auto"
+            >
+              <div className="absolute -right-8 -top-8 w-72 h-44 rounded-2xl bg-white/6 border border-white/10 backdrop-blur-sm shadow-xl transform rotate-3" />
+              <div className="absolute -right-4 top-6 w-72 h-44 rounded-2xl bg-white/8 border border-white/10 backdrop-blur-sm shadow-2xl transform -rotate-2" />
+
+              <div className="relative z-10 bg-white/95 rounded-2xl shadow-2xl p-4">
+                <div className="w-full h-44 rounded-lg overflow-hidden bg-gray-100">
+                  {/* replace with small preview image if you want */}
+                  {/* <div className="w-full h-full flex items-center justify-center text-gray-300">Profile Preview</div> */}
+                  <Image
+          src="/images/process3.jpeg"
+          alt="Luxury spa background"
+          fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
+          style={{ objectFit: 'cover', objectPosition: 'center' }}
+          priority
         />
-      </div>
-    </div>
+                </div>
 
-    {/* Floating leaf decoration */}
-    <div className="absolute -bottom-6 -right-6">
-      <svg className="w-24 h-24 text-emerald-600/30" viewBox="0 0 100 100">
-        <path
-          fill="currentColor"
-          d="M50,10 C70,10 90,30 90,50 C90,70 70,90 50,90 C30,90 10,70 10,50 C10,30 30,10 50,10 Z M50,25 C35,25 25,35 25,50 C25,65 35,75 50,75 C65,75 75,65 75,50 C75,35 65,25 50,25 Z"
-        />
-      </svg>
-    </div>
-
-    {/* Minimalist stats */}
-    <div className="absolute -left-4 bottom-8 bg-white p-4 shadow-md">
-      <div className="text-center">
-        <div className="text-2xl font-serif text-emerald-800">12+</div>
-        <div className="text-xs text-gray-500 tracking-widest">YEARS</div>
-      </div>
-    </div>
-  </div>
-
+                <div className="mt-3">
+                  <div className="text-sm font-semibold text-gray-800">Ari • 26</div>
+                  <div className="text-xs text-gray-500 mt-1">Events • Travel • Dining</div>
+                  <div className="mt-3 flex gap-2">
+                    <button className="flex-1 rounded-full py-2 text-sm bg-gradient-to-r from-emerald-500 to-emerald-500 text-white">Request</button>
+                    <button className="rounded-full py-2 px-4 text-sm bg-gray-100 text-gray-700">Details</button>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </div>
         </div>
+      </div>
+
+      {/* subtle bottom wave divider */}
+      <div className="absolute left-0 right-0 bottom-0 -mb-1">
+        <svg viewBox="0 0 1440 60" className="w-full h-12 block" preserveAspectRatio="none">
+          <path d="M0,20 C360,80 1080,0 1440,40 L1440,60 L0,60 Z" fill="rgba(255,255,255,0.9)" />
+        </svg>
+      </div>
+    </header>  
+        {/* end banner */} 
         
-        {/* Minimal wave divider */}
-        <div className="absolute bottom-0 left-0 w-full overflow-hidden">
-          <svg viewBox="0 0 1200 120" className="relative block w-full h-12">
-            <path fill="white" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".5"></path>
-          </svg>
-        </div>
-      </div>
-      {/* End Banner */}
-
       {/* Services Section */}
       <section id="services-section" className="relative w-full py-24 overflow-hidden bg-gradient-to-b from-emerald-50 to-white">
 
@@ -1739,7 +1734,7 @@ const faqs = [
                      {/* End Our Therapy Experts */}
               {/* end Testimonials */}
               <section className="relative bg-white py-16 px-4 sm:px-10 md:px-16 lg:px-32 overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-100 to-pink-100 opacity-20 rounded-xl" />
+                <div className="absolute inset-0 bg-gradient-to-br from-purple-100 to-emerald-100 opacity-20 rounded-xl" />
 
                 <div className="relative z-10 text-center max-w-4xl mx-auto">
                   <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6 animate-fade-in">

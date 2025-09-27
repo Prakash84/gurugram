@@ -142,7 +142,7 @@ export default function Navbar() {
             </div>
 
             <a
-              href="/pricing"
+              href="/Pricing"
               className="font-medium text-gray-800 hover:text-emerald-600 transition"
             >
               Pricing
