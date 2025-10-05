@@ -172,33 +172,33 @@ const [isVisible, setIsVisible] = useState(false);
 
   const faqs = [
     {
-      question: "Which kinds of massage does Spa Delhi perform?",
-      answer: "There is a wide range of massage services to address your wellness needs, and they include aromatherapy, deep tissue, B2B, and couple massages, to name a few. Both therapeutic techniques are designed to relax and heal.",
+      question: "What services do you offer at your Spa in Gurgaon?",
+      answer: "Our Spa in Gurgaon offers Thai, full body, couple, sandwich, B2B, and aromatherapy treatments. All sessions are performed by certified therapists, include private rooms and premium oils, and can be customized to your needs for relaxation, pain relief, or special occasions.",
       icon: <FaSpa className="text-teal-600" />
     },
     {
-      question: "Do your therapists have experience, or are they certified?",
-      answer: "Yes, all our therapists are professional, fully trained individuals who are certified in their process and want to provide you with the best experience of massage experience.",
+      question: "How long is a typical full body massage in Gurgaon?",
+      answer: "A typical full body massage in Gurgaon lasts 60–90 minutes; 120-minute deep-therapy options are available. Sessions include consultation, personalized pressure, and optional post-massage shower. Choose duration based on desired depth of treatment and any add-ons like aromatherapy or extended relaxation time.",
       icon: <FaLeaf className="text-teal-600" />
     },
     {
-      question: "How do I make a reservation for a massage?",
-      answer: "Booking is simple by phone, via Telegram, or online. Pick your service, favorable outlet, and time, and we will confirm.",
+      question: "Do you provide B2B spa in Gurgaon options?",
+      answer: "We offer professional, consensual B2B spa in Gurgaon sessions at select outlets. These are delivered by trained therapists in private rooms with strict hygiene and consent protocols. Availability and pricing vary by location, so confirm the outlet’s B2B schedule when booking.",
       icon: <FaHotTub className="text-teal-600" />
     },
     {
-      question: "Do you offer 24/ 7 massage?",
-      answer: "Our timings are adaptable; we are available on a late-night and early-morning schedule to accommodate your tight schedule.",
+      question: "Do you offer spa home service in Gurgaon?",
+      answer: "Yes — the spa home service in Gurgaon brings trained therapists with sanitized equipment, oils and fresh linens to your home. Bookings include a pre-visit consultation, secure payment options, and privacy protocols to ensure a professional, relaxing in-home experience.",
       icon: <FaLeaf className="text-teal-600" />
     },
     {
-      question: "What safety and hygiene precautions do you take?",
-      answer: "Your safety means everything to us, as we are radically committed to maintaining high standards of cleanliness through the provision of fresh linens, sterilized equipment, and thorough therapist screening.",
+      question: "Are foreign therapists available for massage in Gurgaon?",
+      answer: " Yes — selected Gurgaon outlets schedule foreign therapists (e.g., Thai, Russian) to provide authentic techniques. Requesting a foreign therapist is possible during booking but subject to availability and scheduling; premium packages may include international therapist options.",
       icon: <FaSpa className="text-teal-600" />
     },
     {
-      question: "May I ask a male or female therapist to see me?",
-      answer: "Absolutely. You may make a therapist preference during the booking and we will take heed of your choice.",
+      question: "What makes your Gurgaon outlet different from others?",
+      answer: " Our Luxury Spa in Gurgaon stands out for its 5-star ambience, certified foreign therapists, and transparent pricing. Whether you choose a couple massage, B2B session, or full-body therapy, you’ll experience unmatched quality, hygiene, and personalized care.",
       icon: <FaHandSparkles className="text-teal-600" />
     },   
   ];
