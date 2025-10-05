@@ -93,9 +93,9 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           {/* Logo */}
-          <div className="w-32 h-10 relative">
+          <div className="w-50 h-15 relative">
             <Image
-              src="/images/spadelhilogo22.png"
+              src="/images/ChatGPT Image Oct 5, 2025, 11_26_10 AM.png"
               alt="Delhi Body Spa Logo"
               fill
               className="object-contain"

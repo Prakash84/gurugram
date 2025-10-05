@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 relative z-10">
         <div>
           <h3 className="text-2xl font-bold mb-6 text-emerald-400 flex items-center">
-            <span className="text-emerald-500">Delhi</span> Body Spa
+            <span className="text-emerald-500">Spa </span> In Gurgaon
           </h3>
           <p className="text-gray-400 mb-6">Luxury spa experiences for complete rejuvenation in the heart of Delhi.</p>
           <div className="flex space-x-4">
@@ -85,7 +85,7 @@ export default function Footer() {
 
       {/* Bottom Copyright Section */}
       <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-gray-800 text-center text-gray-500 relative z-10">
-        <p>&copy; {new Date().getFullYear()} Delhi Body Spa. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Spa In Gurgaon. All rights reserved.</p>
       </div>
     </footer>
   );
