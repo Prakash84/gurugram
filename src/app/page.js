@@ -654,17 +654,17 @@ const features2 = [
   ];
     const cities = [
 { name: 'DELHI', img: '/images/hotel3.webp' },
-{ name: 'MUMBAI', img: '/images/lajpatnagahotel.avif' },
-{ name: 'NOIDA', img: '/images/RoseateHouse.jpg' },
-{ name: 'BANGALORE', img: '/images/paschimvihar.jpg' },
-{ name: 'PUNE', img: '/images/JwMarriott_CP.jpg' },
-{ name: 'AHMEDABAD', img: '/images/Andazhat.jpg' },
-{ name: 'GURGAON', img: '/images/holidayIn_CP.jpg' },
-{ name: 'HYDERABAD', img: '/images/tajmahalhotel_lajpatnagar.jpg' },
-{ name: 'KOLKATA', img: '/images/paschimvihar.jpg' },
-{ name: 'CHENNAI', img: '/images/hotel2.jpg' },
-{ name: 'CHANDIGARH', img: '/images/pullmanAerocity.jpg' },
-{ name: 'JAIPUR', img: '/images/jwmarriott.jpeg' },
+{ name: 'NOIDA', img: '/images/lajpatnagahotel.avif' },
+{ name: 'AEROCITY', img: '/images/RoseateHouse.jpg' },
+{ name: 'GURGAON', img: '/images/paschimvihar.jpg' },
+{ name: 'MAHIPALPURE', img: '/images/JwMarriott_CP.jpg' },
+{ name: 'DLF', img: '/images/Andazhat.jpg' },
+{ name: 'CP', img: '/images/holidayIn_CP.jpg' },
+{ name: 'Karol Bagh', img: '/images/tajmahalhotel_lajpatnagar.jpg' },
+{ name: 'Paharganj', img: '/images/paschimvihar.jpg' },
+{ name: 'Greater Kailash', img: '/images/hotel2.jpg' },
+{ name: 'ROHINI', img: '/images/pullmanAerocity.jpg' },
+{ name: 'Dwarka', img: '/images/jwmarriott.jpeg' },
 ]
 const teamMembers = [
   {
@@ -1619,7 +1619,7 @@ const teamMembers = [
                       viewport={{ once: true }}
                       transition={{ delay: 0.1 }}
                     >
-                      Our Massage with <span className="text-emerald-600">Full Service Price in Delhi, Noida and Gurgaon</span>
+                      EXCLUSIVE  <span className="text-emerald-600">HOTEL SPA PRICE IN GURGAON</span>
                     </motion.h2>
                     <motion.p
                       className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1743,7 +1743,7 @@ const teamMembers = [
           className="font-cursive text-4xl md:text-5xl text-emerald-800"
           style={{ fontFamily: '"Great Vibes", cursive' }}
         >
-          Our Service For You
+          Our Service For You In Gurgaon
         </motion.h2>
 
         <motion.p
@@ -1931,7 +1931,7 @@ const teamMembers = [
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-10 lg:mb-14">
           <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 mb-6 font-serif">
-              Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Process</span> for a Massage in Delhi?
+              Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Process</span> for a Massage in Guraon?
             </h2>
           
           <p className="mt-3 text-sm sm:text-base text-white/80 max-w-2xl mx-auto">
