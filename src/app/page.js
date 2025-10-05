@@ -792,7 +792,7 @@ const teamMembers = [
           </div>
 
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white leading-tight drop-shadow-lg">
-            Relax • Rejuvenate • Rediscover
+            • World-Class Treatments at Spa in Gurgaon
           </h1>
 
           <div className="mt-6 flex flex-col sm:flex-row gap-4 sm:gap-6 items-center">
@@ -883,10 +883,11 @@ const teamMembers = [
         <section className="mt-20 bg-white">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold text-emerald-700 mb-3">
-          Most Relaxing Luxury Spa in Delhi is here.
+          Luxury Spa in Gurgaon with 12+ Outlets Across NCR
         </h2>
         <p className="text-gray-600 mb-10">
-          Let your soul soar and reclaim your best self with our top spa in Delhi.
+          
+     Affordable & Professional Full Body Massage Spa in  Gurgaon, Delhi, Noida
         </p>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6">
@@ -941,8 +942,8 @@ const teamMembers = [
                 transition={{ delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                Get the Best <span className="relative">
-                  <span className="text-emerald-600 z-10 relative">Massage in Delhi</span>
+                Top Rated Luxury <span className="relative">
+                  <span className="text-emerald-600 z-10 relative">Spa in Guraon for Complete Relaxation</span>
                   <span className="absolute bottom-2 left-0 w-full h-3 bg-emerald-200/60 z-0"></span>
                 </span>
               </motion.h2>
@@ -1079,8 +1080,8 @@ const teamMembers = [
                 transition={{ delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                Trusted Escort Services in Delhi – <span className="relative">
-                  <span className="text-emerald-600 z-10 relative">Safe, Secure & Confidential</span>
+                Affordable Body <span className="relative">
+                  <span className="text-emerald-600 z-10 relative">Spa in  with Uzbek, Russian & Thai Staff</span>
                   <span className="absolute bottom-2 left-0 w-full h-3 bg-emerald-200/60 z-0"></span>
                 </span>
               </motion.h2>
@@ -1234,9 +1235,9 @@ const teamMembers = [
             <p className="text-sm text-emerald-800 font-semibold mb-4">HOME AND HOTEL SPA</p>
 
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-slate-900 mb-6" style={{ fontFamily: "'Playfair Display', serif" }}>
-              Best Home and Hotel Spa
+              Enjoy Home Spa & Hotel
               <br />
-              Massage Center in Delhi NCR
+              Spa in Delhi, Noida & Gurgaon
             </h2>
 
             <p className="text-gray-600 text-base md:text-lg mb-8 max-w-2xl">
@@ -1292,7 +1293,7 @@ const teamMembers = [
                 transition={{ duration: 0.5, delay: 0.1 }}
                 viewport={{ once: true }}
               >
-                Luxury <span className="text-emerald-500">Spa in Aerocity</span>
+                Top Rated Spa <span className="text-emerald-500">Services In Gurgaon</span>
               </motion.h2>
             </div>
 
@@ -1790,7 +1791,7 @@ const teamMembers = [
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 mb-6 font-serif">
-              Why Choose <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Spa Delhi</span> for a Massage in Delhi?
+              Why Choose <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Our Spa?</span> 24+ Outlets Across Delhi NCR
             </h2>
 
             <div className="max-w-3xl mx-auto bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-md mb-8">
