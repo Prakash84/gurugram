@@ -750,7 +750,8 @@ const teamMembers = [
   ]
   return (
     <main bg-gradient-to-b from-emerald-50 to-white>
-      <div className="font-sans overflow-hidden">
+      <section className="relative min-h-screen font-sans overflow-hidden bg-black">
+        <div className="font-sans overflow-hidden">
         {/* Floating Decorative Elements */}
         <div className="fixed inset-0 pointer-events-none z-0">
           <div className="absolute top-1/4 left-10 w-24 h-24 rounded-full bg-emerald-400/10 blur-3xl animate-pulse" />
@@ -884,9 +885,11 @@ const teamMembers = [
           </div>
         </div>
       </div>
+             </section>
+      
 
       {/* /// */}
-        <section className="mt-50 bg-white">
+        <section className="mt-10 bg-white">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold text-emerald-700 mb-3">
           Most Relaxing Luxury Spa in Delhi is here.

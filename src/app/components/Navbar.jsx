@@ -56,7 +56,7 @@ export default function Navbar() {
   return (
     <>
       {/* Top Strip */}
-      {/* <div
+      <div
         className="hidden md:flex justify-between items-center text-sm text-white px-6 py-2 shadow-sm z-50"
         style={{ backgroundColor: "#245cbdff" }}
       >
@@ -80,7 +80,7 @@ export default function Navbar() {
             <FaWhatsapp size={20} />
           </a>
         </div>
-      </div> */}
+      </div>
 
       {/* Main Navbar */}
       <motion.nav
