@@ -977,7 +977,118 @@ export default function About({
     {/* //// */}
       {/* end content section */}
       {/* new content */}
-      
+      <section
+      className="bg-gradient-to-b from-emerald-50 via-white to-emerald-100 py-16"
+      aria-labelledby="spa-content-heading"
+      role="region"
+    >
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+
+          {/* IMAGE COLUMN */}
+          <motion.div
+            className="order-1 lg:order-2 rounded-2xl overflow-hidden shadow-xl bg-white"
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <div className="relative w-full h-72 sm:h-96 lg:h-[480px]">
+              {imageSrc ? (
+                <Image
+                  src='/images/process3.jpeg'
+                  alt={alt || 'Spa image'}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center bg-emerald-50 text-emerald-700">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-24 h-24 opacity-40" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9a5 5 0 1110 0c0 2.96-3.5 6.96-5 8.93C10.5 15.96 7 11.96 7 9z" />
+                  </svg>
+                </div>
+              )}
+
+              {/* Badge overlay */}
+              <div className="absolute left-6 bottom-6 bg-emerald-900/85 text-white rounded-xl px-4 py-3 backdrop-blur-sm">
+                <p className="text-sm opacity-90">Signature Package</p>
+                <p className="font-semibold leading-tight">Relax & Renew — 60 mins</p>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* TEXT COLUMN */}
+          <motion.div
+            className="order-2 lg:order-1"
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <p className="inline-block px-3 py-1 rounded-full bg-emerald-600 text-white text-sm font-semibold">Premium Spa</p>
+
+            <h2 id="spa-content-heading" className="mt-6 text-3xl md:text-4xl font-extrabold text-emerald-900 leading-tight">{title}</h2>
+
+            <p className="mt-4 text-gray-700 max-w-xl">{subtitle}</p>
+
+            {/* <div className="mt-6 flex flex-col sm:flex-row sm:items-center sm:gap-4 gap-3">
+  {ctaHref ? (
+    <Link
+      href={ctaHref}
+      aria-label={ctaText || 'Book session'}
+      className="inline-block px-6 py-3 rounded-full bg-emerald-600 text-white font-semibold shadow hover:brightness-95 transition"
+    >
+      {ctaText}
+    </Link>
+        ) : (
+          <button
+            type="button"
+            className="inline-block px-6 py-3 rounded-full bg-emerald-600 text-white font-semibold shadow hover:brightness-95 transition"
+            aria-label={ctaText || 'Book session'}
+          >
+            {ctaText}
+          </button>
+        )}
+
+        <a
+          href="#learn"
+          className="inline-block px-6 py-3 rounded-full border border-emerald-200 text-emerald-900 font-medium hover:bg-emerald-50 transition text-center"
+          aria-label="Learn more about treatments"
+        >
+          Learn More
+        </a>
+      </div> */}
+
+
+            {/* === static content blocks (no Feature function) === */}
+            <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="bg-white rounded-lg p-4 border border-emerald-100">
+                <h4 className="text-emerald-900 font-semibold">Skilled Therapists</h4>
+                <p className="text-sm text-gray-600 mt-1">Certified professionals handpicked for expertise and care.</p>
+              </div>
+
+              <div className="bg-white rounded-lg p-4 border border-emerald-100">
+                <h4 className="text-emerald-900 font-semibold">Safe & Hygienic</h4>
+                <p className="text-sm text-gray-600 mt-1">Strict sanitation protocols and premium linens for client safety.</p>
+              </div>
+            </div>
+            {/* === end static blocks === */}
+
+            <div className="mt-6 flex flex-wrap items-center gap-4">
+              <div className="flex items-center gap-3 bg-emerald-50 px-3 py-2 rounded-full border border-emerald-100">
+                <span className="text-emerald-900 font-semibold">24+</span>
+                <span className="text-sm text-gray-600">Outlets</span>
+              </div>
+              <div className="flex items-center gap-3 bg-emerald-50 px-3 py-2 rounded-full border border-emerald-100">
+                <span className="text-emerald-900 font-semibold">5★</span>
+                <span className="text-sm text-gray-600">Hotel partners</span>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </section>
 
     {/* ///// */}
      <section className="py-16 bg-gradient-to-b from-emerald-50 to-white">
