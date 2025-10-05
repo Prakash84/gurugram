@@ -38,34 +38,34 @@ import {
   const faqs = [
     
     {
-      question: "What types of massage therapies are offered at your spa?",
-      answer: "We offer a range of therapies, including Couple Massage, Sandwich Massage, Full Body Massage, B2B Therapy, and Female-to-Male Spa treatments to cater to all your relaxation needs.",
+      question: "What makes your Spa in Gurgaon different from others?",
+      answer: "Our Spa in Gurgaon stands out for its luxury ambience, certified therapists, and transparent pricing. With more than 24 outlets across NCR, we combine modern wellness techniques with traditional therapies to deliver a truly relaxing experience.",
       icon: <FaSpa className="text-teal-600" />
     },
     {
-      question: "Where are your spa locations in Delhi, Noida, and Gurgaon?",
-      answer: "We have over 24 outlets located in premium areas such as Rajouri Garden, Rohini, Pitampura, Noida, Aerocity, Connaught Place, and Lajpat Nagar, with top 5-star hotels like Andaz, JW Marriott, and Novotel.",
+      question: "Do you operate a Spa in Aerocity inside hotels?",
+      answer: "Yes — our Spa in Aerocity outlets are located inside 5-star hotels like Roseate House, Lemon Tree, Pullman, and JW Marriott. Guests can enjoy premium therapies, foreign therapists, and a peaceful setting that blends comfort with class.",
       icon: <FaHandSparkles className="text-teal-600" />
     },
     
     {
-      question: "What makes your spa different from others in Delhi and Gurgaon?",
-      answer: "Our spa stands out by offering luxury experiences with a variety of massages, skilled therapists from around the world, and prime locations in major hotels, providing you with top-quality service at affordable prices.",
+      question: "What services are offered at your Spa in Dwarka?",
+      answer: "The Spa in Dwarka offers a range of therapies including full-body, Thai, and couple massages. Located near Welcome by ITC, it provides world-class hospitality and an inviting environment perfect for both local and visiting clients.",
       icon: <FaLeaf className="text-teal-600" />
     },
     {
-      question: "Do you offer any special deals or discounts for first-time visitors?",
-      answer: "Yes, we offer an exclusive first-visit special at just ₹1999, allowing you to enjoy a premium spa experience at an affordable price",
+      question: "Do you have outlets in Gurgaon as well?",
+      answer: "Yes — our Spa in Gurgaon features luxurious setups offering Thai, B2B, and aroma massages. Each branch ensures premium hygiene, trained therapists, and personalized care to help you unwind from city stress",
       icon: <FaSpa className="text-teal-600" />
     },
     {
-          question: "What types of therapists work at your spa?",
-          answer: "Our team consists of skilled Russian, Thai, Afghan, Indian, and foreign therapists, each trained in various massage techniques to ensure a personalized and effective treatment for every client.",
+          question: "Is there a branch of your spa in Rohini?",
+          answer: "Absolutely — the Spa in Rohini outlet is one of our most popular locations. Known for its calm atmosphere and expert therapists, it offers couple, sandwich, and full-body massage options at affordable prices.",
           icon: <FaHotTub className="text-teal-600" />
         },
         {
-              question: "What are the benefits of getting a massage at your spa?",
-              answer: "Our massages help reduce stress, improve circulation, promote relaxation, and rejuvenate your body, mind, and soul, making it the perfect escape from your busy lifestyle.",
+              question: "Where exactly is your Spa in C.P located?",
+              answer: "Our Spa in C.P (Connaught Place) is conveniently located near The Park and The Lalit hotels. It’s ideal for corporate professionals and travelers looking for quick yet high-end wellness therapies in central Delhi.",
               icon: <FaSpa className="text-teal-600" />
             },
   ];
@@ -1514,119 +1514,113 @@ export default function About({
         </div>
       </section>   
           {/* F&Q Section */}
-                <section className="py-16 bg-gradient-to-b from-emerald-50 to-white">
+                <section className="py-16">
                   <div className="max-w-5xl mx-auto px-4">
-                    <motion.div
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.6 }}
-                      viewport={{ once: true }}
-                      className="text-center mb-14"
-                    >
-                      <motion.div
-                        className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-emerald-100 rounded-full text-emerald-800 font-medium"
+                <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6 }}
                         viewport={{ once: true }}
+                        className="text-center md:text-left mb-14"
                       >
-                        <FaStar className="text-emerald-500" />
-                        Questions? We’re here to help
-                      </motion.div>
-                      <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 font-serif mb-4">
-                        Frequently Asked <span className="text-emerald-600">Questions</span>
-                      </h2>
-                      <p className="text-emerald-800 max-w-2xl mx-auto text-lg">
-                        Everything you need to know about our luxurious spa services and how to book them.
-                      </p>
-                      <div className="flex justify-center mt-6">
-                        <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full"></div>
-                      </div>
-                    </motion.div>
-          
-                    {/* FAQ Accordion */}
-                    <div className="space-y-5">
-                      {faqs.map((faq, index) => (
                         <motion.div
-                          key={index}
+                          className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-emerald-100 rounded-full text-emerald-800 font-medium"
                           initial={{ opacity: 0, y: 20 }}
                           whileInView={{ opacity: 1, y: 0 }}
-                          transition={{ duration: 0.4, delay: index * 0.1 }}
                           viewport={{ once: true }}
-                          className="bg-white rounded-2xl shadow-lg overflow-hidden border border-emerald-100"
                         >
-                          <button
-                            onClick={() => toggleFAQ(index)}
-                            className="w-full p-6 text-left flex items-center justify-between focus:outline-none group"
-                          >
-                            <div className="flex items-start space-x-4">
-                              <div className="mt-1 p-2 bg-emerald-50 rounded-lg">
-                                {faq.icon}
-                              </div>
-                              <h3 className="text-lg md:text-xl font-medium text-emerald-900 group-hover:text-emerald-700 transition-colors">
-                                {faq.question}
-                              </h3>
-                            </div>
-                            <div className="ml-4 flex-shrink-0">
-                              <svg
-                                className={`w-6 h-6 text-emerald-500 transition-transform duration-300 ${activeIndex === index ? 'rotate-180' : ''}`}
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M19 9l-7 7-7-7"
-                                />
-                              </svg>
-                            </div>
-                          </button>
-          
-                          <AnimatePresence>
-                            {activeIndex === index && (
-                              <motion.div
-                                initial={{ height: 0, opacity: 0 }}
-                                animate={{ height: 'auto', opacity: 1 }}
-                                exit={{ height: 0, opacity: 0 }}
-                                transition={{ duration: 0.3 }}
-                                className="overflow-hidden"
-                              >
-                                <div className="px-6 pb-6 pt-2 border-t border-emerald-50">
-                                  <p className="text-emerald-700">
-                                    {faq.answer}
-                                  </p>
-                                </div>
-                              </motion.div>
-                            )}
-                          </AnimatePresence>
+                          <FaStar className="text-emerald-500" />
+                          Questions? We&apos;re here to help
                         </motion.div>
-                      ))}
-                    </div>
-          
-                    {/* CTA Box */}
-                    {/* <motion.div
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.6, delay: 0.4 }}
-                      viewport={{ once: true }}
-                      className="mt-14 bg-gradient-to-r from-emerald-500 to-emerald-600 rounded-2xl p-8 text-center text-white shadow-xl"
-                    >
-                      <h3 className="text-2xl font-bold mb-3">Still have questions?</h3>
-                      <p className="mb-5 max-w-2xl mx-auto">
-                        Our wellness team is here to assist you. Reach out and we’ll help you find the perfect treatment.
-                      </p>
-                      <div className="flex flex-col sm:flex-row justify-center gap-4">
-                        <button className="px-6 py-3 bg-white text-emerald-700 font-medium rounded-full shadow-md hover:bg-emerald-100 transition-colors">
-                          Contact Us
-                        </button>
-                        <button className="px-6 py-3 bg-emerald-800 bg-opacity-30 text-white font-medium rounded-full shadow-md border border-white border-opacity-30 hover:bg-opacity-40 transition-colors">
-                          Book Appointment
-                        </button>
-                      </div>
-                    </motion.div> */}
+                        <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 font-serif mb-4">
+                          Frequently Asked <span className="text-emerald-600">Questions</span>
+                        </h2>
+                        <p className="text-emerald-800 max-w-2xl text-lg">
+                          Everything you need to know about our luxurious spa services and how to book them.
+                        </p>
+                        <div className="flex md:justify-start justify-center mt-6">
+                          <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full"></div>
+                        </div>
+                      </motion.div>
                   </div>
-                </section>
+                      
+                  <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+                    
+                    {/* Left Side FAQ Content */}
+                    <div>
+                      
+                
+                      {/* FAQ Accordion */}
+                      <div className="space-y-5">
+                        {faqs.map((faq, index) => (
+                          <motion.div
+                            key={index}
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.4, delay: index * 0.1 }}
+                            viewport={{ once: true }}
+                            className="bg-white rounded-2xl shadow-lg overflow-hidden border border-emerald-100"
+                          >
+                            <button
+                              onClick={() => toggleFAQ(index)}
+                              className="w-full p-6 text-left flex items-center justify-between focus:outline-none group"
+                            >
+                              <div className="flex items-start space-x-4">
+                                <div className="mt-1 p-2 bg-emerald-50 rounded-lg">{faq.icon}</div>
+                                <h3 className="text-lg md:text-xl font-medium text-emerald-900 group-hover:text-emerald-700 transition-colors">
+                                  {faq.question}
+                                </h3>
+                              </div>
+                              <div className="ml-4 flex-shrink-0">
+                                <svg
+                                  className={`w-6 h-6 text-emerald-500 transition-transform duration-300 ${
+                                    activeIndex === index ? "rotate-180" : ""
+                                  }`}
+                                  fill="none"
+                                  viewBox="0 0 24 24"
+                                  stroke="currentColor"
+                                >
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                </svg>
+                              </div>
+                            </button>
+                
+                            <AnimatePresence>
+                              {activeIndex === index && (
+                                <motion.div
+                                  initial={{ height: 0, opacity: 0 }}
+                                  animate={{ height: "auto", opacity: 1 }}
+                                  exit={{ height: 0, opacity: 0 }}
+                                  transition={{ duration: 0.3 }}
+                                  className="overflow-hidden"
+                                >
+                                  <div className="px-6 pb-6 pt-2 border-t border-emerald-50">
+                                    <p className="text-emerald-700">{faq.answer}</p>
+                                  </div>
+                                </motion.div>
+                              )}
+                            </AnimatePresence>
+                          </motion.div>
+                        ))}
+                      </div>
+                    </div>
+                
+                    {/* Right Side Image */}
+                    <motion.div
+                      initial={{ opacity: 0, x: 30 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 0.6 }}
+                      viewport={{ once: true }}
+                      className="flex justify-center"
+                    >
+                      <img
+                        src="/images/Professional European.jpeg"
+                        alt="Spa FAQ Illustration"
+                        className="rounded-2xl shadow-lg object-cover w-full max-h-[700px]"
+                      />
+                    </motion.div>
+                  </div>
+                </section>   
     </div>
     
   );

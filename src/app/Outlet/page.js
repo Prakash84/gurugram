@@ -286,34 +286,34 @@ export default function Outlet() {
           const faqs = [
                 
                 {
-                  question: "Which areas do you cover in your outlets?",
-                  answer: "We have 12+ Spa outlets in Delhi. Our Spa in Rohini, Aerocity, CP, Lajpat Nagar, GK, Pitampura, Dwarka, Karol Bagh, Noida and Gurgaon. Contact us for details and booking in any outlets.",
+                  question: "What services are offered at your Spa in Rohini?",
+                  answer: "Our Spa in Rohini provides relaxing therapies like full-body, couple, and B2B massages. Skilled therapists and serene rooms ensure complete rejuvenation in every visit.",
                   icon: <FaSpa className="text-teal-600" />
                 },
                 {
-                  question: "How do I find the nearest Spa Delhi outlet?",
-                  answer: "YYou check our spa outlets in Delhi on the website. We mention our spa outlet locations. Check and book your spa session in the nearest spa to you. Our spa in lajpat nagar, pitampura and top 5 star hotel outlets.",
+                  question: "Do you have a Massage Spa in Aerocity?",
+                  answer: "Yes — the Massage Spa in Aerocity is located near luxury hotels like Roseate House and Lemon Tree. It offers premium Thai and aroma therapies for travelers and locals alike.",
                   icon: <FaHandSparkles className="text-teal-600" />
                 },
                 
                 {
-                  question: "Are foreign therapists available at our spa outlets in Delhi?",
-                  answer: "Yes at our spa in an aerocity outlet we have foreign therapists to provide massage spa tour international clients. And foreign therapists are scheduled at selected outlets and hotel spas. Contact us and book now.",
+                  question: "Why is your Aerocity branch known as a Luxury Spa?",
+                  answer: "The Luxury Spa in Aerocity stands out for its 5-star ambience, foreign therapists, and exclusive wellness programs. Perfect for business travelers seeking quick, luxurious relaxation.",
                   icon: <FaLeaf className="text-teal-600" />
                 },
                 {
-                  question: "Are outlet addresses and timings listed online?",
-                  answer: "If you want to know about spa timing you can contact us. And we offer spa service in hotels late at night. Just contact us and know about timings and locations.",
+                  question: "Do you provide Body Spa in Aerocity for couples?",
+                  answer: "Yes — our Body Spa in Aerocity offers couple packages in private suites with optional aroma or hot oil therapy add-ons.",
                   icon: <FaSpa className="text-teal-600" />
                 },
                 {
-                      question: "Can I request female-only therapists at outlets?",
-                      answer: " Yes, you can choose therapists as per your preference and you choose female therapists at our spa outlets in Delhi.",
+                      question: "Are there branches on Sohna Road?",
+                      answer: "  Yes — our spa in Gurgaon Sohna Road offers Thai, couple, and B2B massages. Convenient for nearby residents and office-goers, it maintains luxury standards and hygiene.",
                       icon: <FaHotTub className="text-teal-600" />
                     },
                     {
-                          question: "Can I pay online for my services?",
-                          answer: "Yes, we offer secure online payment options through our website for your convenience.",
+                          question: "Do you have outlets on Golf Course Road or Sector 56?",
+                          answer: "Yes — we operate spa in Golf Course Road and spa in Gurgaon Sector 56, offering professional therapies with flexible timings for working professionals.",
                           icon: <FaSpa className="text-teal-600" />
                         },
               ];
@@ -2093,119 +2093,113 @@ View All Cities
 
       
 {/* F&Q Section */}
-      <section className="py-16 bg-gradient-to-b from-emerald-50 to-white">
-                            <div className="max-w-5xl mx-auto px-4">
-                              <motion.div
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.6 }}
-                                viewport={{ once: true }}
-                                className="text-center mb-14"
-                              >
-                                <motion.div
-                                  className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-emerald-100 rounded-full text-emerald-800 font-medium"
-                                  initial={{ opacity: 0, y: 20 }}
-                                  whileInView={{ opacity: 1, y: 0 }}
-                                  viewport={{ once: true }}
-                                >
-                                  <FaStar className="text-emerald-500" />
-                                  Questions? We’re here to help
-                                </motion.div>
-                                <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 font-serif mb-4">
-                                  Frequently Asked <span className="text-emerald-600">Questions</span>
-                                </h2>
-                                <p className="text-emerald-800 max-w-2xl mx-auto text-lg">
-                                  Everything you need to know about our luxurious spa services and how to book them.
-                                </p>
-                                <div className="flex justify-center mt-6">
-                                  <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full"></div>
-                                </div>
-                              </motion.div>
-                    
-                              {/* FAQ Accordion */}
-                              <div className="space-y-5">
-                                {faqs.map((faq, index) => (
-                                  <motion.div
-                                    key={index}
-                                    initial={{ opacity: 0, y: 20 }}
-                                    whileInView={{ opacity: 1, y: 0 }}
-                                    transition={{ duration: 0.4, delay: index * 0.1 }}
-                                    viewport={{ once: true }}
-                                    className="bg-white rounded-2xl shadow-lg overflow-hidden border border-emerald-100"
-                                  >
-                                    <button
-                                      onClick={() => toggleFAQ(index)}
-                                      className="w-full p-6 text-left flex items-center justify-between focus:outline-none group"
-                                    >
-                                      <div className="flex items-start space-x-4">
-                                        <div className="mt-1 p-2 bg-emerald-50 rounded-lg">
-                                          {faq.icon}
-                                        </div>
-                                        <h3 className="text-lg md:text-xl font-medium text-emerald-900 group-hover:text-emerald-700 transition-colors">
-                                          {faq.question}
-                                        </h3>
-                                      </div>
-                                      <div className="ml-4 flex-shrink-0">
-                                        <svg
-                                          className={`w-6 h-6 text-emerald-500 transition-transform duration-300 ${activeIndex === index ? 'rotate-180' : ''}`}
-                                          fill="none"
-                                          viewBox="0 0 24 24"
-                                          stroke="currentColor"
-                                        >
-                                          <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M19 9l-7 7-7-7"
-                                          />
-                                        </svg>
-                                      </div>
-                                    </button>
-                    
-                                    <AnimatePresence>
-                                      {activeIndex === index && (
-                                        <motion.div
-                                          initial={{ height: 0, opacity: 0 }}
-                                          animate={{ height: 'auto', opacity: 1 }}
-                                          exit={{ height: 0, opacity: 0 }}
-                                          transition={{ duration: 0.3 }}
-                                          className="overflow-hidden"
-                                        >
-                                          <div className="px-6 pb-6 pt-2 border-t border-emerald-50">
-                                            <p className="text-emerald-700">
-                                              {faq.answer}
-                                            </p>
-                                          </div>
-                                        </motion.div>
-                                      )}
-                                    </AnimatePresence>
-                                  </motion.div>
-                                ))}
-                              </div>
-                    
-                              {/* CTA Box */}
-                              {/* <motion.div
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.6, delay: 0.4 }}
-                                viewport={{ once: true }}
-                                className="mt-14 bg-gradient-to-r from-emerald-500 to-emerald-600 rounded-2xl p-8 text-center text-white shadow-xl"
-                              >
-                                <h3 className="text-2xl font-bold mb-3">Still have questions?</h3>
-                                <p className="mb-5 max-w-2xl mx-auto">
-                                  Our wellness team is here to assist you. Reach out and we’ll help you find the perfect treatment.
-                                </p>
-                                <div className="flex flex-col sm:flex-row justify-center gap-4">
-                                  <button className="px-6 py-3 bg-white text-emerald-700 font-medium rounded-full shadow-md hover:bg-emerald-100 transition-colors">
-                                    Contact Us
-                                  </button>
-                                  <button className="px-6 py-3 bg-emerald-800 bg-opacity-30 text-white font-medium rounded-full shadow-md border border-white border-opacity-30 hover:bg-opacity-40 transition-colors">
-                                    Book Appointment
-                                  </button>
-                                </div>
-                              </motion.div> */}
-                            </div>
-      </section>
+      <section className="py-16">
+  <div className="max-w-5xl mx-auto px-4">
+<motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+        className="text-center md:text-left mb-14"
+      >
+        <motion.div
+          className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-emerald-100 rounded-full text-emerald-800 font-medium"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+        >
+          <FaStar className="text-emerald-500" />
+          Questions? We&apos;re here to help
+        </motion.div>
+        <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 font-serif mb-4">
+          Frequently Asked <span className="text-emerald-600">Questions</span>
+        </h2>
+        <p className="text-emerald-800 max-w-2xl text-lg">
+          Everything you need to know about our luxurious spa services and how to book them.
+        </p>
+        <div className="flex md:justify-start justify-center mt-6">
+          <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full"></div>
+        </div>
+      </motion.div>
+  </div>
+      
+  <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+    
+    {/* Left Side FAQ Content */}
+    <div>
+      
+
+      {/* FAQ Accordion */}
+      <div className="space-y-5">
+        {faqs.map((faq, index) => (
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: index * 0.1 }}
+            viewport={{ once: true }}
+            className="bg-white rounded-2xl shadow-lg overflow-hidden border border-emerald-100"
+          >
+            <button
+              onClick={() => toggleFAQ(index)}
+              className="w-full p-6 text-left flex items-center justify-between focus:outline-none group"
+            >
+              <div className="flex items-start space-x-4">
+                <div className="mt-1 p-2 bg-emerald-50 rounded-lg">{faq.icon}</div>
+                <h3 className="text-lg md:text-xl font-medium text-emerald-900 group-hover:text-emerald-700 transition-colors">
+                  {faq.question}
+                </h3>
+              </div>
+              <div className="ml-4 flex-shrink-0">
+                <svg
+                  className={`w-6 h-6 text-emerald-500 transition-transform duration-300 ${
+                    activeIndex === index ? "rotate-180" : ""
+                  }`}
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </div>
+            </button>
+
+            <AnimatePresence>
+              {activeIndex === index && (
+                <motion.div
+                  initial={{ height: 0, opacity: 0 }}
+                  animate={{ height: "auto", opacity: 1 }}
+                  exit={{ height: 0, opacity: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="overflow-hidden"
+                >
+                  <div className="px-6 pb-6 pt-2 border-t border-emerald-50">
+                    <p className="text-emerald-700">{faq.answer}</p>
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </motion.div>
+        ))}
+      </div>
+    </div>
+
+    {/* Right Side Image */}
+    <motion.div
+      initial={{ opacity: 0, x: 30 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+      className="flex justify-center"
+    >
+      <img
+        src="/images/Professional European.jpeg"
+        alt="Spa FAQ Illustration"
+        className="rounded-2xl shadow-lg object-cover w-full max-h-[700px]"
+      />
+    </motion.div>
+  </div>
+</section>   
 
     </>
     
