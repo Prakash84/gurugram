@@ -220,7 +220,7 @@ export default function Navbar() {
               Home
             </a>
             <a
-              href="/about"
+              href="/About"
               className="block text-gray-800 font-semibold hover:text-emerald-600"
             >
               About
