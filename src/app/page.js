@@ -750,7 +750,7 @@ const teamMembers = [
   ]
   return (
     <main bg-gradient-to-b from-emerald-50 to-white>
-      <section className="relative min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] lg:min-h-[85vh] font-sans overflow-hidden bg-black">
+      <section className="relative min-h-[50vh] sm:min-h-[70vh] md:min-h-[80vh] lg:min-h-[85vh] font-sans overflow-hidden bg-black">
   <div className="font-sans overflow-hidden">
     {/* Floating Decorative Elements */}
     <div className="fixed inset-0 pointer-events-none z-0">
@@ -868,10 +868,10 @@ const teamMembers = [
               </svg>
             </div>
 
-            <div className="absolute -right-6 bottom-8 bg-white/90 rounded-3xl px-4 py-2 shadow-lg text-sm">
+            {/* <div className="absolute -right-6 bottom-8 bg-white/90 rounded-3xl px-4 py-2 shadow-lg text-sm">
               <div className="font-medium">Amazing experience — total reset!</div>
               <div className="text-xs text-gray-600">— Priya</div>
-            </div>
+            </div> */}
           </div>
         </motion.div>
       </div>
