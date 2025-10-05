@@ -337,7 +337,7 @@ export default function About({
              
             <span className="block font-serif text-5xl md:text-6xl mb-3 text-emerald-800">Welcome</span>
             To The Best
-            <span className="block mt-2 font-medium"> Relaxation Centre <span className="text-rose-600">in Luxury Delhi Spa</span></span>
+            <span className="block mt-2 font-medium"> Relaxation Centre <span className="text-rose-600">in Luxury Gurgaon Spa</span></span>
           </h1>
           
           <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
@@ -784,7 +784,7 @@ export default function About({
                           viewport={{ once: true }}
                         >
                           We offer High-Quality, <span className="relative">
-                            <span className="text-emerald-600 z-10 relative">Affordable Spa Services in Delhi</span>
+                            <span className="text-emerald-600 z-10 relative">Affordable Spa Services in Gurgaon</span>
                             <span className="absolute bottom-2 left-0 w-full h-3 bg-emerald-200/60 z-0"></span>
                           </span>
                         </motion.h2>
@@ -840,7 +840,7 @@ export default function About({
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
                   >
-                    Premium Spa Massage in <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Lajpat Nagar, Karol Bagh, and Mahipalpur</span>
+                    Premium <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Spa Services in Guegaon</span>
                   </motion.h2>
                   
                   <motion.p
@@ -974,7 +974,7 @@ export default function About({
             <span className="inline-block px-3 py-1 rounded-full bg-emerald-600 text-white text-sm font-semibold">Premium Care</span>
 
             <h2 className="mt-6 text-3xl md:text-4xl font-extrabold text-emerald-900 leading-tight">
-              Get First— <span className="text-emerald-600">Visit Special at ₹1999 at our spa in Delhi
+              Get First— <span className="text-emerald-600">Visit Special at ₹1999 at our spa in Gurgaon
 </span>
             </h2>
 
@@ -1200,7 +1200,7 @@ export default function About({
           >
             <p className="text-sm font-medium text-emerald-600 uppercase">Our Promise</p>
             <h3 className="mt-3 text-3xl md:text-4xl font-extrabold text-emerald-900 leading-tight">
-              What Makes Our Spa in Delhi Special From Others?
+              What Makes Our Spa in Guegaon Special From Others?
             </h3>
             <p className="mt-4 text-gray-700 max-w-xl">
               A sanctuary crafted for deep relaxation — curated therapies, expert therapists, 
@@ -1356,7 +1356,7 @@ export default function About({
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.6 }}
           >
-            Our Spa Located  <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">in Top Hotels of Delhi</span>
+            Our Spa Located  <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">in Top Hotels of Guegaon</span>
           </motion.h2>
           
           <motion.p
@@ -1690,7 +1690,7 @@ export default function About({
                       className="flex justify-center"
                     >
                       <img
-                        src="/images/Professional European.jpeg"
+                        src="/images/fpkdl.com_750_1758982119_foot-massage-massage-parlor-female-hands-massage-female-feet-beauty-health_130265-8627.jpg"
                         alt="Spa FAQ Illustration"
                         className="rounded-2xl shadow-lg object-cover w-full max-h-[700px]"
                       />
