@@ -326,97 +326,6 @@ export default function About({
         </p>
       </motion.div>
     </section> */}
-     <div className="relative overflow-hidden bg-gradient-to-br from-emerald-50 to-rose-50">
-      {/* Floating decorative elements */}
-      {/* <div className="absolute top-10 left-10 w-24 h-24 bg-rose-100 rounded-full opacity-20 animate-float"></div>
-      <div className="absolute top-1/3 right-20 w-16 h-16 bg-emerald-100 rounded-full opacity-30 animate-float animation-delay-2000"></div>
-      <div className="absolute bottom-20 left-1/4 w-20 h-20 bg-teal-100 rounded-full opacity-25 animate-float animation-delay-4000"></div> */}
-      
-      {/* Main content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 py-16 md:py-24 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-        {/* Text content - more minimal */}
-        <div className="space-y-6 text-center lg:text-left">
-          <div className="inline-flex items-center space-x-2 mb-6">
-            <div className="w-12 h-px bg-emerald-600"></div>
-            <span className="text-emerald-600 font-light tracking-widest">ABOUT US</span>
-            <div className="w-12 h-px bg-emerald-600"></div>
-          </div>
-          
-          <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-             
-            <span className="block font-serif text-5xl md:text-6xl mb-3 text-emerald-800">Welcome</span>
-            To The Best
-            <span className="block mt-2 font-medium"> Relaxation Centre <span className="text-rose-600">in Luxury Delhi Spa</span></span>
-          </h1>
-          
-          <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            At LuxeSpa, we believe true wellness is an art. Our master therapists blend ancient wisdom with modern techniques to create transformative experiences that nurture mind, body, and spirit.
-          </p>
-          
-          <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <a href='/about'>
-               <button className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-emerald-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
-              <span>Our Journey</span>
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </button>
-
-            </a>
-           
-            <a 
-                        href="https://t.me/Tanuspa" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
-                      >
-                        <FaTelegram className="text-xl mr-3" />
-                        Meet Our Team
-                      </a>
-          </div>
-        </div>
-
-        {/* Image section - more elegant */}
-        <div className="relative h-80 md:h-96 lg:h-[450px]">
-            <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
-                <div className="relative w-full h-full">
-                <img
-                    src="/images/12 Romantic.jpeg" // ✅ Yahan apna image path daal
-                    alt="Spa Environment"
-                    className="w-full h-full object-cover"
-                />
-                </div>
-            </div>
-
-                {/* Floating leaf decoration */}
-                <div className="absolute -bottom-6 -right-6">
-                    <svg className="w-24 h-24 text-emerald-600/30" viewBox="0 0 100 100">
-                    <path
-                        fill="currentColor"
-                        d="M50,10 C70,10 90,30 90,50 C90,70 70,90 50,90 C30,90 10,70 10,50 C10,30 30,10 50,10 Z M50,25 C35,25 25,35 25,50 C25,65 35,75 50,75 C65,75 75,65 75,50 C75,35 65,25 50,25 Z"
-                    />
-                    </svg>
-                </div>
-
-                {/* Minimalist stats */}
-                <div className="absolute -left-4 bottom-8 bg-white p-4 shadow-md">
-                    <div className="text-center">
-                    <div className="text-2xl font-serif text-emerald-800">12+</div>
-                    <div className="text-xs text-gray-500 tracking-widest">YEARS</div>
-                    </div>
-                </div>
-        </div>
-
-      </div>
-      
-      {/* Minimal wave divider */}
-      <div className="absolute bottom-0 left-0 w-full overflow-hidden">
-        <svg viewBox="0 0 1200 120" className="relative block w-full h-12">
-          <path fill="white" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".5"></path>
-        </svg>
-      </div>
-    </div>
-    {/* ////// */}
     {/* Services Section */}
       <div className="max-w-7xl mx-auto px-6 py-16">
       {/* Intro */}
@@ -428,7 +337,7 @@ export default function About({
           transition={{ duration: 0.6 }}
         >
           <p className="text-sm text-emerald-500 font-semibold">About Us</p>
-          <h2 className="mt-2 text-3xl md:text-4xl font-extrabold text-gray-900">
+          <h2 className="mt-2 text-3xl md:text-4xl font-extrabold text-emerald-800">
             We craft restful experiences — body, mind & soul
           </h2>
           <p className="mt-4 text-gray-600 leading-relaxed max-w-xl">
@@ -679,6 +588,98 @@ export default function About({
     </div>
 
        {/* End Services Section */}
+     <div className="relative overflow-hidden bg-gradient-to-br from-emerald-50 to-rose-50">
+      {/* Floating decorative elements */}
+      {/* <div className="absolute top-10 left-10 w-24 h-24 bg-rose-100 rounded-full opacity-20 animate-float"></div>
+      <div className="absolute top-1/3 right-20 w-16 h-16 bg-emerald-100 rounded-full opacity-30 animate-float animation-delay-2000"></div>
+      <div className="absolute bottom-20 left-1/4 w-20 h-20 bg-teal-100 rounded-full opacity-25 animate-float animation-delay-4000"></div> */}
+      
+      {/* Main content */}
+      <div className="relative z-10 max-w-7xl mx-auto px-4 py-16 md:py-24 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        {/* Text content - more minimal */}
+        <div className="space-y-6 text-center lg:text-left">
+          <div className="inline-flex items-center space-x-2 mb-6">
+            <div className="w-12 h-px bg-emerald-600"></div>
+            <span className="text-emerald-600 font-light tracking-widest">ABOUT US</span>
+            <div className="w-12 h-px bg-emerald-600"></div>
+          </div>
+          
+          <h1 className="text-4xl md:text-5xl font-light text-gray-800">
+             
+            <span className="block font-serif text-5xl md:text-6xl mb-3 text-emerald-800">Welcome</span>
+            To The Best
+            <span className="block mt-2 font-medium"> Relaxation Centre <span className="text-rose-600">in Luxury Delhi Spa</span></span>
+          </h1>
+          
+          <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+            At LuxeSpa, we believe true wellness is an art. Our master therapists blend ancient wisdom with modern techniques to create transformative experiences that nurture mind, body, and spirit.
+          </p>
+          
+          <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <a href='/about'>
+               <button className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-emerald-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
+              <span>Our Journey</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </button>
+
+            </a>
+           
+            <a 
+                        href="https://t.me/Tanuspa" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                      >
+                        <FaTelegram className="text-xl mr-3" />
+                        Meet Our Team
+                      </a>
+          </div>
+        </div>
+
+        {/* Image section - more elegant */}
+        <div className="relative h-80 md:h-96 lg:h-[450px]">
+            <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
+                <div className="relative w-full h-full">
+                <img
+                    src="/images/12 Romantic.jpeg" // ✅ Yahan apna image path daal
+                    alt="Spa Environment"
+                    className="w-full h-full object-cover"
+                />
+                </div>
+            </div>
+
+                {/* Floating leaf decoration */}
+                <div className="absolute -bottom-6 -right-6">
+                    <svg className="w-24 h-24 text-emerald-600/30" viewBox="0 0 100 100">
+                    <path
+                        fill="currentColor"
+                        d="M50,10 C70,10 90,30 90,50 C90,70 70,90 50,90 C30,90 10,70 10,50 C10,30 30,10 50,10 Z M50,25 C35,25 25,35 25,50 C25,65 35,75 50,75 C65,75 75,65 75,50 C75,35 65,25 50,25 Z"
+                    />
+                    </svg>
+                </div>
+
+                {/* Minimalist stats */}
+                <div className="absolute -left-4 bottom-8 bg-white p-4 shadow-md">
+                    <div className="text-center">
+                    <div className="text-2xl font-serif text-emerald-800">12+</div>
+                    <div className="text-xs text-gray-500 tracking-widest">YEARS</div>
+                    </div>
+                </div>
+        </div>
+
+      </div>
+      
+      {/* Minimal wave divider */}
+      <div className="absolute bottom-0 left-0 w-full overflow-hidden">
+        <svg viewBox="0 0 1200 120" className="relative block w-full h-12">
+          <path fill="white" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".5"></path>
+        </svg>
+      </div>
+    </div>
+    {/* ////// */}
+    
        {/* about us */}
     <section className="w-full py-16 bg-gradient-to-b from-white to-yellow-50">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6">
@@ -976,118 +977,7 @@ export default function About({
     {/* //// */}
       {/* end content section */}
       {/* new content */}
-      <section
-      className="bg-gradient-to-b from-emerald-50 via-white to-emerald-100 py-16"
-      aria-labelledby="spa-content-heading"
-      role="region"
-    >
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-
-          {/* IMAGE COLUMN */}
-          <motion.div
-            className="order-1 lg:order-2 rounded-2xl overflow-hidden shadow-xl bg-white"
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <div className="relative w-full h-72 sm:h-96 lg:h-[480px]">
-              {imageSrc ? (
-                <Image
-                  src='/images/process3.jpeg'
-                  alt={alt || 'Spa image'}
-                  fill
-                  className="object-cover"
-                  priority
-                />
-              ) : (
-                <div className="w-full h-full flex items-center justify-center bg-emerald-50 text-emerald-700">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="w-24 h-24 opacity-40" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
-                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9a5 5 0 1110 0c0 2.96-3.5 6.96-5 8.93C10.5 15.96 7 11.96 7 9z" />
-                  </svg>
-                </div>
-              )}
-
-              {/* Badge overlay */}
-              <div className="absolute left-6 bottom-6 bg-emerald-900/85 text-white rounded-xl px-4 py-3 backdrop-blur-sm">
-                <p className="text-sm opacity-90">Signature Package</p>
-                <p className="font-semibold leading-tight">Relax & Renew — 60 mins</p>
-              </div>
-            </div>
-          </motion.div>
-
-          {/* TEXT COLUMN */}
-          <motion.div
-            className="order-2 lg:order-1"
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <p className="inline-block px-3 py-1 rounded-full bg-emerald-600 text-white text-sm font-semibold">Premium Spa</p>
-
-            <h2 id="spa-content-heading" className="mt-6 text-3xl md:text-4xl font-extrabold text-emerald-900 leading-tight">{title}</h2>
-
-            <p className="mt-4 text-gray-700 max-w-xl">{subtitle}</p>
-
-            {/* <div className="mt-6 flex flex-col sm:flex-row sm:items-center sm:gap-4 gap-3">
-  {ctaHref ? (
-    <Link
-      href={ctaHref}
-      aria-label={ctaText || 'Book session'}
-      className="inline-block px-6 py-3 rounded-full bg-emerald-600 text-white font-semibold shadow hover:brightness-95 transition"
-    >
-      {ctaText}
-    </Link>
-        ) : (
-          <button
-            type="button"
-            className="inline-block px-6 py-3 rounded-full bg-emerald-600 text-white font-semibold shadow hover:brightness-95 transition"
-            aria-label={ctaText || 'Book session'}
-          >
-            {ctaText}
-          </button>
-        )}
-
-        <a
-          href="#learn"
-          className="inline-block px-6 py-3 rounded-full border border-emerald-200 text-emerald-900 font-medium hover:bg-emerald-50 transition text-center"
-          aria-label="Learn more about treatments"
-        >
-          Learn More
-        </a>
-      </div> */}
-
-
-            {/* === static content blocks (no Feature function) === */}
-            <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="bg-white rounded-lg p-4 border border-emerald-100">
-                <h4 className="text-emerald-900 font-semibold">Skilled Therapists</h4>
-                <p className="text-sm text-gray-600 mt-1">Certified professionals handpicked for expertise and care.</p>
-              </div>
-
-              <div className="bg-white rounded-lg p-4 border border-emerald-100">
-                <h4 className="text-emerald-900 font-semibold">Safe & Hygienic</h4>
-                <p className="text-sm text-gray-600 mt-1">Strict sanitation protocols and premium linens for client safety.</p>
-              </div>
-            </div>
-            {/* === end static blocks === */}
-
-            <div className="mt-6 flex flex-wrap items-center gap-4">
-              <div className="flex items-center gap-3 bg-emerald-50 px-3 py-2 rounded-full border border-emerald-100">
-                <span className="text-emerald-900 font-semibold">24+</span>
-                <span className="text-sm text-gray-600">Outlets</span>
-              </div>
-              <div className="flex items-center gap-3 bg-emerald-50 px-3 py-2 rounded-full border border-emerald-100">
-                <span className="text-emerald-900 font-semibold">5★</span>
-                <span className="text-sm text-gray-600">Hotel partners</span>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </div>
-    </section>
+      
 
     {/* ///// */}
      <section className="py-16 bg-gradient-to-b from-emerald-50 to-white">
