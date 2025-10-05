@@ -750,7 +750,7 @@ const teamMembers = [
   ]
   return (
     <main bg-gradient-to-b from-emerald-50 to-white>
-      <section className="relative min-h-[50vh] sm:min-h-[70vh] md:min-h-[80vh] lg:min-h-[85vh] font-sans overflow-hidden bg-black py-10">
+      <section className="relative min-h-[50vh] sm:min-h-[70vh] md:min-h-[80vh] lg:min-h-[85vh] font-sans overflow-hidden bg-black">
   <div className="font-sans overflow-hidden">
     {/* Floating Decorative Elements */}
     <div className="fixed inset-0 pointer-events-none z-0">
@@ -880,7 +880,7 @@ const teamMembers = [
 </section>
 
       {/* /// */}
-        <section className="mt-20 bg-white">
+        <section className="mt-30 bg-white">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold text-emerald-700 mb-3">
           Luxury Spa in Gurgaon with 12+ Outlets Across NCR
