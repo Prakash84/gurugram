@@ -212,7 +212,7 @@ const teamMembers = [
          {/* Background image - place your image at /public/images/hero-banner.jpg */}
          <div className="absolute inset-0 -z-20">
            <Image
-             src="/images/spaimage.jpeg"
+             src="/images/cozy-candlelit-bedroom-brings-rustic-elegance-inside-generated-by-ai.jpg"
              alt="Luxury spa background"
              fill
              sizes="(max-width: 1024px) 100vw, 50vw"

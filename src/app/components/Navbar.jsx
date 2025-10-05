@@ -46,11 +46,11 @@ export default function Navbar() {
   ];
 
   const outletDropdown = [
-    { name: "Aerocity", href: "/outlet/aerocity" },
-    { name: "Connaught Place", href: "/outlet/cp" },
-    { name: "Lajpat Nagar", href: "/outlet/lajpatnagar" },
-    { name: "Gurugram", href: "/outlet/paschimvihar" },
-    { name: "Noida", href: "/outlet/noida" },
+    { name: "Aerocity", href: "/Outlet/aerocity" },
+    { name: "Connaught Place", href: "/Outlet/cp" },
+    { name: "Lajpat Nagar", href: "/Outlet/lajpatnagar" },
+    { name: "Gurugram", href: "/Outlet/paschimvihar" },
+    { name: "Noida", href: "/Outlet/noida" },
   ];
 
   return (
@@ -155,7 +155,7 @@ export default function Navbar() {
               onMouseLeave={handleOutletLeave}
             >
               <button className="font-medium text-gray-800 hover:text-emerald-600 transition">
-                <a href="/outlet">Outlet</a>
+                <a href="/Outlet">Outlet</a>
               </button>
               {isOutletOpen && (
                 <div className="absolute left-0 mt-2 w-56 bg-white shadow-xl rounded-xl z-50 py-2">
@@ -254,7 +254,7 @@ export default function Navbar() {
             )}
 
             <a
-              href="/pricing"
+              href="/Pricing"
               className="block text-gray-800 font-semibold hover:text-emerald-600"
             >
               Pricing
@@ -262,7 +262,7 @@ export default function Navbar() {
 
             {/* Mobile Outlet */}
             <div className="flex justify-between items-center text-gray-800 font-semibold py-2">
-              <a href="/outlet" className="hover:text-emerald-600 w-full">
+              <a href="/Outlet" className="hover:text-emerald-600 w-full">
                 Outlet
               </a>
               <button
