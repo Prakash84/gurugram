@@ -750,146 +750,137 @@ const teamMembers = [
   ]
   return (
     <main bg-gradient-to-b from-emerald-50 to-white>
-      <section className="relative min-h-screen font-sans overflow-hidden bg-black">
-        <div className="font-sans overflow-hidden">
-        {/* Floating Decorative Elements */}
-        <div className="fixed inset-0 pointer-events-none z-0">
-          <div className="absolute top-1/4 left-10 w-24 h-24 rounded-full bg-emerald-400/10 blur-3xl animate-pulse" />
-          <div className="absolute bottom-1/3 right-20 w-32 h-32 rounded-full bg-emerald-600/10 blur-3xl animate-pulse" />
-          <div className="absolute top-1/3 right-1/4 w-16 h-16 rounded-full bg-emerald-300/15 blur-3xl" />
-        </div>
+      <section className="relative min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] lg:min-h-[85vh] font-sans overflow-hidden bg-black">
+  <div className="font-sans overflow-hidden">
+    {/* Floating Decorative Elements */}
+    <div className="fixed inset-0 pointer-events-none z-0">
+      <div className="absolute top-1/4 left-10 w-24 h-24 rounded-full bg-emerald-400/10 blur-3xl animate-pulse" />
+      <div className="absolute bottom-1/3 right-20 w-32 h-32 rounded-full bg-emerald-600/10 blur-3xl animate-pulse" />
+      <div className="absolute top-1/3 right-1/4 w-16 h-16 rounded-full bg-emerald-300/15 blur-3xl" />
+    </div>
 
-        {/* Hero Slider */}
-        {/* Background image */}
-        <div className="absolute inset-0">
-          <div className="relative h-full w-full">
-            <Image
-              src="/images/luxury-aromatherapy-spa-treatment-with-scented-candle-flame-generated-by-ai.jpg"   // put image at /public/images/spa/spa-hero.jpg
-              alt="Relaxing spa background"
-              fill
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 1200px"
-              style={{ objectFit: "cover", objectPosition: "center" }}
-              className="opacity-80"
-              priority
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/20 to-transparent mix-blend-multiply" />
-          </div>
-        </div>
-
-        <div className="relative max-w-6xl mx-auto px-6 py-20 lg:py-28">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-            {/* Left content */}
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6 }}
-              className="z-10 text-center lg:text-left"
-            >
-              <div className="inline-flex items-center gap-3 mb-4">
-                <span className="rounded-full bg-white/20 px-3 py-1 text-sm font-medium text-white backdrop-blur">
-                  Premium
-                </span>
-                <span className="text-sm text-white/80">Authentic Therapists • Organic Oils</span>
-              </div>
-
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight drop-shadow-lg">
-                Relax • Rejuvenate • Rediscover
-              </h1>
-
-              {/* <p className="mt-6 text-white/90 max-w-xl">
-                Premium body spa treatments in the heart of the city — tailored packages,
-                experienced therapists, and a calming ambience.
-              </p> */}
-
-              <div className="mt-8 flex flex-col sm:flex-row gap-4 sm:gap-6 items-center">
-                <a
-                  href="#book"
-                  className="inline-flex items-center justify-center rounded-full bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 font-semibold shadow-lg transition"
-                >
-                  Book Now
-                </a>
-
-                <a
-                  href="#services"
-                  className="inline-flex items-center justify-center rounded-full bg-white/90 hover:bg-white px-5 py-3 font-medium text-slate-800 shadow-sm transition"
-                >
-                  Explore Services
-                </a>
-              </div>
-
-              <div className="mt-8 flex flex-wrap gap-4">
-                <div className="flex items-center gap-3 bg-white/10 rounded-2xl px-4 py-2 text-white text-sm">
-                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                    <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3" />
-                    <circle cx="12" cy="12" r="9" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                  <span>45–60 min sessions</span>
-                </div>
-
-                <div className="flex items-center gap-3 bg-white/10 rounded-2xl px-4 py-2 text-white text-sm">
-                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                    <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M3 7h18" />
-                    <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M5 7v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7" />
-                  </svg>
-                  <span>Private rooms available</span>
-                </div>
-
-                <div className="flex items-center gap-3 bg-white/10 rounded-2xl px-4 py-2 text-white text-sm">
-                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                    <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M12 2v4" />
-                    <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M8 6h8" />
-                  </svg>
-                  <span>Certified therapists</span>
-                </div>
-              </div>
-
-              {/* <div className="mt-6 text-sm text-white/75">Want a custom package? <a href="#contact" className="underline">Contact us</a></div> */}
-            </motion.div>
-
-            {/* Right image card + testimonial */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.12 }}
-              className="z-10 flex items-center justify-center lg:justify-end"
-            >
-              <div className="relative w-full max-w-md">
-                <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/10">
-                  <Image
-                    src="/images/fpkdl.com_960_1757505385_young-woman-relaxing-back-massage-spa_151013-21109.jpg" // put image at /public/images/spa/spa-card.jpg
-                    alt="spa treatment"
-                    width={720}
-                    height={480}
-                    style={{ objectFit: "cover", width: "100%", height: "100%" }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-
-                  <div className="absolute left-4 bottom-4 text-white">
-                    <div className="text-sm font-medium">Signature Aromatherapy</div>
-                    <div className="text-xs text-white/80 mt-1">60 min · ₹999</div>
-                  </div>
-                </div>
-
-                <div className="absolute -left-5 -top-5 bg-white rounded-full p-3 shadow-xl">
-                  <svg className="w-6 h-6 text-emerald-600" viewBox="0 0 24 24" fill="none">
-                    <path d="M12 2C8.13 2 5 5.13 5 9c0 6.5 7 13 7 13s7-6.5 7-13c0-3.87-3.13-7-7-7z" strokeWidth="1.2" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </div>
-
-                <div className="absolute -right-6 bottom-8 bg-white/90 rounded-3xl px-4 py-2 shadow-lg text-sm">
-                  <div className="font-medium">Amazing experience — total reset!</div>
-                  <div className="text-xs text-gray-600">— Priya</div>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </div>
+    {/* Hero Background */}
+    <div className="absolute inset-0">
+      <div className="relative h-full w-full">
+        <Image
+          src="/images/luxury-aromatherapy-spa-treatment-with-scented-candle-flame-generated-by-ai.jpg"
+          alt="Relaxing spa background"
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 1200px"
+          style={{ objectFit: "cover", objectPosition: "center" }}
+          className="opacity-80"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/20 to-transparent mix-blend-multiply" />
       </div>
-             </section>
-      
+    </div>
+
+    <div className="relative max-w-6xl mx-auto px-6 py-10 sm:py-16 lg:py-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        {/* Left Content */}
+        <motion.div
+          initial={{ opacity: 0, x: -30 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          className="z-10 text-center lg:text-left"
+        >
+          <div className="inline-flex items-center gap-3 mb-4">
+            <span className="rounded-full bg-white/20 px-3 py-1 text-sm font-medium text-white backdrop-blur">
+              Premium
+            </span>
+            <span className="text-sm text-white/80">Authentic Therapists • Organic Oils</span>
+          </div>
+
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white leading-tight drop-shadow-lg">
+            Relax • Rejuvenate • Rediscover
+          </h1>
+
+          <div className="mt-6 flex flex-col sm:flex-row gap-4 sm:gap-6 items-center">
+            <a
+              href="#book"
+              className="inline-flex items-center justify-center rounded-full bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 font-semibold shadow-lg transition"
+            >
+              Book Now
+            </a>
+
+            <a
+              href="#services"
+              className="inline-flex items-center justify-center rounded-full bg-white/90 hover:bg-white px-5 py-3 font-medium text-slate-800 shadow-sm transition"
+            >
+              Explore Services
+            </a>
+          </div>
+
+          <div className="mt-8 flex flex-wrap gap-4 justify-center lg:justify-start">
+            <div className="flex items-center gap-3 bg-white/10 rounded-2xl px-4 py-2 text-white text-sm">
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3" />
+                <circle cx="12" cy="12" r="9" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <span>45–60 min sessions</span>
+            </div>
+
+            <div className="flex items-center gap-3 bg-white/10 rounded-2xl px-4 py-2 text-white text-sm">
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M3 7h18" />
+                <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M5 7v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7" />
+              </svg>
+              <span>Private rooms available</span>
+            </div>
+
+            <div className="flex items-center gap-3 bg-white/10 rounded-2xl px-4 py-2 text-white text-sm">
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M12 2v4" />
+                <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M8 6h8" />
+              </svg>
+              <span>Certified therapists</span>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Right Image Card */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.12 }}
+          className="z-10 flex items-center justify-center lg:justify-end"
+        >
+          <div className="relative w-full max-w-md">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/10">
+              <Image
+                src="/images/fpkdl.com_960_1757505385_young-woman-relaxing-back-massage-spa_151013-21109.jpg"
+                alt="spa treatment"
+                width={720}
+                height={480}
+                style={{ objectFit: "cover", width: "100%", height: "100%" }}
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+
+              <div className="absolute left-4 bottom-4 text-white">
+                <div className="text-sm font-medium">Signature Aromatherapy</div>
+                <div className="text-xs text-white/80 mt-1">60 min · ₹999</div>
+              </div>
+            </div>
+
+            <div className="absolute -left-5 -top-5 bg-white rounded-full p-3 shadow-xl">
+              <svg className="w-6 h-6 text-emerald-600" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 6.5 7 13 7 13s7-6.5 7-13c0-3.87-3.13-7-7-7z" strokeWidth="1.2" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+
+            <div className="absolute -right-6 bottom-8 bg-white/90 rounded-3xl px-4 py-2 shadow-lg text-sm">
+              <div className="font-medium">Amazing experience — total reset!</div>
+              <div className="text-xs text-gray-600">— Priya</div>
+            </div>
+          </div>
+        </motion.div>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* /// */}
-        <section className="mt-10 bg-white">
+        <section className="mt-20 bg-white">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold text-emerald-700 mb-3">
           Most Relaxing Luxury Spa in Delhi is here.

@@ -84,7 +84,7 @@ export default function Navbar() {
 
       {/* Main Navbar */}
       <motion.nav
-        className={`w-full py-4 px-6 md:px-16 sticky top-0 z-50 bg-white transition-all duration-300 ${
+        className={`w-full py-1 px-6 md:px-16 sticky top-0 z-50 bg-white transition-all duration-300 ${
           isScrolled ? "shadow-lg" : ""
         }`}
         initial={{ y: -100 }}
