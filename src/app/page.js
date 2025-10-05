@@ -750,7 +750,7 @@ const teamMembers = [
   ]
   return (
     <main bg-gradient-to-b from-emerald-50 to-white>
-      <section className="relative min-h-[50vh] sm:min-h-[70vh] md:min-h-[80vh] lg:min-h-[85vh] font-sans overflow-hidden bg-black">
+      <section className="relative min-h-[50vh] sm:min-h-[70vh] md:min-h-[80vh] lg:min-h-[85vh] font-sans overflow-hidden bg-black py-10">
   <div className="font-sans overflow-hidden">
     {/* Floating Decorative Elements */}
     <div className="fixed inset-0 pointer-events-none z-0">
