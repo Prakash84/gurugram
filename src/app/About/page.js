@@ -4,7 +4,7 @@ import React from 'react';
 import { Playfair_Display, Montserrat } from 'next/font/google';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
-import { Playfair_Display, Raleway } from 'next/font/google'
+import { Raleway } from 'next/font/google'
 
 import { FaHandSparkles, FaLeaf } from 'react-icons/fa';
 import { useState, useEffect } from "react";
@@ -534,7 +534,7 @@ export default function About({
         >
           <h3 className="text-2xl font-bold text-gray-900">Our Philosophy</h3>
           <p className="mt-3 text-gray-600 max-w-2xl">
-            Wellness is not a single treatment — it's a balanced routine. We focus
+            Wellness is not a single treatment — it&apos;s a balanced routine. We focus
             on restorative experiences that are measurable, sustainable and
             deeply relaxing.
           </p>

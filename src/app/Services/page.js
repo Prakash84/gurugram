@@ -2,7 +2,7 @@
 
   import React, { useState, useEffect } from 'react';
   import { motion } from 'framer-motion';
-  import { Playfair_Display, Montserrat } from 'next/font/google';
+  import {  Montserrat } from 'next/font/google';
   import Image from 'next/image';
   import { Check } from "lucide-react";
   import { FaHotel, FaHome, FaMapMarkerAlt   } from "react-icons/fa";
@@ -13,6 +13,8 @@
   import { AnimatePresence } from "framer-motion";
   import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import Head from "next/head";
+import { Playfair_Display as PlayfairFont } from 'next/font/google';
+const playfair = PlayfairFont({ subsets:['latin'], weight:['400'] });
 
 
 
@@ -160,12 +162,6 @@ const teamMembers = [
     hidden: { opacity: 0, y: 20 },
     show: { opacity: 1, y: 0 }
   };
-
-  const playfair = Playfair_Display({
-    subsets: ['latin'],
-    weight: ['400', '500', '600', '700'],
-    variable: '--font-playfair'
-  });
 
   const montserrat = Montserrat({
     subsets: ['latin'],
@@ -1127,7 +1123,7 @@ const faqs = [
                         </p>
                         <p className="text-gray-700 mb-6">
                           Each session is customized to your unique needs, ensuring you receive the maximum benefit from your treatment. 
-                          Whether you're seeking relief from muscle tension, improved circulation, or simply a moment of tranquility, our expert therapists are here to guide you on your wellness journey.
+                          Whether you&apos;re seeking relief from muscle tension, improved circulation, or simply a moment of tranquility, our expert therapists are here to guide you on your wellness journey.
                         </p>
                         
                         <div className="flex flex-wrap gap-3 mb-8">
@@ -1393,7 +1389,7 @@ const faqs = [
                                                                ))}
                                                              </div>
                                                              <p className="text-gray-600 leading-relaxed">
-                                                               This holistic framework allows us to create treatments that don't just relax temporarily but catalyze lasting change. Our clients report benefits ranging from improved sleep patterns to reduced chronic pain months after their visits.
+                                                               This holistic framework allows us to create treatments that don&apos;t just relax temporarily but catalyze lasting change. Our clients report benefits ranging from improved sleep patterns to reduced chronic pain months after their visits.
                                                              </p>
                                                            <div className="mt-6">
                                                              <span className="inline-block bg-emerald-100 text-emerald-800 py-1 px-4 rounded-full text-sm font-medium">60-90 min | From ₹2,800</span>
@@ -1466,7 +1462,7 @@ const faqs = [
                                                              </h2>
                                                            </div>
                                                            <p className="text-gray-600 leading-relaxed mb-6">
-                                                             Our commitment extends beyond individual wellness to planetary health. We're proud to be the first Carbon Neutral spa in our region, with initiatives including:
+                                                             Our commitment extends beyond individual wellness to planetary health. We&apos;re proud to be the first Carbon Neutral spa in our region, with initiatives including:
                                                              Unlike conventional spas, our approach integrates three core principles:
                                                            </p>
                                                            <div className="flex flex-wrap gap-4 mb-6">
@@ -1484,7 +1480,7 @@ const faqs = [
                                                              ))}
                                                            </div>
                                                            <p className="text-gray-600 leading-relaxed">
-                                                             Our product line features sustainably harvested ingredients from ethical cooperatives. We've partnered with local environmental initiatives, donating 5% of profits to wetland conservation. When you indulge at Serenity, you're supporting a healthier ecosystem.
+                                                             Our product line features sustainably harvested ingredients from ethical cooperatives. We&apos;ve partnered with local environmental initiatives, donating 5% of profits to wetland conservation. When you indulge at Serenity, you&apos;re supporting a healthier ecosystem.
                                                              Our clients report benefits ranging from improved sleep patterns to reduced chronic pain months after their visits.
                                                            </p>
                                                            {/* // */}
@@ -1510,7 +1506,7 @@ const faqs = [
                                                              <h2 className="text-2xl font-bold text-[#3a2e2a]">Home & Hotel Spa</h2>
                                                            </div>
                                                            <p className="text-gray-600 leading-relaxed mb-6">
-                                                             Our commitment extends beyond individual wellness to planetary health. We're proud to be the first Carbon Neutral spa in our region, with initiatives including:
+                                                             Our commitment extends beyond individual wellness to planetary health. We&apos;re proud to be the first Carbon Neutral spa in our region, with initiatives including:
                                                            </p>
                                                            <div className="flex flex-wrap gap-4 mb-6">
                                                              {[
@@ -1528,7 +1524,7 @@ const faqs = [
                                                              ))}
                                                            </div>
                                                            <p className="text-gray-600 leading-relaxed">
-                                                             Our product line features sustainably harvested ingredients from ethical cooperatives. We've partnered with local environmental initiatives, donating 5% of profits to wetland conservation.
+                                                             Our product line features sustainably harvested ingredients from ethical cooperatives. We&apos;ve partnered with local environmental initiatives, donating 5% of profits to wetland conservation.
                                                            </p>
                                                            <div className="mt-6">
                                                              <span className="inline-block bg-emerald-100 text-emerald-800 py-1 px-4 rounded-full text-sm font-medium">3-6 hours | From ₹8,500</span>
@@ -1552,7 +1548,7 @@ const faqs = [
                                                              Every visit begins with a confidential wellness consultation where our specialists listen to your concerns and goals. We consider your lifestyle, stress levels, and any physical discomfort to create a truly personalized treatment plan.
                                                            </p>
                                                            <p className="opacity-90">
-                                                             Our exclusive loyalty program offers priority booking, complimentary upgrades, and special members-only events. Corporate wellness packages are available for businesses looking to invest in their team's wellbeing.
+                                                             Our exclusive loyalty program offers priority booking, complimentary upgrades, and special members-only events. Corporate wellness packages are available for businesses looking to invest in their team&apos;s wellbeing.
                                                            </p>
                                                          </div>
                                                          <div className="flex justify-center">
