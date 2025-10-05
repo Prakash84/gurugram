@@ -712,7 +712,7 @@ const teamMembers = [
   const cards = [
     {
       id: 1,
-      title: 'IBIS New Delhi Aerocity',
+      title: 'LEMON TREE HOTEL\nAerocity',
       desc:
         'Experience refreshing massage therapy at the best spa in Aerocity IBIS. Enjoy premium hotel spa services designed for comfort and relaxation, including Foreigner Therapies, near Delhi Airport.',
       cta: 'CHAT ON TELEGRAM',
@@ -731,7 +731,7 @@ const teamMembers = [
     },
     {
       id: 3,
-      title: 'The Park New Delhi\nConnaught Place',
+      title: 'Radisson Blu New Delhi\n NFC',
       desc:
         'Our spa in Delhi is the perfect choice to put an end to a streak of stress and rejuvenate your body and mind with an expert massage therapist in CP. For experience luxury spa in Connaught Place contact us.',
       cta: 'CHAT ON TELEGRAM',
@@ -1819,7 +1819,7 @@ const teamMembers = [
         <div className="text-center mb-8">
           {/* <h2 className="text-3xl font-semibold text-slate-800">Benefits</h2> */}
           <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 mb-6 font-serif">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Benefits</span> 
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Top Benefits of Visiting Our Massage Spa</span> 
             </h2>
           <p className="text-slate-600 mt-2">Physical & spiritual benefits of our spa treatments</p>
         </div>
