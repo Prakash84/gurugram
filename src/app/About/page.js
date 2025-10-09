@@ -275,7 +275,7 @@ export default function About({
   ];
   const bullets = [
     'Trained Female Therapists',
-    '12+ Outlets in Delhi NCR',
+    '24+ Outlets in Delhi NCR',
     'Personalized Massage Packages',
     'Soothing & Hygienic Ambience'
   ];
@@ -439,7 +439,7 @@ export default function About({
 
         {/* Right: Content */}
         <div className="w-full md:w-6/12">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-emerald-500 ">About Our Luxury Spa</h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-emerald-500 ">About Our Spa — Luxury Spa in Gurgaon</h2>
           <p className="mt-2 text-lg text-gray-600">Relax. Restore. Rejuvenate.</p>
 
           <div className="mt-6 space-y-4 text-gray-700">
@@ -503,7 +503,7 @@ export default function About({
         >
           <p className="text-sm text-emerald-500 font-semibold">About Us</p>
           <h2 className="mt-2 text-3xl md:text-4xl font-extrabold text-emerald-800">
-            We craft restful experiences — body, mind & soul
+            Welcome to the Best Spa in Gurgaon — Relax, Restore, Rejuvenate
           </h2>
           <p className="mt-4 text-gray-600 leading-relaxed max-w-xl">
             At <span className="font-medium">[Your Spa Name]</span> we mix ancient
@@ -559,7 +559,7 @@ export default function About({
             <div className="text-emerald-600 rounded-lg bg-emerald-50 p-3 shadow-sm"><FaSpa size={28} /></div>
             <div>
               <h4 className="font-semibold text-gray-900">Signature Massages</h4>
-              <p className="text-sm text-gray-600 mt-1">Deep tissue, Swedish, and our signature aromatherapy blends to relax and relieve tension.</p>
+              <p className="text-sm text-gray-600 mt-1">Female To Male Massage, B2B Massage, Swedish, and our signature aromatherapy blends to relax and relieve tension.</p>
             </div>
           </div>
         </motion.div>
@@ -574,8 +574,8 @@ export default function About({
           <div className="flex items-center gap-4">
             <div className="text-emerald-600 rounded-lg bg-emerald-50 p-3 shadow-sm"><FaLeaf size={28} /></div>
             <div>
-              <h4 className="font-semibold text-gray-900">Natural Therapies</h4>
-              <p className="text-sm text-gray-600 mt-1">Herbal steam, hot stone, and botanical wraps using ethically-sourced ingredients.</p>
+              <h4 className="font-semibold text-gray-900">Expert Therapies</h4>
+              <p className="text-sm text-gray-600 mt-1">Russian Therapist, Uzbeki Therapist, Thai Therapist, Indian Therapist using ethically-sourced ingredients.</p>
             </div>
           </div>
         </motion.div>
@@ -590,7 +590,7 @@ export default function About({
           <div className="flex items-center gap-4">
             <div className="text-emerald-600 rounded-lg bg-emerald-50 p-3 shadow-sm"><FaHandsHelping size={28} /></div>
             <div>
-              <h4 className="font-semibold text-gray-900">Personalized Care</h4>
+              <h4 className="font-semibold text-gray-900">5 Start Hotel Outlet</h4>
               <p className="text-sm text-gray-600 mt-1">Consultation-led sessions designed to meet your body type and wellness goals.</p>
             </div>
           </div>
@@ -1536,7 +1536,7 @@ export default function About({
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.6 }}
                     >
-                      Benefits of <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Taking Massage from Us</span>
+                      Benefits of <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Taking Spa In Gurgaon from Us</span>
                     </motion.h2>
                     
                     <motion.p

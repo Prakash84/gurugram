@@ -1619,7 +1619,7 @@ const teamMembers = [
                       viewport={{ once: true }}
                       transition={{ delay: 0.1 }}
                     >
-                      EXCLUSIVE  <span className="text-emerald-600">HOTEL SPA PRICE IN GURGAON</span>
+                      EXCLUSIVE  <span className="text-emerald-600">HOTEL AND SPA PRICE IN GURGAON</span>
                     </motion.h2>
                     <motion.p
                       className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
