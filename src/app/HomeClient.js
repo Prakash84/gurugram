@@ -1210,7 +1210,7 @@ const teamMembers = [
             <div className="w-[700px] h-[723px] bg-emerald-50 rounded-2xl shadow-lg p-6 transform lg:-translate-x-6 lg:translate-y-8">
               <div className="relative w-full h-full overflow-hidden rounded-xl">
                 <img
-                  src="/images/Screenshot 2025-09-20 131443.png"
+                  src="/images/homespa.png"
                   alt="promo"
                   className="w-full h-full object-cover"
                 />

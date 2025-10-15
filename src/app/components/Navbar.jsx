@@ -38,7 +38,7 @@ export default function Navbar() {
   };
 
   const servicesDropdown = [
-    { name: "Sandwich Massage", href: "/Services/sandwichmassage" },
+    { name: "Sandwich Massage", href: "/Services/Sandwichmassage" },
     { name: "Couple Massage", href: "/Services/couplemassage" },
     { name: "B2B Massage", href: "/Services/b2bmassage" },
     { name: "Full Body Massage", href: "/Services/fullbodymassage" },
