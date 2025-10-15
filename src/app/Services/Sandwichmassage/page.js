@@ -1282,7 +1282,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
                             <h3 className="text-xl font-semibold text-emerald-800 mb-4">Expert Therapists</h3>
                             <p className="text-gray-700 mb-6">
-                              When it comes to indulgent relaxation and rejuvenation, Delhi spa centers stand out for their exceptional massage therapies. Among the most popular and sought-after treatments are erotic massage, nuru massage, thai massage, sandwich massage, and full body massage. Whether you seek pure relaxation, therapeutic relief, or something more sensual, Delhi's best spas offer a range of services tailored to suit every need. With both Indian and foreign therapists, these therapies are designed to promote deep relaxation, reduce stress, and rejuvenate the body.
+                              When it comes to indulgent relaxation and rejuvenation, Delhi spa centers stand out for their exceptional massage therapies. Among the most popular and sought-after treatments are erotic massage, nuru massage, thai massage, sandwich massage, and full body massage. Whether you seek pure relaxation, therapeutic relief, or something more sensual, Delhis best spas offer a range of services tailored to suit every need. With both Indian and foreign therapists, these therapies are designed to promote deep relaxation, reduce stress, and rejuvenate the body.
         
                             </p>
                           {/* Bullet Points instead of Image */}
@@ -1295,7 +1295,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                           </ul>
                           
                           <p className="text-gray-700 mb-6">
-                              When it comes to indulgent relaxation and rejuvenation, Delhi spa centers stand out for their exceptional massage therapies. Among the most popular and sought-after treatments are erotic massage, nuru massage, thai massage, sandwich massage, and full body massage. Whether you seek pure relaxation, therapeutic relief, or something more sensual, Delhi's best spas offer a range of services tailored to suit every need.
+                              When it comes to indulgent relaxation and rejuvenation, Delhi spa centers stand out for their exceptional massage therapies. Among the most popular and sought-after treatments are erotic massage, nuru massage, thai massage, sandwich massage, and full body massage. Whether you seek pure relaxation, therapeutic relief, or something more sensual, Delhis best spas offer a range of services tailored to suit every need.
         
                             </p>
                       </div>
@@ -1309,7 +1309,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                           />
                         </div>
                         <div className="absolute -top-6 -right-6 bg-emerald-100 p-6 rounded-full">
-                          <span className="text-emerald-800 text-xl font-serif">"</span>
+                          <span className="text-emerald-800 text-xl font-serif"></span>
                         </div>
                       </div>
         
@@ -1317,7 +1317,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
                         <span className="font-semibold text-emerald-800 mb-4">Erotic Massage in Delhi: An Intimate Experience</span>
                         <p className="text-gray-700 mb-6">
-                          The erotic massage in Delhi is a highly specialized and intimate therapy that offers a combination of relaxation and sensuality. Ideal for those who wish to experience heightened pleasure while relieving stress, this service is carried out by expert therapists who understand how to deliver a soothing, yet deeply stimulating experience. If you're looking for something beyond the usual therapeutic massage, the erotic massage is a great choice, enhancing both emotional and physical well-being. This service is performed with care and professionalism, ensuring you receive the highest quality relaxation.                  
+                          The erotic massage in Delhi is a highly specialized and intimate therapy that offers a combination of relaxation and sensuality. Ideal for those who wish to experience heightened pleasure while relieving stress, this service is carried out by expert therapists who understand how to deliver a soothing, yet deeply stimulating experience. If youre looking for something beyond the usual therapeutic massage, the erotic massage is a great choice, enhancing both emotional and physical well-being. This service is performed with care and professionalism, ensuring you receive the highest quality relaxation.                  
                         </p>
                         <span className="font-semibold text-emerald-800 mb-4">Nuru Massage in Delhi: A Luxurious Sensation</span>
                         <p>
@@ -1505,7 +1505,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     </div>
                   </div>
                   <p className="text-gray-700 italic mb-4">
-                    "The oil therapy massage at Serene Spa is transformative. My chronic back pain has significantly reduced after just three sessions. The therapists are truly skilled."
+                    The oil therapy massage at Serene Spa is transformative. My chronic back pain has significantly reduced after just three sessions. The therapists are truly skilled.
                   </p>
                   <div className="flex text-emerald-500">
                     {[1,2,3,4,5].map((star) => (
