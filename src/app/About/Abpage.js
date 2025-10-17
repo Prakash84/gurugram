@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import { Raleway } from 'next/font/google'
 
-import { FaHandSparkles, FaLeaf } from 'react-icons/fa';
+import { FaHandSparkles, FaLeaf, FaWhatsapp } from 'react-icons/fa';
 import { useState, useEffect } from "react";
 import { FaHotTub } from 'react-icons/fa';
 import { FaTelegram } from 'react-icons/fa';
@@ -147,19 +147,19 @@ const featuresData = [
     title: "Stress Relief",
     description:
       "Whether it’s a Thai massage, Nuru massage, or couple massage, a visit to the spa can significantly reduce stress levels and promote relaxation.",
-    image: "/images/HelpstoDe-Stress.webp",
+    image: "/images/fpkdl.com_450_1757505385_young-woman-relaxing-back-massage-spa_151013-21109.jpg",
   },
   {
     title: "Improved Blood Circulation",
     description:
       "Techniques like acupressure, deep tissue, and Swedish massage improve blood circulation, helping you feel more energized and revitalized.",
-    image: "/images/improvebloodflow.webp",
+    image: "/images/fpkdl.com_750_1758962478_woman-receives-neck-massage-from-hands-physical-therapisthealthy-therapy-conceptcopy-space_1144978-6056.jpg",
   },
   {
     title: "Pain Relief",
     description:
       "If you’re dealing with muscle aches, joint pain, or stiffness, our therapeutic massages can help alleviate discomfort and promote better movement.",
-    image: "/images/SkinMoreRadiant.jpeg",
+    image: "/images/fpkdl.com_750_1758980704_young-women-relaxing-deckchair-by-swimming-pool-spa_52137-26370.jpg",
   },
 ];
   const services = [
@@ -345,9 +345,9 @@ export default function Abpage({
           </p>
           
           <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <a href='/about'>
+            <a href='/Pricing'>
                <button className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-emerald-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
-              <span>Our Journey</span>
+              <span>Our Pricing</span>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
@@ -356,12 +356,12 @@ export default function Abpage({
             </a>
            
             <a 
-                        href="https://t.me/Tanuspa" 
+                        href="https://api.whatsapp.com/send?phone=919211059033"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                        className="bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                       >
-                        <FaTelegram className="text-xl mr-3" />
+                        <FaWhatsapp className="text-xl mr-3" />
                         Meet Our Team
                       </a>
           </div>
@@ -514,13 +514,13 @@ export default function Abpage({
 
           <div className="mt-6 flex gap-3">
             <a
-              href="#services"
+              href="/Services"
               className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white py-3 px-5 rounded-full font-medium shadow"
             >
               Explore Services
             </a>
             <a
-              href="#contact"
+              href="https://api.whatsapp.com/send?phone=919211059033"
               className="inline-block border border-emerald-200 text-emerald-700 py-3 px-5 rounded-full font-medium shadow-sm hover:shadow"
             >
               Book a Session

@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect, useRef  } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { FaSpa, FaHotTub, FaBath, FaLeaf, FaHandSparkles, FaHotel, FaCrown, FaCheckCircle, FaStar } from "react-icons/fa";
+import { FaSpa, FaHotTub, FaBath, FaLeaf, FaHandSparkles, FaHotel, FaCrown, FaCheckCircle, FaStar, FaWhatsappSquare } from "react-icons/fa";
 import { FaWhatsapp } from 'react-icons/fa';
 import Image from 'next/image';
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
@@ -993,7 +993,7 @@ const teamMembers = [
                 viewport={{ once: true }}
               >
                 <motion.a
-                  href="/about"
+                  href="/About"
                   className="relative overflow-hidden px-8 py-4 rounded-full font-medium text-white group"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -1009,13 +1009,13 @@ const teamMembers = [
                 </motion.a>
 
                 <a
-                  href="https://t.me/Tanuspa"
+                  href="https://api.whatsapp.com/send?phone=919211059033"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                  className="bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                 >
-                  <FaTelegram className="text-xl mr-3" />
-                  Stay Updated on Telegram
+                  <FaWhatsapp className="text-xl mr-3" />
+                  Stay Updated on Whatsapp
                 </a>
               </motion.div>
             </motion.div>
@@ -1141,10 +1141,10 @@ const teamMembers = [
             
                   <div className="mt-10 flex justify-center lg:justify-start">
                     <a
-                      href="#"
+                      href="/services"
                       className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r from-emerald-600 to-emerald-600 text-white font-medium shadow-lg hover:shadow-xl transition-shadow duration-200"
                     >
-                      View Properties
+                      View Services
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
                       </svg>
@@ -1239,7 +1239,7 @@ const teamMembers = [
 
             <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
               <a
-                href="#book"
+                 href="https://api.whatsapp.com/send?phone=919211059033"
                 className="inline-flex items-center gap-3 bg-emerald-700 hover:bg-emerald-800 text-white px-6 py-3 rounded-lg font-medium shadow"
               >
                 Book Now
@@ -1389,10 +1389,10 @@ const teamMembers = [
 
                 <div className="flex justify-center mt-10">
                 <a
-                href="#/cities"
+                href="/Outlets"
                 className="inline-flex items-center gap-3 bg-gradient-to-r from-emerald-600 to-emerald-600 text-white font-semibold px-6 py-3 rounded-full shadow-md transition-all"
                 >
-                View All Cities
+                View All Outlets
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
                 </svg>
@@ -1769,7 +1769,7 @@ const teamMembers = [
         </div>
 
         <div className="mt-10">
-          <a href="#services" className="inline-block mt-2 px-6 py-3 rounded-full bg-emerald-600 text-white font-medium shadow hover:bg-emerald-700 transition">
+          <a href="/Services" className="inline-block mt-2 px-6 py-3 rounded-full bg-emerald-600 text-white font-medium shadow hover:bg-emerald-700 transition">
             Explore All Services
           </a>
         </div>
@@ -1913,7 +1913,7 @@ const teamMembers = [
         </div>
 
         <div className="text-center mt-8">
-          <a href="#book" className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full font-medium shadow">
+          <a href="https://api.whatsapp.com/send?phone=919211059033" className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full font-medium shadow">
             Book Now
           </a>
         </div>
@@ -2028,7 +2028,7 @@ const teamMembers = [
         </div>
 
         <div className="text-center mt-10">
-          <a href="#book" className="inline-flex items-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full font-semibold shadow-lg transition">
+          <a href="https://api.whatsapp.com/send?phone=919211059033" className="inline-flex items-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full font-semibold shadow-lg transition">
             Book Your Session
           </a>
         </div>

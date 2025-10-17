@@ -116,7 +116,7 @@ export default function Pricpage() {
   {
     title: 'Aerocity',
     description: 'Experience comfort at Novotel Aerocity, just minutes from the airport, perfect for business stays and spa relaxation nearby.Experience comfort at Novotel Aerocity, just minutes from the airport, perfect for business stays and spa relaxation nearby.Experience comfort at Novotel Aerocity, just minutes from the airport, perfect for business stays and spa relaxation nearby.',
-    image: '/images/hotel1.jpeg',
+    image: '/images/RoseateHouse.jpg',
     link: 'https://api.whatsapp.com/send?phone=918826482370',
   },
   {
@@ -134,7 +134,7 @@ export default function Pricpage() {
   {
     title: 'Grand Vasant Kunj',
     description: 'Experience luxury at The Roseate Aerocity, and indulge in relaxing spa therapies with expert care and serene ambiance.Experience luxury at The Roseate Aerocity, and indulge in relaxing spa therapies with expert care and serene ambiance.Experience luxury at The Roseate Aerocity, and indulge in relaxing spa therapies with expert care and serene ambiance.Experience luxury at The Roseate Aerocity, and indulge in relaxing spa therapies with expert care and serene ambiance.',
-    image: '/images/hotel4.jpg',
+    image: '/images/Radisson_Blu_MBD_Hotel,_Noida.jpg',
     link: 'https://api.whatsapp.com/send?phone=918826482370',
   },
 ];
@@ -1071,7 +1071,7 @@ const teamMembers = [
                     <img src="/images/new5.jpeg" alt="Luxury Spa Room" className="w-full h-full object-cover" />
                   </div>
                   <div className="rounded-2xl overflow-hidden shadow-xl">
-                    <img src="/images/spa-treatments.jpg" alt="Massage Session" className="w-full h-full object-cover" />
+                    <img src="/images/Massage with Full Service Price in Delhi. Get All-in-One Relaxation at an Affordable Price.webp" alt="Massage Session" className="w-full h-full object-cover" />
                   </div>
                 </motion.div>
               </div>
