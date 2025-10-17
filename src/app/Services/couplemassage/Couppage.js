@@ -157,12 +157,12 @@ const container = {
 
 {/* End Our Process */}
 
-  export default function B2bmassage() {
+  export default function Couppage() {
      <Head>
-        <title>Visit Our Best B2B Massage Spa in Delhi </title>
+        <title>Visit Our Best Couple Massage Spa in Delhi </title>
         <meta
           name="description"
-          content="Relax with B2B Massage in Delhi. Just visit our B2B Massage Spa in Karol Bagh to get the perfect sandwich massage in Delhi."
+          content="Relax with Couple Massage in Delhi. Just visit our Couple Massage Spa in Karol Bagh to get the perfect sandwich massage in Delhi."
         />
       </Head>
     const [isVisible, setIsVisible] = useState(false);
@@ -179,7 +179,7 @@ const container = {
     
       const faqs = [
         {
-          question: "What exactly is a B2B Massage Spa in Delhi?",
+          question: "What exactly is a Couple Massage Spa in Delhi?",
           answer: "In sandwich massage. Two therapists provide you synchronized motion for deeper, balanced stimulation. It enhances sensory relaxation and muscle release while maintaining professional consent and privacy standards in a private treatment room.",
           icon: <FaSpa className="text-teal-600" />
         },
@@ -239,7 +239,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         title: "Oil Therapy",
         description1:
           "Oil therapy is a traditional wellness practice that uses warm, herb-infused oils tailored to your skin type and body condition. This technique not only moisturizes and nourishes your skin but also stimulates deep tissue relaxation. The application of gentle pressure with warm oil improves lymphatic drainage, detoxifies the body, and boosts energy flow. Whether you're dealing with fatigue, anxiety, or physical stiffness, oil therapy helps restore balance to your mind and body. It's especially beneficial for those seeking natural healing rooted in ancient Ayurvedic principles. The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. Ayurvedic oil massage, also known as Abhyanga, uses herbal oils that balance the body's doshas—Vata, Pitta, and Kapha. The warm oil is massaged into the skin to energize vital points, improve blood circulation, and promote internal healing. This therapy not only revitalizes the skin but also clears toxins stored in deeper tissues.",
-        image: "/images/process1.jpeg",
+        image: "/images/fpkdl.com_960_1760686433_caucasian-couple-customer-enjoying-relaxing-antistress-massage-quiescent_31965-342335.jpg",
       },
       // {
       //   title: "Ayurvedic Massage",
@@ -296,7 +296,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         <section className="relative w-full h-[70vh] flex items-center justify-center">
               {/* Background Image */}
               <Image
-                src="/images/women-posing-robes-spa.jpg" // apni spa banner image ka path
+                src="/images/fpkdl.com_960_1758980558_relaxing-spa-room-with-candles_1187092-239475.jpg" // apni spa banner image ka path
                 alt="Luxury Body Spa"
                 fill
                 priority
@@ -311,7 +311,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 className="relative text-center px-6"
               >
                 <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
-                  About <span className="text-emerald-300">Our B2B Massage</span>
+                  About <span className="text-emerald-300">Our Couple Massage</span>
                 </h1>
                 <p className="mt-4 text-lg md:text-xl text-gray-100 max-w-2xl mx-auto drop-shadow">
                   Discover the art of relaxation with our luxury spa treatments designed
@@ -345,13 +345,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       </div>
 
       <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-        <span className="block font-serif text-5xl md:text-6xl mb-3 text-emerald-800">B2B Massage</span>
+        <span className="block font-serif text-5xl md:text-6xl mb-3 text-emerald-800">Couple Massage</span>
         Ultimate Relaxation, 
         <span className="block mt-2 font-medium">Top & Bottom <span className="text-rose-600">Therapy Blend</span></span>
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-        The B2B Massage is our luxurious, two-therapist experience that pampers you from both sides simultaneously. Warm oil, synchronized strokes, and expert techniques combine to provide deep relaxation and muscle relief, ensuring every inch of tension is gently melted away.
+        The Couple Massage is our luxurious, two-therapist experience that pampers you from both sides simultaneously. Warm oil, synchronized strokes, and expert techniques combine to provide deep relaxation and muscle relief, ensuring every inch of tension is gently melted away.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -397,7 +397,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
       <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
         <button className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-emerald-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
-          <span>Explore B2B Massage</span>
+          <span>Explore Couple Massage</span>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
@@ -424,7 +424,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
         <img
           src="/images/OIP (1).webp"
-          alt="B2B Massage Spa"
+          alt="Couple Massage Spa"
           className="w-full h-full object-cover"
         />
       </div>
@@ -488,7 +488,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.3, duration: 0.6 }}
                       >
-                       Our B2B <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Massage Techniques</span>
+                       Our Couple <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Massage Techniques</span>
                       </motion.h2>
                       
                       <motion.p
@@ -1265,7 +1265,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
                   >
-                    Erotic and Nuru Massage, Thai Massage, B2B Massage, Full Body Massage by Expert Therapists
+                    Erotic and Nuru Massage, Thai Massage, Couple Massage, Full Body Massage by Expert Therapists
                   </motion.p>
                   
                   <motion.div

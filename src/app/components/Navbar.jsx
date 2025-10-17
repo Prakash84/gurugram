@@ -40,9 +40,9 @@ export default function Navbar() {
   const servicesDropdown = [
     { name: "Sandwich Massage", href: "/Services/Sandwichmassage" },
     { name: "Couple Massage", href: "/Services/couplemassage" },
-    { name: "B2B Massage", href: "/Services/b2bmassage" },
-    { name: "Full Body Massage", href: "/Services/fullbodymassage" },
-    { name: "We Are Hiring", href: "/Services/hotstonemassage" },
+    { name: "B2B Massage", href: "/Services/B2bmassage" },
+    { name: "Full Body Massage", href: "/Services/Fullbodymassage" },
+    { name: "We Are Hiring", href: "/Services/We_are_hiring" },
   ];
 
   const outletDropdown = [
