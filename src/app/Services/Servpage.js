@@ -87,61 +87,61 @@ const teamMembers = [
   const services = [
     {
       title: "AromaTherapy",
-      image: "/images/aromatherapy-featured-jpg.webp",
+      image: "/images/fpkdl.com_960_1760684372_close-up-hand-holding-ice-cream-table_1048944-25719661.jpg",
       description: "Aromatherapy, available at our body spa in Delhi, dates back to ancient Egypt where people used scented oils for massage and bathing.",
       duration: "60-90 min"
     },
     {
       title: "Stone Therapy",
-      image: "/images/19-2-1024x427.png",
+      image: "/images/fpkdl.com_960_1760684770_relaxing-lower-back-massage-pain-relief-comfort_1365064-5792.jpg",
       description: "Rebalance your energy with our soothing Stone Therapy. Using heated stones, this therapeutic treatment melts away tension and promotes deep relaxation.",
       duration: "75 min"
     },
     {
       title: "Couple Massage",
-      image: "/images/Couple Massage.webp",
+      image: "/images/young-couple-relaxing-back-massage-health-spa-focus-is-young-woman.jpg",
       description: "A couples massage at our Delhi luxury spa allows you and your partner or family member to enjoy a relaxing massage together in the same room.",
       duration: "90 min"
     },
     {
       title: "Sandwich Massage",
-      image: "/images/Sandwich Massage.jpg",
+      image: "/images/sandwich.jpg",
       description: "Rebalance your energy with our soothing Sandwich Massage therapy. A layered, deeply relaxing treatment for full-body stress relief.",
       duration: "60 min"
     },
     {
       title: "Thai Massage",
-      image: "/images/thaimassage.jpg",
+      image: "/images/fpkdl.com_960_1760685290_therapist-preparing-procedure_274689-24623.jpg",
       description: "Thai massage is ideal for those seeking an active form of massage to relieve pain and stress, offered at our luxury spa in Delhi. This massage helps with flexibility, circulation, and energy levels.",
       duration: "60 min"
     },
     {
       title: "Erotic Massage",
-      image: "/images/potliMassage.jpg",
+      image: "/images/fpkdl.com_960_1760685386_woman-is-laying-bed-with-tree-background_133748-18821.jpg",
       description: "Our luxury spa in Delhi offers the ancient Indian technique known as Potli massage. This treatment uses herbal pouches, warmed up and filled with spices and herbs,.",
       duration: "60 min"
     },
     {
       title: "Full-body Massage",
-      image: "/images/Sandwich Massage.jpg",
+      image: "/images/fpkdl.com_960_1760685466_therapist-make-professional-hand-massage-back-shoulders-young-beautiful-woman_359031-29618.jpg",
       description: "Our full-body massage spa in Delhi offers a complete relaxation experience for both your mind and body. Our massage center in Delhi targets major muscle groups such as your back, shoulders, arms, legs, and neck using techniques like kneading, stroking, and pressure.",
       duration: "60 min"
     },
     {
       title: "Nuru Massage",
-      image: "/images/SpecializedTreatments.jpg",
+      image: "/images/woman-getting-back-massage-from-masseur.jpg",
       description: "While this is not all that can be had, a massage is the crown jewel at Luxury Spa in Delhi where we do have a variety of special treatments that can suit all your wellness needs.",
       duration: "60 min"
     },
     {
       title: "B2B Massage",
-      image: "/images/SkincareTreatments.jpg",
+      image: "/images/fpkdl.com_960_1760685075_woman-getting-back-massage-from-masseur_23-2150461404.jpg",
       description: "High-end spas in Delhi offer a wide range of treatments to enhance the health and beauty of your skin. These treatments often include facials that cleanse, exfoliate, and moisturize your skin.",
       duration: "90-120 min"
     },
     {
       title: "Reflexology",
-      image: "/images/Reflexology.jpg",
+      image: "/images/fpkdl.com_960_1760685860_full-body-massage-spa-salon_926199-4238291.jpg",
       description: "Another holistic health practice popularized in the United States around the 1930s is Reflexology, offered by our luxury spa in Delhi. The process involves stimulating acupressure on both hands and feet to promote health and well-being..",
       duration: "60 min"
     }
@@ -175,19 +175,19 @@ const teamMembers = [
     number: '01',
     title: 'Meeting',
     description: 'Our spa meeting process ensures a seamless and soothing experience, from scheduling to consultation and relaxation.',
-    image: '/images/mmeeting.webp',
+    image: '/images/OIP (1).webp',
   },
   {
     number: '02',
     title: 'Treatment',
     description: 'Relaxing spa treatment begins with consultation, followed by cleansing, massage, and rejuvenation steps.',
-    image: '/images/spa-treatments.jpg',
+    image: '/images/fpkdl.com_960_1760684372_close-up-hand-holding-ice-cream-table_1048944-25719661.jpg',
   },
   {
     number: '03',
     title: 'Finalizing',
     description: 'Confirm your appointment, choose your therapy, and relax, your spa journey is now set.',
-    image: '/images/finalizing.avif',
+    image: '/images/new5.jpeg',
   },
 ];
 const features2 = [
@@ -988,7 +988,7 @@ const faqs = [
                                   {/* <div className="bg-gradient-to-tr from-emerald-200 to-rose-100 w-full h-full animate-pulse"></div> */}
                                   <Image
                                    loading="lazy"
-                                    src="/images/Couple Massage.webp"
+                                    src="/images/fpkdl.com_960_1760686125_man-spa-salon_926199-2825304.jpg"
                                     alt="Spa Interior"
                                     layout="fill"
                                     objectFit="cover"
@@ -1137,7 +1137,7 @@ const faqs = [
                       
                       <div className="relative h-96">
                         <Image 
-                          src="/images/446979.jpg"
+                          src="/images/fpkdl.com_960_1760686433_caucasian-couple-customer-enjoying-relaxing-antistress-massage-quiescent_31965-342335.jpg"
                           alt="Expert therapist performing massage"
                           layout="fill"
                           objectFit="cover"
@@ -1158,7 +1158,7 @@ const faqs = [
                     <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-emerald-100">
                       <div className="relative h-96">
                         <Image 
-                          src="/images/447701.jpg"
+                          src="/images/fpkdl.com_960_1760686305_beautiful-young-woman-reciving-relxing-massage-massage-concept-body-massage-massage-health_299057-864.jpg"
                           alt="Premium spa oils"
                           layout="fill"
                           objectFit="cover"

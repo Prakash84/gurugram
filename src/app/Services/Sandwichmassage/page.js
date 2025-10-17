@@ -43,26 +43,26 @@ import { GiLotus } from 'react-icons/gi';
   const services = [
     {
       title: "Four-Hand Synchronized Flow",
-      image: "/images/Sandwich Massage.jpg",
+      image: "/images/fpkdl.com_960_1760598531_woman-is-being-massaged-by-woman_133748-19192.jpg",
       description: "Two therapists move their hands together in the same pattern. This feels amazing and helps your body relax completely.",
       // duration: "60 min"
     },
     {
       title: "Deep Tissue Pressure Therapy",
-      image: "/images/Couple Massage.webp",
+      image: "/images/cc.jpg",
       description: "If you like strong pressure, this is for you. The oil penetrates deep into your muscles, relieves tightness, and helps you feel light and energetic again.",
       // duration: "90 min"
     },
     
     {
       title: "Alternate Wave Massage",
-      image: "/images/thaimassage.jpg",
+      image: "/images/woman-spending-time-spa-getting-exfoliation-massage.jpg",
       description: "In this technique, two therapists use fast and slow movements simultaneously; one therapist is fast, and the other is slow. It feels like gentle waves on your body and is excellent for relieving mental fatigue.",
       // duration: "60 min"
     },
     {
       title: "Fusion Exotic Experience",
-      image: "/images/potliMassage.jpg",
+      image: "/images/woman-giving-massage-another-woman-lying-down.jpg",
       description: "This is a blend of various massage styles like Swedish, Thai, and Balinese. It is tailored according to your body’s needs, providing both relaxation and healing in one session.",
       // duration: "60 min"
     }
@@ -239,7 +239,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         title: "Oil Therapy",
         description1:
           "Oil therapy is a traditional wellness practice that uses warm, herb-infused oils tailored to your skin type and body condition. This technique not only moisturizes and nourishes your skin but also stimulates deep tissue relaxation. The application of gentle pressure with warm oil improves lymphatic drainage, detoxifies the body, and boosts energy flow. Whether you're dealing with fatigue, anxiety, or physical stiffness, oil therapy helps restore balance to your mind and body. It's especially beneficial for those seeking natural healing rooted in ancient Ayurvedic principles. The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. Ayurvedic oil massage, also known as Abhyanga, uses herbal oils that balance the body's doshas—Vata, Pitta, and Kapha. The warm oil is massaged into the skin to energize vital points, improve blood circulation, and promote internal healing. This therapy not only revitalizes the skin but also clears toxins stored in deeper tissues.",
-        image: "/images/137.jpg",
+        image: "/images/process1.jpeg",
       },
       // {
       //   title: "Ayurvedic Massage",
@@ -953,7 +953,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                  
                                                  <div className="relative h-96">
                                                    <Image 
-                                                     src="/images/446979.jpg"
+                                                     src="/images/fpkdl.com_960_1760613019_asian-woman-does-back-massage-with-herbal-bags-patient_175935-919.jpg"
                                                      alt="Expert therapist performing massage"
                                                      layout="fill"
                                                      objectFit="cover"
@@ -974,7 +974,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-emerald-100">
                                                  <div className="relative h-96">
                                                    <Image 
-                                                     src="/images/447701.jpg"
+                                                     src="/images/fpkdl.com_750_1760611274_caucasian-woman-enjoying-relaxing-antistress-head-massage-quiescent_31965-325098.jpg"
                                                      alt="Premium spa oils"
                                                      layout="fill"
                                                      objectFit="cover"
@@ -1303,7 +1303,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       <div className="relative">
                         <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full min-h-[400px] flex items-center justify-center overflow-hidden">
                           <img
-                            src="/images/staff2.jpg"
+                            src="/images/fpkdl.com_960_1760613019_asian-woman-does-back-massage-with-herbal-bags-patient_175935-919.jpg"
                             alt="Client Testimonial"
                             className="object-cover w-full h-full rounded-xl"
                           />
@@ -1594,120 +1594,115 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 </section> */}
 {/* End Call to Action Section */}
 
-       {/* F&Q Section */}
-      <section className="py-16 bg-gradient-to-b from-emerald-50 to-white">
-        <div className="max-w-5xl mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="text-center mb-14"
-          >
-            <motion.div
-              className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-emerald-100 rounded-full text-emerald-800 font-medium"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-            >
-              <FaStar className="text-emerald-500" />
-              Questions? We’re here to help
-            </motion.div>
-            <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 font-serif mb-4">
-              Frequently Asked <span className="text-emerald-600">Questions</span>
-            </h2>
-            <p className="text-emerald-800 max-w-2xl mx-auto text-lg">
-              Everything you need to know about our luxurious spa services and how to book them.
-            </p>
-            <div className="flex justify-center mt-6">
-              <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full"></div>
-            </div>
-          </motion.div>
-
-          {/* FAQ Accordion */}
-          <div className="space-y-5">
-            {faqs.map((faq, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="bg-white rounded-2xl shadow-lg overflow-hidden border border-emerald-100"
-              >
-                <button
-                  onClick={() => toggleFAQ(index)}
-                  className="w-full p-6 text-left flex items-center justify-between focus:outline-none group"
-                >
-                  <div className="flex items-start space-x-4">
-                    <div className="mt-1 p-2 bg-emerald-50 rounded-lg">
-                      {faq.icon}
-                    </div>
-                    <h3 className="text-lg md:text-xl font-medium text-emerald-900 group-hover:text-emerald-700 transition-colors">
-                      {faq.question}
-                    </h3>
-                  </div>
-                  <div className="ml-4 flex-shrink-0">
-                    <svg
-                      className={`w-6 h-6 text-emerald-500 transition-transform duration-300 ${activeIndex === index ? 'rotate-180' : ''}`}
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </div>
-                </button>
-
-                <AnimatePresence>
-                  {activeIndex === index && (
-                    <motion.div
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: 'auto', opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.3 }}
-                      className="overflow-hidden"
-                    >
-                      <div className="px-6 pb-6 pt-2 border-t border-emerald-50">
-                        <p className="text-emerald-700">
-                          {faq.answer}
-                        </p>
-                      </div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </motion.div>
-            ))}
-          </div>
-
-          {/* CTA Box */}
-          {/* <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            viewport={{ once: true }}
-            className="mt-14 bg-gradient-to-r from-emerald-500 to-emerald-600 rounded-2xl p-8 text-center text-white shadow-xl"
-          >
-            <h3 className="text-2xl font-bold mb-3">Still have questions?</h3>
-            <p className="mb-5 max-w-2xl mx-auto">
-              Our wellness team is here to assist you. Reach out and we’ll help you find the perfect treatment.
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <button className="px-6 py-3 bg-white text-emerald-700 font-medium rounded-full shadow-md hover:bg-emerald-100 transition-colors">
-                Contact Us
-              </button>
-              <button className="px-6 py-3 bg-emerald-800 bg-opacity-30 text-white font-medium rounded-full shadow-md border border-white border-opacity-30 hover:bg-opacity-40 transition-colors">
-                Book Appointment
-              </button>
-            </div>
-          </motion.div> */}
-        </div>
-      </section>
+       {/* FAQ Section - fixed apostrophe here by using HTML entity */}
+       <section className="py-16">
+         <div className="max-w-5xl mx-auto px-4">
+       <motion.div
+               initial={{ opacity: 0, y: 20 }}
+               whileInView={{ opacity: 1, y: 0 }}
+               transition={{ duration: 0.6 }}
+               viewport={{ once: true }}
+               className="text-center md:text-left mb-14"
+             >
+               <motion.div
+                 className="inline-flex items-center gap-2 px-4 py-1 mb-4 bg-emerald-100 rounded-full text-emerald-800 font-medium"
+                 initial={{ opacity: 0, y: 20 }}
+                 whileInView={{ opacity: 1, y: 0 }}
+                 viewport={{ once: true }}
+               >
+                 <FaStar className="text-emerald-500" />
+                 Questions? We&apos;re here to help
+               </motion.div>
+               <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 font-serif mb-4">
+                 Frequently Asked <span className="text-emerald-600">Questions</span>
+               </h2>
+               <p className="text-emerald-800 max-w-2xl text-lg">
+                 Everything you need to know about our luxurious spa services and how to book them.
+               </p>
+               <div className="flex md:justify-start justify-center mt-6">
+                 <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full"></div>
+               </div>
+             </motion.div>
+         </div>
+             
+         <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+           
+           {/* Left Side FAQ Content */}
+           <div>
+             
+       
+             {/* FAQ Accordion */}
+             <div className="space-y-5">
+               {faqs.map((faq, index) => (
+                 <motion.div
+                   key={index}
+                   initial={{ opacity: 0, y: 20 }}
+                   whileInView={{ opacity: 1, y: 0 }}
+                   transition={{ duration: 0.4, delay: index * 0.1 }}
+                   viewport={{ once: true }}
+                   className="bg-white rounded-2xl shadow-lg overflow-hidden border border-emerald-100"
+                 >
+                   <button
+                     onClick={() => toggleFAQ(index)}
+                     className="w-full p-6 text-left flex items-center justify-between focus:outline-none group"
+                   >
+                     <div className="flex items-start space-x-4">
+                       <div className="mt-1 p-2 bg-emerald-50 rounded-lg">{faq.icon}</div>
+                       <h3 className="text-lg md:text-xl font-medium text-emerald-900 group-hover:text-emerald-700 transition-colors">
+                         {faq.question}
+                       </h3>
+                     </div>
+                     <div className="ml-4 flex-shrink-0">
+                       <svg
+                         className={`w-6 h-6 text-emerald-500 transition-transform duration-300 ${
+                           activeIndex === index ? "rotate-180" : ""
+                         }`}
+                         fill="none"
+                         viewBox="0 0 24 24"
+                         stroke="currentColor"
+                       >
+                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                       </svg>
+                     </div>
+                   </button>
+       
+                   <AnimatePresence>
+                     {activeIndex === index && (
+                       <motion.div
+                         initial={{ height: 0, opacity: 0 }}
+                         animate={{ height: "auto", opacity: 1 }}
+                         exit={{ height: 0, opacity: 0 }}
+                         transition={{ duration: 0.3 }}
+                         className="overflow-hidden"
+                       >
+                         <div className="px-6 pb-6 pt-2 border-t border-emerald-50">
+                           <p className="text-emerald-700">{faq.answer}</p>
+                         </div>
+                       </motion.div>
+                     )}
+                   </AnimatePresence>
+                 </motion.div>
+               ))}
+             </div>
+           </div>
+       
+           {/* Right Side Image */}
+           <motion.div
+             initial={{ opacity: 0, x: 30 }}
+             whileInView={{ opacity: 1, x: 0 }}
+             transition={{ duration: 0.6 }}
+             viewport={{ once: true }}
+             className="flex justify-center"
+           >
+             <img
+               src="/images/Professional European.jpeg"
+               alt="Spa FAQ Illustration"
+               className="rounded-2xl shadow-lg object-cover w-full max-h-[700px]"
+             />
+           </motion.div>
+         </div>
+       </section>       
+               {/* /// */}
 
  {/* <WhatsappFloat /> */}
       </main>
