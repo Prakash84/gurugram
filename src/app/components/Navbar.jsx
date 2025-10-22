@@ -111,7 +111,7 @@ export default function Navbar() {
               Home
             </a>
             <a
-              href="/About"
+              href="/about-us"
               className="font-medium text-gray-800 hover:text-emerald-600 transition"
             >
               About
@@ -142,7 +142,7 @@ export default function Navbar() {
             </div>
 
             <a
-              href="/Pricing"
+              href="/spa-price-in-delhi-ncr"
               className="font-medium text-gray-800 hover:text-emerald-600 transition"
             >
               Pricing
@@ -155,7 +155,7 @@ export default function Navbar() {
               onMouseLeave={handleOutletLeave}
             >
               <button className="font-medium text-gray-800 hover:text-emerald-600 transition">
-                <a href="/Outlet">Outlet</a>
+                <a href="/spa-in-mahipalpur">Outlet</a>
               </button>
               {isOutletOpen && (
                 <div className="absolute left-0 mt-2 w-56 bg-white shadow-xl rounded-xl z-50 py-2">
@@ -220,7 +220,7 @@ export default function Navbar() {
               Home
             </a>
             <a
-              href="/About"
+              href="/about-us"
               className="block text-gray-800 font-semibold hover:text-emerald-600"
             >
               About
@@ -254,7 +254,7 @@ export default function Navbar() {
             )}
 
             <a
-              href="/Pricing"
+              href="/spa-price-in-delhi-ncr"
               className="block text-gray-800 font-semibold hover:text-emerald-600"
             >
               Pricing
@@ -262,7 +262,7 @@ export default function Navbar() {
 
             {/* Mobile Outlet */}
             <div className="flex justify-between items-center text-gray-800 font-semibold py-2">
-              <a href="/Outlet" className="hover:text-emerald-600 w-full">
+              <a href="/spa-in-mahipalpur" className="hover:text-emerald-600 w-full">
                 Outlet
               </a>
               <button
