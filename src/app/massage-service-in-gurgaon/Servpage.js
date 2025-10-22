@@ -12,7 +12,6 @@
   import { FaStar } from "react-icons/fa";
   import { AnimatePresence } from "framer-motion";
   import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
-import Head from "next/head";
 import { Playfair_Display as PlayfairFont } from 'next/font/google';
 const playfair = PlayfairFont({ subsets:['latin'], weight:['400'] });
 
@@ -250,13 +249,7 @@ const faqs = [
   ];
 
   export default function Servpage() {
-    <Head>
-        <title>Best Massage & Spa Service in Delhi By Top Therapists</title>
-        <meta
-          name="description"
-          content=" Experience top-notch spa service in Delhi at the best spa centre in Greater Kailash. Our top therapists are ready to give you relaxation in Delhi or NCR Areas. Check Out"
-        />
-      </Head>
+    
     const [isVisible, setIsVisible] = useState(false);
         useEffect(() => {
           setIsVisible(true);
@@ -297,7 +290,7 @@ const faqs = [
       <main>
       <div className="w-full">
         {/* banner */}
-               <header className="relative w-full h-[55vh] md:h-[75vh] min-h-[345px] flex items-center">
+               <div className="relative w-full h-[55vh] md:h-[75vh] min-h-[345px] flex items-center">
       {/* Background image - place your image at /public/images/hero-banner.jpg */}
       <div className="absolute inset-0 -z-20">
         <Image
@@ -418,7 +411,7 @@ const faqs = [
           <path d="M0,20 C360,80 1080,0 1440,40 L1440,60 L0,60 Z" fill="rgba(255,255,255,0.9)" />
         </svg>
       </div>
-    </header>  
+    </div>  
         {/* end banner */} 
         
       {/* Services Section */}
