@@ -21,6 +21,6 @@ export const metadata = {
 // dynamic import is optional but helps to avoid SSR issues with some libs
 // const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
 
-export default function couplemassage() {
+export default function page() {
   return <Couppage />;
 }

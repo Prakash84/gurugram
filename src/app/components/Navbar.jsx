@@ -38,11 +38,11 @@ export default function Navbar() {
   };
 
   const servicesDropdown = [
-    { name: "Sandwich Massage", href: "/Services/Sandwichmassage" },
-    { name: "Couple Massage", href: "/Services/couplemassage" },
-    { name: "B2B Massage", href: "/Services/B2bmassage" },
-    { name: "Full Body Massage", href: "/Services/Fullbodymassage" },
-    { name: "We Are Hiring", href: "/Services/We_are_hiring" },
+    { name: "Sandwich Massage", href: "/massage-service-in-gurgaon/sandwich-massage-in-gurgaon" },
+    { name: "Couple Massage", href: "/massage-service-in-gurgaon/couples-massage-in-gurgaon" },
+    { name: "B2B Massage", href: "/massage-service-in-gurgaon/b2b-massage-in-gurgaon" },
+    { name: "Full Body Massage", href: "/massage-service-in-gurgaon/ull-body-massage-in-gurgaon" },
+    { name: "We Are Hiring", href: "/massage-service-in-gurgaon/spa-therapist-jobs-in-gurgaon" },
   ];
 
   const outletDropdown = [
@@ -124,7 +124,7 @@ export default function Navbar() {
               onMouseLeave={handleServicesLeave}
             >
               <button className="font-medium text-gray-800 hover:text-emerald-600 transition">
-                <a href="/Services">Services</a>
+                <a href="/massage-service-in-gurgaon">Services</a>
               </button>
               {isServicesOpen && (
                 <div className="absolute left-0 mt-2 w-56 bg-white shadow-xl rounded-xl z-50 py-2">

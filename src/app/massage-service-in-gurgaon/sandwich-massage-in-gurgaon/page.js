@@ -157,7 +157,7 @@ const container = {
 
 {/* End Our Process */}
 
-  export default function Sandwichmassage() {
+  export default function page() {
      <Head>
         <title>Visit Our Best Sandwich Massage Spa in Delhi </title>
         <meta

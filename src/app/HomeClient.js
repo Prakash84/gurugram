@@ -197,25 +197,28 @@ const [isVisible, setIsVisible] = useState(false);
   ];
   const features3 = [
     {
-      icon: <Hotel className="w-8 h-8 text-emerald-600" />,
-      title: "24+ Spa Outlets",
-      desc: "We have 24+ luxury spa outlets available to provide you with the best body massage services across Delhi. From hotels and resorts to your private bungalow, we come to your place and bring the best spa experience.",
-    },
-    {
-      icon: <Clock className="w-8 h-8 text-emerald-600" />,
-      title: "24/7 Support Available",
-      desc: "We are never off the mark, and our support team is available 24X7 to assist you with all your concerns and ease the booking process for you. At Spa Delhi, you can rest assured that you will get a complete range of full-body massage in Delhi",
+      icon: <Globe className="w-8 h-8 text-emerald-600" />,
+      title: "Global Massage Therapist",
+      desc: "The therapists at Spa in Gurgaon learned techniques from different countries. They know methods from around the world. Each person gets individual attention and the treatments feel professional and effective. Customers usually walk away feeling completely different.",
     },
     {
       icon: <CheckCircle2 className="w-8 h-8 text-emerald-600" />,
-      title: "Luxury Massage Available",
-      desc: "Our team of massage therapists is here to serve you with the best-in-class luxury spa in Delhi right at your doorstep. Get ready to experience a B2B spa in Delhi or any massage service that brings you peace.",
+      title: "Affordable Pricing",
+      desc: "Spa in Gurgaon maintains a fair price to all. The standards are not compromised despite the cost remaining low. You receive high-quality care within your budget.",
     },
     {
-      icon: <Globe className="w-8 h-8 text-emerald-600" />,
-      title: "Massage Therapists Across the Globe",
-      desc: "Our team of massage therapists comes across borders, including India, Russia, Afghanistan, and more. When you choose us, you will be surprised with a wide range of massage therapist options available to serve you with your preferred star massage services in Aerocity.",
+      icon: <Clock className="w-8 h-8 text-emerald-600" />,
+      title: "Easy Booking",
+      desc: "It only requires a few minutes to make an appointment. In Gurgaon, spa allows you to select your location, treatment type, and time online. The website works simply. The app also makes scheduling quick. Nothing gets complicated.",
     },
+    {
+      icon: <Hotel className="w-8 h-8 text-emerald-600" />,
+      title: "24+ Spa Outlets",
+      desc: "More than 24 locations exist across Gurgaon for the Spa. You can find one near your home or office. Every outlet follows strict rules about cleanliness. The staff provides friendly and professional service everywhere. Luxury wellness sits close by no matter where you live.",
+    },
+    
+    
+    
   ];
   const features5 = [
     {
@@ -284,23 +287,23 @@ const [isVisible, setIsVisible] = useState(false);
 
   const services = [
     {
-      title: "Aromatherapy",
-      description: "Healing essential oils calm the senses.",
+      title: "Sandwich Massage",
+      description: "Sandwich Massage uses multiple methods in one session. Spa in Gurgaon designed this treatment to remove stress quickly. Your muscles feel loose afterward. Your brain feels awake and ready. Everything in your body starts working better together. The therapists guide you through each step with expertise.",
       icon: "🌸",
     },
     {
-      title: "Deep Tissue",
-      description: " Relieves long-term muscular tension",
+      title: "Full Body Massage",
+      description: "Our full-body massage in Gurgaon provides a light touch to every part of your body from top to bottom. Spa in Gurgaon, therapists use proven methods to loosen tight spots. Blood moves better through your system. Afterward, you feel awake but calm. Stress disappears. Your energy comes back.",
       icon: "💆‍♂️",
     },
     {
-      title: "Hot Stone Therapy",
-      description: "A sensual, professional way to connect with your body",
+      title: "B2B Massage",
+      description: "We offer Body to Body massage in Delhi, where our team of therapists visits your place or massage in spa to offer you the most soothing experience. Whether you want to go into deep sleep or reduce stress, our B2B massage services in Delhi NCR are your go-to choice.",
       icon: "🪨",
     },
     {
       title: "Couples Massage",
-      description: "A romantic way to relax and feel good together",
+      description: "Two people can get massages simultaneously at the Spa in Gurgaon. At our massage parlour in Gurgaon, therapists work with both people together in one room. This creates a shared moment of peace. Partners feel closer after doing this together. It works great for people who want quiet time together.",
       icon: "👫",
     },
   ];
@@ -705,9 +708,9 @@ const teamMembers = [
   const cards = [
     {
       id: 1,
-      title: 'LEMON TREE HOTEL\nAerocity',
+      title: 'The Leela Ambience\nGurgaon',
       desc:
-        'Experience refreshing massage therapy at the best spa in Aerocity IBIS. Enjoy premium hotel spa services designed for comfort and relaxation, including Foreigner Therapies, near Delhi Airport.',
+        'Spa in Gurgaon operates inside The Leela Ambience hotel. The environment feels peaceful and looks beautiful. They have certified therapists who provide excellent massages. Every therapy makes you feel refreshed and calm.',
       cta: 'CHAT ON TELEGRAM',
       // replace with your image path or import
       img: '/images/lajpatnagahotel.avif',
@@ -715,27 +718,27 @@ const teamMembers = [
     },
     {
       id: 2,
-      title: 'The Park New Delhi\nConnaught Place',
+      title: 'Trident Hotel\nGurgaon',
       desc:
-        'Our spa in Delhi is the perfect choice to put an end to a streak of stress and rejuvenate your body and mind with an expert massage therapist in CP. For experience luxury spa in Connaught Place contact us.',
+        'The Trident Hotel location offers Spa in Gurgaon best treatments. Therapists adjust each session based on what you need. They help blood circulation and reduce mental pressure. Your whole system feels balanced when you finish.',
       cta: 'CHAT ON TELEGRAM',
       img: '/images/RoseateHouse.jpg',
       badge: 'PREMIUM',
     },
     {
       id: 3,
-      title: 'Radisson Blu New Delhi\n NFC',
+      title: 'The Westin\n Gurgaon',
       desc:
-        'Our spa in Delhi is the perfect choice to put an end to a streak of stress and rejuvenate your body and mind with an expert massage therapist in CP. For experience luxury spa in Connaught Place contact us.',
+        'At The Westin, Spa in Gurgaon provides complete wellness packages. The therapists use good products and proper skills. Every treatment delivers strong results. You get an experience that stands out from regular spas.',
       cta: 'CHAT ON TELEGRAM',
       img: '/images/holidayIn_CP.jpg',
       badge: 'PREMIUM',
     },
     {
       id: 4,
-      title: 'The Park New Delhi\nConnaught Place',
+      title: 'ITC Grand Bharat\nGurgaon',
       desc:
-        'Our spa in Delhi is the perfect choice to put an end to a streak of stress and rejuvenate your body and mind with an expert massage therapist in CP. For experience luxury spa in Connaught Place contact us.',
+        'Spa in Gurgaon created special massage options for ITC Grand Bharat guests. These treatments use luxury methods that refresh your entire body. You feel energized and calm at the same time. Balance returns to your life.',
       cta: 'CHAT ON TELEGRAM',
       img: '/images/JwMarriott_CP.jpg',
       badge: 'PREMIUM',
@@ -785,7 +788,7 @@ const teamMembers = [
           </div>
 
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white leading-tight drop-shadow-lg">
-            • World-Class Treatments at Spa in Gurgaon
+            • Experience Deep Wellness at Spa in Gurgaon Today
           </h1>
 
           <div className="mt-6 flex flex-col sm:flex-row gap-4 sm:gap-6 items-center">
@@ -810,7 +813,7 @@ const teamMembers = [
                 <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3" />
                 <circle cx="12" cy="12" r="9" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
-              <span>45–60 min sessions</span>
+              <span>Rs: 1,999 For 45–60 min sessions</span>
             </div>
 
             <div className="flex items-center gap-3 bg-white/10 rounded-2xl px-4 py-2 text-white text-sm">
@@ -876,33 +879,32 @@ const teamMembers = [
         <section className="mt-30 bg-white">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold text-emerald-700 mb-3">
-          Luxury Spa in Gurgaon with 12+ Outlets Across NCR
+          Spa in Gurgaon: 24+ Outlets, Certified Massage Therapist and More
         </h2>
         <p className="text-gray-600 mb-10">
           
-     Affordable & Professional Full Body Massage Spa in  Gurgaon, Delhi, Noida
+     Spa in Gurgaon has 24+ Outlets across Delhi NCR. Every location has trained therapists who know how to help you relax. You get quality care without traveling far. Luxury wellness is now available in your neighborhood. These outlets focus on making you feel better through proper massage and spa treatments.
         </p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 sm:gap-4 md:gap-6">
-  {services1.map((service, index) => (
-    <div
-      key={index}
-      className="flex flex-col items-center text-center group"
-    >
-      <div className="w-32 sm:w-40 md:w-48 h-32 sm:h-40 md:h-70 rounded-full border-4 border-emerald-500 flex items-center justify-center overflow-hidden shadow-md hover:shadow-lg transition">
-        <img
-          src={service.img}
-          alt={service.title}
-          className="object-cover w-full h-full"
-        />
-      </div>
-      <h3 className="mt-2 sm:mt-3 md:mt-4 text-sm sm:text-base md:text-lg font-bold font-serif text-emerald-700 group-hover:text-emerald-900 transition">
-        {service.title}
-      </h3>
-    </div>
-  ))}
-</div>
-
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6">
+          {services1.map((service, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center text-center group"
+            >
+              <div className="w-48 h-70 rounded-full border-4 border-emerald-500 flex items-center justify-center overflow-hidden shadow-md hover:shadow-lg transition">
+                <img
+                  src={service.img}
+                  alt={service.title}
+                  className="object-cover w-full h-full"
+                />
+              </div>
+              <h3 className="mt-4 text-lg font-bold font-serif text-emerald-700 group-hover:text-emerald-900 transition">
+              {service.title}
+              </h3>
+            </div>
+          ))}
+        </div>
       </div>
     </section>   
     {/* About Section */}
@@ -936,8 +938,8 @@ const teamMembers = [
                 transition={{ delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                Top Rated Luxury <span className="relative">
-                  <span className="text-emerald-600 z-10 relative">Spa in Guraon for Complete Relaxation</span>
+                Spa in Gurgaon: <span className="relative">
+                  <span className="text-emerald-600 z-10 relative">Top Massage Centre in Gurgaon for Deep Destress</span>
                   <span className="absolute bottom-2 left-0 w-full h-3 bg-emerald-200/60 z-0"></span>
                 </span>
               </motion.h2>
@@ -950,7 +952,8 @@ const teamMembers = [
                 viewport={{ once: true }}
               >
                 <p className="text-gray-600 text-lg leading-relaxed">
-                  Discover the best <strong className="text-emerald-600 font-medium">massage service in Delhi,</strong> where every therapist utilizes their exceptional skills and personalized care to rejuvenate your body and soul. Whether you prefer deep tissue massage, B2B massage, or aromatherapy massage, our high-end treatments will leave you feeling completely satisfied, with a sense of ultimate relaxation and rejuvenation.
+                  Daily life creates stress that builds up over time. Spa in Gurgaon provides special massage treatments that help your entire system calm down. The therapists here have proper training and certificates. Our team provides <strong className="text-emerald-600 font-medium">massage in Gurgaon</strong>, combining traditional methods with modern ones to give you the best results. Each visit feels personal because they adjust everything to fit your needs. The rooms are clean and comfortable. You leave feeling lighter and more peaceful than when you arrived.
+                  
                 </p>
               </motion.div>
 
@@ -1074,8 +1077,8 @@ const teamMembers = [
                 transition={{ delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                Affordable Body <span className="relative">
-                  <span className="text-emerald-600 z-10 relative">Spa in  with Uzbek, Russian & Thai Staff</span>
+                Spa Center in Gurgaon <span className="relative">
+                  <span className="text-emerald-600 z-10 relative">Starting at ₹1999</span>
                   <span className="absolute bottom-2 left-0 w-full h-3 bg-emerald-200/60 z-0"></span>
                 </span>
               </motion.h2>
@@ -1088,46 +1091,12 @@ const teamMembers = [
                                 viewport={{ once: true }}
                               >
                                 <p className="text-gray-600 text-lg leading-relaxed">
-                                  Welcome to{" "}
-                                  <strong className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-600 font-medium">
-                                    Delhi Body Spa
-                                  </strong>
-                                  , where we offer a range of{" "}
-                                  <strong className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-600 font-medium">
-                                    luxury spa
-                                  </strong>{" "}
-                                  treatments including{" "}
-                                  <strong className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-600 font-medium">
-                                    female to male spa
-                                  </strong>
-                                  ,{" "}
-                                  <strong className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-600 font-medium">
-                                    couple massages
-                                  </strong>
-                                  , and much more. Escape the hustle of Delhi and immerse yourself
-                                  in rejuvenating treatments tailored to your needs.
-                                  Our expert therapists combine ancient and modern techniques to release stress, improve circulation, and restore balance.
-                                </p>
-                                <p className="text-gray-600 text-lg leading-relaxed">
-                                  Welcome to{" "}
-                                  <strong className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-600 font-medium">
-                                    Delhi Body Spa
-                                  </strong>
-                                  , where we offer a range of{" "}
-                                  <strong className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-600 font-medium">
-                                    luxury spa
-                                  </strong>{" "}
-                                  treatments including{" "}
-                                  <strong className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-600 font-medium">
-                                    female to male spa
-                                  </strong>
-                                  ,{" "}
-                                  <strong className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-600 font-medium">
-                                    couple massages
-                                  </strong>
-                                  , and much more. Escape the hustle of Delhi and immerse yourself
-                                  in rejuvenating treatments tailored to your needs.
-                                  Our expert therapists combine ancient and modern techniques to release stress, improve circulation, and restore balance.
+
+                                  Quality massage therapy starts at ₹1999 at{" "} <strong className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-600 font-medium">
+                                    Spa in Gurgaon 
+                                  </strong>with full service. The low price does not mean poor service. Every treatment follows proper methods that help blood flow better and reduce body aches. Your mind feels clearer after each session. You can choose short treatments or longer ones that cover your whole body. The therapists know different styles like using scented oils or pressing deep into muscles. Rich people and regular people can both afford these services. The staff treats everyone with respect and care. The place feels calm and looks nice. You walk out, feeling like you just woke up from a good sleep.
+                                  
+                                  
                                 </p>
                               </motion.div>
                   {/* <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-gray-900">
@@ -1229,13 +1198,13 @@ const teamMembers = [
             <p className="text-sm text-emerald-800 font-semibold mb-4">HOME AND HOTEL SPA</p>
 
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-slate-900 mb-6" style={{ fontFamily: "'Playfair Display', serif" }}>
-              Enjoy Home Spa & Hotel
+              Enjoy the Most Relaxing Hotel
               <br />
-              Spa in Delhi, Noida & Gurgaon
+              and Home Spa in Gurgaon
             </h2>
 
             <p className="text-gray-600 text-base md:text-lg mb-8 max-w-2xl">
-              Are you in Delhi-NCR and searching for a <strong>luxurious spa near in Delhi</strong>, but its too hot to step outside? Luxury Body Spa has come to your rescue — whether you want a spa at your home or are visiting Delhi and tired from travel. Our skilled therapists (Indian, Russian, Thai, Afghan) deliver authentic massages that help you unwind and relax.
+              Some days you do not want to go anywhere. Spa in Gurgaon is a hub of trained therapists ready to visit your home or provide a hotel spa in Karol Bagh, Paharganj, and other locations. You stay in your own space while getting professional treatment. Our therapists bring everything needed for a complete session. They work carefully and know exactly what to do. Your body responds well because you are already comfortable. This service works for any schedule. You decide when and where you want to relax.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
@@ -1287,7 +1256,7 @@ const teamMembers = [
                 transition={{ duration: 0.5, delay: 0.1 }}
                 viewport={{ once: true }}
               >
-                Top Rated Spa <span className="text-emerald-500">Services In Gurgaon</span>
+                Our Top-Notch <span className="text-emerald-500">Spa Services in Gurgaon</span>
               </motion.h2>
             </div>
 
@@ -1337,7 +1306,7 @@ const teamMembers = [
                       viewport={{ once: true }}
                       transition={{ delay: 0.1 }}
                     >
-                      Our Luxury <span className="text-emerald-600">OutLet in Delhi, Noida and Gurgaon</span>
+                      Luxury Outlet <span className="text-emerald-600">for Spa in Gurgaon</span>
                     </motion.h2>
                     <motion.p
                       className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1346,7 +1315,7 @@ const teamMembers = [
                       viewport={{ once: true }}
                       transition={{ delay: 0.2 }}
                     >
-                      Meet our diverse team of professionals who bring excellence and passion to every engagement.
+                      Each outlet from Spa in Gurgaon looks elegant and feels comfortable. The design helps you relax the moment you walk in. Everything stays clean and organized. You get complete privacy during treatments.
                     </motion.p>
                     <motion.div
                        className="flex justify-center mt-10"
@@ -1422,7 +1391,7 @@ const teamMembers = [
                       viewport={{ once: true }}
                       transition={{ delay: 0.1 }}
                     >
-                      Our Hotel <span className="text-emerald-600">Outlets</span>
+                      Our Outlets <span className="text-emerald-600">for Hotel Spa in Gurgaon</span>
                     </motion.h2>
                     <motion.p
                       className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1431,7 +1400,7 @@ const teamMembers = [
                       viewport={{ once: true }}
                       transition={{ delay: 0.2 }}
                     >
-                      Meet our diverse team of professionals who bring excellence and passion to every engagement.
+                      Spa in Gurgaon works with top hotels in the city. You can book treatments at these fancy locations. The service quality stays the same everywhere.
                     </motion.p>
                     <motion.div
                        className="flex justify-center mt-10"
@@ -1613,7 +1582,7 @@ const teamMembers = [
                       viewport={{ once: true }}
                       transition={{ delay: 0.1 }}
                     >
-                      EXCLUSIVE  <span className="text-emerald-600">HOTEL AND SPA PRICE IN GURGAON</span>
+                      Our Pricing  <span className="text-emerald-600">Package for Spa Services in Gurgaon</span>
                     </motion.h2>
                     <motion.p
                       className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1622,7 +1591,7 @@ const teamMembers = [
                       viewport={{ once: true }}
                       transition={{ delay: 0.2 }}
                     >
-                      Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
+                      All prices at Spa in Gurgaon are clear and easy to understand. Services begin at ₹1999 for everyone. High quality wellness does not cost too much here. Anyone can afford to take care of themselves.
                     </motion.p>
                     <motion.div
                        className="flex justify-center mt-10"
@@ -1737,7 +1706,7 @@ const teamMembers = [
           className="font-cursive text-4xl md:text-5xl text-emerald-800"
           style={{ fontFamily: '"Great Vibes", cursive' }}
         >
-          Our Service For You In Gurgaon
+          Key Amenities at Our Spa Centre in Gurgaon
         </motion.h2>
 
         <motion.p
@@ -1747,8 +1716,8 @@ const teamMembers = [
           transition={{ duration: 0.6, delay: 0.12 }}
           className="mt-4 text-gray-600 max-w-3xl mx-auto text-sm md:text-base"
         >
-          We offer <strong>Russian spa in south Delhi</strong>, Kalkaji, CP and Aerocity. Get Genuine Massage
-          service like nuru massage, b2b massage, hot stone & oil massage and many more.
+         Spa in Gurgaon provides extra features that make your visit better. Every detail adds to your comfort.
+
         </motion.p>
 
         <div className="mt-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-y-10 gap-x-6 items-start justify-items-center">
@@ -1785,12 +1754,12 @@ const teamMembers = [
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 mb-6 font-serif">
-              Why Choose <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Our Spa?</span> 24+ Outlets Across Delhi NCR
+              Why Choose <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Spa in Gurgaon</span> for Relaxing Massage Services
             </h2>
 
             <div className="max-w-3xl mx-auto bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-md mb-8">
               <p className="text-emerald-800/80 text-lg md:text-xl leading-relaxed">
-                Spa Delhi is the best Massage centre in Delhi, bringing all visitors luxurious massage experiences at an affordable price. At Spa Delhi, we combine professionalism and indulgence to present the most reliable full-body massage in Delhi. Our experienced massage therapists utilize effective massage techniques to address your custom massage expectations.
+               The spa in Gurgaon is remarkable due to the trained professionals and pleasant environment. Each treatment is carried out with the help of more modern approaches. It remains focused on relieving stress and making you feel better. Your health improves with each visit.
               </p>
             </div>
 
@@ -1925,11 +1894,11 @@ const teamMembers = [
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-10 lg:mb-14">
           <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 mb-6 font-serif">
-              Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Process</span> for a Massage in Guraon?
+              Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Process</span> to Book Spa Services in Gurgaon
             </h2>
           
           <p className="mt-3 text-sm sm:text-base text-white/80 max-w-2xl mx-auto">
-            Har kadam par dhyaan — humare spa ka process simple, safe aur relaxing hai. Book karo, aao aur reset feel karo.
+            Getting an appointment with Spa in Gurgaon happens in simple steps. The system saves your time and guarantees good service.
           </p>
         </div>
 
@@ -1948,7 +1917,7 @@ const teamMembers = [
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-emerald">Book &amp; Consult</h3>
-                <p className="text-xs text-emerald/70">Online ya call se appointment. Therapist se short consultation hoti hai.</p>
+                <p className="text-xs text-emerald/70">First, you set up an appointment time. Then you talk with specialists about what you want to achieve. They help you pick treatments that match your goals.</p>
               </div>
             </div>
 
@@ -1978,8 +1947,8 @@ const teamMembers = [
                 2
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-emerald">Relaxing Treatment</h3>
-                <p className="text-xs text-emerald/70">Certified therapist ke saath tailored massage aur organic oils.</p>
+                <h3 className="text-lg font-semibold text-emerald">Select Massage Session</h3>
+                <p className="text-xs text-emerald/70">Then you decide what kind of massage would suit you. Various solutions address stress or blood circulation or muscle issues. Each of them refreshes your body in a certain way.</p>
               </div>
             </div>
 
@@ -2009,8 +1978,8 @@ const teamMembers = [
                 3
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-emerald">Aftercare &amp; Relax</h3>
-                <p className="text-xs text-emerald/70">Hydration tips, follow-up suggestions aur loyalty offers.</p>
+                <h3 className="text-lg font-semibold text-emerald">Get a Massage and Relax</h3>
+                <p className="text-xs text-emerald/70">Finally, trained therapists perform your chosen treatment. You lie down and let them work. At the end of the session, you are totally relaxed and refreshed.</p>
               </div>
             </div>
 

@@ -93,7 +93,7 @@ const features = [
   ]
 
 
-  export default function We_are_hiring({ email = 'info@luxuryspacare.in', website = '#', phone = '+91-XXXXXXXXXX' }) {
+  export default function page({ email = 'info@luxuryspacare.in', website = '#', phone = '+91-XXXXXXXXXX' }) {
 
       <Head>
         <title>Looking for Spa Therapist jobs in Delhi? Part Time & Full Time</title>
