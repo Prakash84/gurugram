@@ -314,7 +314,7 @@ const [isVisible, setIsVisible] = useState(false);
     },
     {
       title: "5 Star Hotels Spa",
-      img: "/images/16+ Tranquil Spa Relaxation Room Ideas for Your Home.jpeg",
+      img: "/images/fpkdl.com_960_1758980281_blissful-facial-treatment-session-raw-style_1077802-188111.jpg",
     },
     {
       title: "Home Spa",
