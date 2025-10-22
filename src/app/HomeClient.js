@@ -883,25 +883,26 @@ const teamMembers = [
      Affordable & Professional Full Body Massage Spa in  Gurgaon, Delhi, Noida
         </p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6">
-          {services1.map((service, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center text-center group"
-            >
-              <div className="w-48 h-70 rounded-full border-4 border-emerald-500 flex items-center justify-center overflow-hidden shadow-md hover:shadow-lg transition">
-                <img
-                  src={service.img}
-                  alt={service.title}
-                  className="object-cover w-full h-full"
-                />
-              </div>
-              <h3 className="mt-4 text-lg font-bold font-serif text-emerald-700 group-hover:text-emerald-900 transition">
-              {service.title}
-              </h3>
-            </div>
-          ))}
-        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 sm:gap-4 md:gap-6">
+  {services1.map((service, index) => (
+    <div
+      key={index}
+      className="flex flex-col items-center text-center group"
+    >
+      <div className="w-32 sm:w-40 md:w-48 h-32 sm:h-40 md:h-70 rounded-full border-4 border-emerald-500 flex items-center justify-center overflow-hidden shadow-md hover:shadow-lg transition">
+        <img
+          src={service.img}
+          alt={service.title}
+          className="object-cover w-full h-full"
+        />
+      </div>
+      <h3 className="mt-2 sm:mt-3 md:mt-4 text-sm sm:text-base md:text-lg font-bold font-serif text-emerald-700 group-hover:text-emerald-900 transition">
+        {service.title}
+      </h3>
+    </div>
+  ))}
+</div>
+
       </div>
     </section>   
     {/* About Section */}
