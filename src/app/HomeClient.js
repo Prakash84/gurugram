@@ -713,7 +713,7 @@ const teamMembers = [
         'Spa in Gurgaon operates inside The Leela Ambience hotel. The environment feels peaceful and looks beautiful. They have certified therapists who provide excellent massages. Every therapy makes you feel refreshed and calm.',
       cta: 'CHAT ON TELEGRAM',
       // replace with your image path or import
-      img: '/images/the-leela-ambience-gurgaon.jpg',
+      img: '/images/the-leela-ambience-gurgaon_image.jpg',
       badge: null,
     },
     {
