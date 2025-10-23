@@ -653,14 +653,14 @@ const features2 = [
 { name: 'NOIDA', img: '/images/lajpatnagahotel.avif' },
 { name: 'AEROCITY', img: '/images/RoseateHouse.jpg' },
 { name: 'GURGAON', img: '/images/paschimvihar.jpg' },
-{ name: 'MAHIPALPURE', img: '/images/JwMarriott_CP.jpg' },
-{ name: 'DLF', img: '/images/Andazhat.jpg' },
-{ name: 'CP', img: '/images/holidayIn_CP.jpg' },
+{ name: 'MAHIPALPURE', img: '/images/fpkdl.com_960_1758981143_building-space_664434-7932.jpg' },
+{ name: 'DLF', img: '/images/dlfimage.jpg' },
+{ name: 'CP', img: '/images/best-western-merrion.jpg' },
 { name: 'Karol Bagh', img: '/images/tajmahalhotel_lajpatnagar.jpg' },
 { name: 'Paharganj', img: '/images/paschimvihar.jpg' },
-{ name: 'Greater Kailash', img: '/images/hotel2.jpg' },
-{ name: 'ROHINI', img: '/images/pullmanAerocity.jpg' },
-{ name: 'Dwarka', img: '/images/jwmarriott.jpeg' },
+{ name: 'Greater Kailash', img: '/images/OIP.webp' },
+{ name: 'ROHINI', img: '/images/OIP (2).webp' },
+{ name: 'Dwarka', img: '/images/dwarkahotel.avif' },
 ]
 const teamMembers = [
   {
