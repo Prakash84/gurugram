@@ -932,7 +932,7 @@ const teamMembers = [
               </motion.div>
 
               <motion.h2
-                className="text-4xl md:text-5xl lg:text-5xl font-bold text-gray-800 leading-tight mb-8"
+                className="text-3xl md:text-4xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
