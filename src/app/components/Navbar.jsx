@@ -46,9 +46,9 @@ export default function Navbar() {
   ];
 
   const outletDropdown = [
-    { name: "Aerocity", href: "/Outlet/aerocity" },
-    { name: "Connaught Place", href: "/Outlet/cp" },
-    { name: "Lajpat Nagar", href: "/Outlet/lajpatnagar" },
+    { name: "Aerocity", href: "/spa-in-mahipalpur/spa-in-aerocity" },
+    { name: "Connaught Place", href: "/Outlet/spa-in-connaught-place" },
+    { name: "Lajpat Nagar", href: "/Outlet/spa-in-lajpat-nagar" },
     { name: "Gurugram", href: "/Outlet/paschimvihar" },
     { name: "Noida", href: "/Outlet/noida" },
   ];

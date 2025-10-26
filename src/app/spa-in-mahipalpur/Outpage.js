@@ -541,7 +541,7 @@ const cards2 = [
               className="relative text-center px-6"
             >
               <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
-                About <span className="text-emerald-300">Our Pricing</span>
+                About <span className="text-emerald-300">Our Outles</span>
               </h1>
               <p className="mt-4 text-lg md:text-xl text-gray-100 max-w-2xl mx-auto drop-shadow">
                 Discover the art of relaxation with our luxury spa treatments designed
@@ -1716,7 +1716,7 @@ View All Cities
                 Book Your Session
               </button>
               <button className="px-8 py-3.5 border border-white text-white hover:bg-white/10 font-medium rounded-full transition-all duration-300">
-                View Pricing
+                View Outles
               </button>
             </div>
           </div>
@@ -2535,7 +2535,7 @@ View All Cities
             
 //             {/* Desktop Navigation */}
 //             <nav className="hidden lg:flex space-x-8">
-//               {['Services', 'Process', 'Pricing', 'Locations', 'About', 'Contact'].map((item) => (
+//               {['Services', 'Process', 'Outles', 'Locations', 'About', 'Contact'].map((item) => (
 //                 <a 
 //                   key={item}
 //                   href={`#${item.toLowerCase()}`} 
@@ -2565,7 +2565,7 @@ View All Cities
 //           {mobileMenuOpen && (
 //             <div className="lg:hidden py-4 border-t border-white/20">
 //               <nav className="flex flex-col space-y-4">
-//                 {['Services', 'Process', 'Pricing', 'Locations', 'About', 'Contact'].map((item) => (
+//                 {['Services', 'Process', 'Outles', 'Locations', 'About', 'Contact'].map((item) => (
 //                   <a 
 //                     key={item}
 //                     href={`#${item.toLowerCase()}`} 
@@ -2763,7 +2763,7 @@ View All Cities
 //         </div>
 //       </section>
 
-//       {/* Enhanced Pricing Section */}
+//       {/* Enhanced Outles Section */}
 //       <section id="pricing" className="py-24 bg-white/30 backdrop-blur-sm">
 //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 //           <div className="text-center mb-20">

@@ -831,6 +831,13 @@ const teamMembers = [
               </svg>
               <span>Certified therapists</span>
             </div>
+            <div className="flex items-center gap-3 bg-white/10 rounded-2xl px-4 py-2 text-white text-sm">
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M12 2v4" />
+                <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M8 6h8" />
+              </svg>
+              <span>Foreigner therapists</span>
+            </div>
           </div>
         </motion.div>
 
@@ -853,8 +860,8 @@ const teamMembers = [
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
 
               <div className="absolute left-4 bottom-4 text-white">
-                <div className="text-sm font-medium">Signature Aromatherapy</div>
-                <div className="text-xs text-white/80 mt-1">60 min · ₹999</div>
+                <div className="text-sm font-medium">5 Star Hotel Spa In Just</div>
+                <div className="text-xs text-white/80 mt-1">60 min · ₹1499</div>
               </div>
             </div>
 
