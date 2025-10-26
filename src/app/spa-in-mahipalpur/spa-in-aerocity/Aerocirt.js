@@ -1501,22 +1501,25 @@ const topSteps = [
 
         {/* Top row: 3 cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          {topSteps.map((s, idx) => (
-            <motion.article
-              
-              initial={{ opacity: 0, y: 16 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="bg-white rounded-2xl shadow-lg p-6 border border-emerald-100 text-center hover:shadow-xl hover:-translate-y-1 transition"
-            >
-              <div className="w-12 h-12 mx-auto flex items-center justify-center rounded-full bg-emerald-100 mb-4">
-                {s.icon}
-              </div>
-              <h3 className="text-lg md:text-xl font-semibold text-emerald-800 mb-2">{s.title}</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">{s.text}</p>
-            </motion.article>
-          ))}
-        </div>
+  {topSteps.map((s, idx) => (
+    <motion.article
+      key={idx} // 👈 ye line add karo
+      initial={{ opacity: 0, y: 16 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: idx * 0.1 }}
+      className="bg-white rounded-2xl shadow-lg p-6 border border-emerald-100 text-center hover:shadow-xl hover:-translate-y-1 transition"
+    >
+      <div className="w-12 h-12 mx-auto flex items-center justify-center rounded-full bg-emerald-100 mb-4">
+        {s.icon}
+      </div>
+      <h3 className="text-lg md:text-xl font-semibold text-emerald-800 mb-2">
+        {s.title}
+      </h3>
+      <p className="text-gray-600 text-sm leading-relaxed">{s.text}</p>
+    </motion.article>
+  ))}
+</div>
+
 
         {/* Bottom row: 2 wide cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
