@@ -60,53 +60,31 @@ export default function Connaught() {
                 ];
   const hotelOutlets = [
   {
-    title: "JW Marriott Hotel Connaught",
-    image: "/images/JW Marriott Hotel Connaught.jpg",
+    title: "The Imperial Connaught",
+    image: "/images/the-imperial-new-delhi.jpeg",
     description:
       "Spend your time in the quality environment of JW Marriott Hotel Connaught and include a calming spa experience to your visit. Our professional therapists come with therapies that are designed to relieve the stress and cheer up the senses, hence your visit becomes even more pampering. The calmness of our treatments is the ideal match to the beautiful environment of this popular hotel.",
   },
   {
-    title: "Lemon Tree Premier Connaught",
-    image: "/images/LemonTreePremierConnaught.jpg",
-    description:
-      "Lemon Tree Premier Connaught combines style with relaxation, and Spa In Gurgaon adds to that comfort with on-demand massage sessions in your room. Whether you want a couple's massage or need complete body relaxation, our spa centre in Mahipalpur helps you unwind after a busy schedule in the bustling Connaught area.",
-  },
-  {
-    title: "Novotel New Delhi Connaught",
-    image: "/images/NovotelNewDelhiConnaught.jpeg",
-    description:
-      "Novotel Connaught is a convenient and luxurious place to stay, and our spa services are an added bonus to your stay. Whether it is reviving full-body massage or relaxing treatments aimed at alleviating stress, each of the services makes you feel refreshed. Your stay will be something to remember with the help of our therapists.",
-  },
-  {
-    title: "Pride Plaza Hotel",
-    image: "/images/pride-plaza-hotel-aerocity1-2.jpg",
+    title: "The Part Hotel Connaught Place",
+    image: "/images/The_Park_Cp.jpg",
     description:
       "Visit to Pride Plaza Hotel is even more comfortable with Spa In Gurgaon. Our Best spa in Connaught is designed to minimize muscle aches, energize you, and leave you feeling refreshed. The soothing atmosphere we create takes luxury relaxation to the next level. ",
   },
   {
-    title: "IBIS New Delhi Connaught",
-    image: "/images/IBISNewDelhiConnaught.jpg",
+    title: "Shangri‑La Eros Connaught",
+    image: "/images/OIP (3).webp",
     description:
-      "IBIS Connaught is popular due to comfort and practicality, and Spa In Gurgaon is the one that makes your relaxation instantly available to your door. You can experience stress relief, sore muscles, and complete recharge with our massages customized to your needs while on-site. Each session has been designed to be comfortable.",
+      "Lemon Tree Premier Connaught combines style with relaxation, and Spa In Gurgaon adds to that comfort with on-demand massage sessions in your room. Whether you want a couple's massage or need complete body relaxation, our spa centre in Mahipalpur helps you unwind after a busy schedule in the bustling Connaught area.",
   },
   {
-    title: "Pullman Connaught",
-    image: "/images/pullmanConnaught.jpg",
+    title: "The LaLiT Connaught",
+    image: "/images/lalit_delhi.jpg",
     description:
-      "Pullman Connaught is where wellness and indulgence are united. Our professional hands mean that every therapy is unique, whether it is stress-relieving aromatherapy or the deep tissue bodywork. Spa In Gurgaon ensures your body feels lighter and refreshed, turning your time at Pullman into a complete wellness getaway.",
+      "Novotel Connaught is a convenient and luxurious place to stay, and our spa services are an added bonus to your stay. Whether it is reviving full-body massage or relaxing treatments aimed at alleviating stress, each of the services makes you feel refreshed. Your stay will be something to remember with the help of our therapists.",
   },
-  {
-    title: "Jaypee Vasant Connaught",
-    image: "/images/jaypeeVasantConnaught.png",
-    description:
-      "At Jaypee Vasant Connaught, Spa In Gurgaon creates a soothing break from the demands of travel. Our spa in Mahipalpur relaxes the body, reduces stress, and gives clarity to the mind. Getting a professional service in the comfort of your hotel room means enjoying a relaxing getaway without having to leave the comfort of your room. ",
-  },
-  {
-    title: "The Ashok (Chanakyapuri)",
-    image: "/images/TheAshok(Chanakyapuri).webp",
-    description:
-      "The massage services at Spa In Gurgaon are as attractive as the Ashok. Our therapies restore balance and relaxation, blending seamlessly with the luxurious ambiance of the hotel. All the sessions are well scheduled so that you can enjoy your stay as both healing and refreshing.",
-  },
+  
+  
 ];
   const pricingPlans = [
     {
@@ -292,7 +270,7 @@ const SERVICES_LEFT = [
     ],
     time: '75-90 min',
     price: 'From ₹3,200',
-    image: '/images/services.webp',
+    image: '/images/Step into a world.jpeg',
   },
 ]
 
@@ -317,7 +295,7 @@ const SERVICES_RIGHT = [
     chips: ['JW Marriott Connaught', 'The Suryaa', 'The Park CP'],
     time: '3-6 hours',
     price: 'From ₹8,500',
-    image: '/images/RoseateHouse.jpg',
+    image: '/images/lalit_delhi.jpg',
   },
 ]
 const topSteps = [
@@ -383,7 +361,7 @@ const topSteps = [
           <section className="relative w-full h-[70vh] flex items-center justify-center">
                 {/* Background Image */}
                 <Image
-                  src="/images/cozy-candlelit-bedroom-brings-rustic-elegance-inside-generated-by-ai.jpg" // apni spa banner image ka path
+                  src="/images/connaught-place-delhi.jpg" // apni spa banner image ka path
                   alt="Luxury Body Spa"
                   fill
                   priority
@@ -521,7 +499,7 @@ const topSteps = [
         <div className="relative h-80 md:h-96 lg:h-[450px]">
           <div className="absolute inset-0 overflow-hidden rounded-xl border-4 border-white shadow-2xl">
             <img
-              src="/images/RoseateHouse.jpg"
+              src="/images/The_Park_Cp.jpg"
               alt="Serene spa ambience at a luxury Connaught hotel in Delhi"
               className="h-full w-full object-cover"
               loading="lazy"

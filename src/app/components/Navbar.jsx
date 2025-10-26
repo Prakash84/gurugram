@@ -47,10 +47,10 @@ export default function Navbar() {
 
   const outletDropdown = [
     { name: "Aerocity", href: "/spa-in-mahipalpur/spa-in-aerocity" },
-    { name: "Connaught Place", href: "/Outlet/spa-in-connaught-place" },
-    { name: "Lajpat Nagar", href: "/Outlet/spa-in-lajpat-nagar" },
-    { name: "Gurugram", href: "/Outlet/paschimvihar" },
-    { name: "Noida", href: "/Outlet/noida" },
+    { name: "Connaught Place", href: "/spa-in-mahipalpur/spa-in-connaught-place" },
+    { name: "Lajpat Nagar", href: "/spa-in-mahipalpur/spa-in-lajpat-nagar" },
+    { name: "Gurugram", href: "/spa-in-mahipalpur/paschimvihar" },
+    { name: "Noida", href: "/spa-in-mahipalpur/noida" },
   ];
 
   return (
