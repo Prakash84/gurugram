@@ -61,31 +61,31 @@ export default function Aerocirt() {
   const hotelOutlets = [
   {
     title: "JW Marriott Hotel Aerocity",
-    image: "/images/JW Marriott Hotel Aerocity.jpg",
+    image: "/images/JW-Marriott-Hotel-New-Delhi-Aerocity.jpeg",
     description:
       "Spend your time in the quality environment of JW Marriott Hotel Aerocity and include a calming spa experience to your visit. Our professional therapists come with therapies that are designed to relieve the stress and cheer up the senses, hence your visit becomes even more pampering. The calmness of our treatments is the ideal match to the beautiful environment of this popular hotel.",
   },
   {
     title: "Lemon Tree Premier Aerocity",
-    image: "/images/LemonTreePremierAerocity.jpg",
+    image: "/images/Lemon tree cover image.jpg",
     description:
       "Lemon Tree Premier Aerocity combines style with relaxation, and Spa In Gurgaon adds to that comfort with on-demand massage sessions in your room. Whether you want a couple's massage or need complete body relaxation, our spa centre in Mahipalpur helps you unwind after a busy schedule in the bustling Aerocity area.",
   },
   {
     title: "Novotel New Delhi Aerocity",
-    image: "/images/NovotelNewDelhiAerocity.jpeg",
+    image: "/images/R.jpg",
     description:
       "Novotel Aerocity is a convenient and luxurious place to stay, and our spa services are an added bonus to your stay. Whether it is reviving full-body massage or relaxing treatments aimed at alleviating stress, each of the services makes you feel refreshed. Your stay will be something to remember with the help of our therapists.",
   },
   {
     title: "Pride Plaza Hotel",
-    image: "/images/pride-plaza-hotel-aerocity1-2.jpg",
+    image: "/images/278261524.jpg",
     description:
       "Visit to Pride Plaza Hotel is even more comfortable with Spa In Gurgaon. Our Best spa in Aerocity is designed to minimize muscle aches, energize you, and leave you feeling refreshed. The soothing atmosphere we create takes luxury relaxation to the next level. ",
   },
   {
     title: "IBIS New Delhi Aerocity",
-    image: "/images/IBISNewDelhiAerocity.jpg",
+    image: "/images/27203214.jpg",
     description:
       "IBIS Aerocity is popular due to comfort and practicality, and Spa In Gurgaon is the one that makes your relaxation instantly available to your door. You can experience stress relief, sore muscles, and complete recharge with our massages customized to your needs while on-site. Each session has been designed to be comfortable.",
   },
@@ -103,7 +103,7 @@ export default function Aerocirt() {
   },
   {
     title: "The Ashok (Chanakyapuri)",
-    image: "/images/TheAshok(Chanakyapuri).webp",
+    image: "/images/94ab3fa8152cc658b79fc7dcf7f7f8e0.jpg",
     description:
       "The massage services at Spa In Gurgaon are as attractive as the Ashok. Our therapies restore balance and relaxation, blending seamlessly with the luxurious ambiance of the hotel. All the sessions are well scheduled so that you can enjoy your stay as both healing and refreshing.",
   },
@@ -292,7 +292,7 @@ const SERVICES_LEFT = [
     ],
     time: '75-90 min',
     price: 'From ₹3,200',
-    image: '/images/services.webp',
+    image: '/images/woman-relaxing-spa1.jpg',
   },
 ]
 
@@ -383,7 +383,7 @@ const topSteps = [
           <section className="relative w-full h-[70vh] flex items-center justify-center">
                 {/* Background Image */}
                 <Image
-                  src="/images/cozy-candlelit-bedroom-brings-rustic-elegance-inside-generated-by-ai.jpg" // apni spa banner image ka path
+                  src="/images/Aerocity.webp" // apni spa banner image ka path
                   alt="Luxury Body Spa"
                   fill
                   priority
