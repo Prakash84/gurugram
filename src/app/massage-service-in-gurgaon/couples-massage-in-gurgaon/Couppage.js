@@ -42,28 +42,28 @@ import { GiLotus } from 'react-icons/gi';
   });
   const services = [
     {
-      title: "Four-Hand Synchronized Flow",
+      title: "Aromatic Bliss Experience",
       image: "/images/fpkdl.com_960_1760598531_woman-is-being-massaged-by-woman_133748-19192.jpg",
-      description: "Two therapists move their hands together in the same pattern. This feels amazing and helps your body relax completely.",
+      description: "This service uses natural plant oils that smell good and help your mind settle down. Spa in Gurgaon's trained staff use smooth movements on both of you at once. Your body feels lighter, and your worries fade away. The oils also help your skin feel soft. You and your partner get the same care at the same moment. It builds a peaceful feeling that you share together.",
       // duration: "60 min"
     },
     {
-      title: "Deep Tissue Pressure Therapy",
+      title: "Romantic Candlelight Therapy",
       image: "/images/cc.jpg",
-      description: "If you like strong pressure, this is for you. The oil penetrates deep into your muscles, relieves tightness, and helps you feel light and energetic again.",
+      description: "Spa in Gurgaon lights candles in the room to make everything to be a lot special. The air is pleasant, and the light is gentle. Calm movements are used by two therapists, in order to make your muscles relax. This service works well for special days like birthdays or when you just want to feel good together. The setting makes you forget about daily problems for a while.",
       // duration: "90 min"
     },
     
     {
-      title: "Alternate Wave Massage",
+      title: "Deep Harmony Massage",
       image: "/images/woman-spending-time-spa-getting-exfoliation-massage.jpg",
-      description: "In this technique, two therapists use fast and slow movements simultaneously; one therapist is fast, and the other is slow. It feels like gentle waves on your body and is excellent for relieving mental fatigue.",
+      description: "This massage uses steady pressure that reaches deeper into your muscles. Spa in Gurgaon makes sure both of you feel the same level of comfort. The therapists move at a steady pace that matches between you two. Tight spots in your body start to release. You feel more energy afterward. The session leaves you both feeling refreshed and closer than before.",
       // duration: "60 min"
     },
     {
-      title: "Fusion Exotic Experience",
+      title: "Signature Dual Relaxation",
       image: "/images/woman-giving-massage-another-woman-lying-down.jpg",
-      description: "This is a blend of various massage styles like Swedish, Thai, and Balinese. It is tailored according to your body’s needs, providing both relaxation and healing in one session.",
+      description: "Spa in Gurgaon's special service brings two therapists who work on you and your partner together. They move in the same rhythm so everything feels connected. Your tired body gets new life. Stress disappears slowly. You feel stronger and happier when the session ends. This is the best choice when you want total comfort.",
       // duration: "60 min"
     }
   ];
@@ -84,22 +84,22 @@ const container = {
    const journey = [
       {
         step: "1",
-        title: "Consultation & Assessment",
-        text: "A confidential intake captures your history, goals and immediate concerns — the foundation for a personalized plan.",
+        title: "Book & Consult",
+        text: "Call us or visit our website to pick a date and time. Talk to our team about what kind of massage you want. We answer your questions and help you decide what works best for you both.",
         icon: <FaMapSigns className="w-6 h-6" />,
         img: "/images/fpkdl.com_750_1758980084_composition-various-objects-used-spa-treatments_138888-664.jpg",
       },
       {
         step: "2",
-        title: "Tailored Treatment",
-        text: "Combining manual therapy, movement and breathwork to address your specific pattern of tension and imbalance.",
+        title: "Select Massage Session",
+        text: "Pick which service sounds right for you. Maybe you want the candle-lit room or the deep muscle work. Tell us when you want to come in. We confirm everything, so there's no confusion.",
         icon: <FaHeartbeat className="w-6 h-6" />,
         img: "/images/fpkdl.com_750_1758981403_modern-house-bed-room-interior-design_1143383-1039.jpg",
       },
       {
         step: "3",
-        title: "Home Integration",
-        text: "Short, evidence-backed routines and small rituals to reinforce session benefits at home.",
+        title: "Get Massage and Relax",
+        text: "Show up at our location or ask us to come to your house. We handle the rest. You just lie down and let the therapists do their work while you enjoy being together.",
         icon: <FaRegSmile className="w-6 h-6" />,
         img: "/images/fpkdl.com_960_1758962771_young-relaxing-woman-getting-massage-with-cosmetic-oil-spa-salon-background_852367-2763.jpg",
       },
@@ -236,9 +236,9 @@ const container = {
 const [isMenuOpen, setIsMenuOpen] = useState(false);
     const sections = [
       {
-        title: "Oil Therapy",
+        title: "Spa in Gurgaon: Best Massage Centre For Couple Massage in Gurgaon",
         description1:
-          "Oil therapy is a traditional wellness practice that uses warm, herb-infused oils tailored to your skin type and body condition. This technique not only moisturizes and nourishes your skin but also stimulates deep tissue relaxation. The application of gentle pressure with warm oil improves lymphatic drainage, detoxifies the body, and boosts energy flow. Whether you're dealing with fatigue, anxiety, or physical stiffness, oil therapy helps restore balance to your mind and body. It's especially beneficial for those seeking natural healing rooted in ancient Ayurvedic principles. The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. Ayurvedic oil massage, also known as Abhyanga, uses herbal oils that balance the body's doshas—Vata, Pitta, and Kapha. The warm oil is massaged into the skin to energize vital points, improve blood circulation, and promote internal healing. This therapy not only revitalizes the skin but also clears toxins stored in deeper tissues.",
+          "Spa in Gurgaon stands out as the top choice for couple massages in Gurgaon because we pay attention to every detail. Our therapists finish special training that teaches them how to work with two people at once. The room setup includes candles that flicker gently and oils that smell wonderful. Music plays at just the right volume. We focus on making you both feel connected while removing the stress from your muscles. Whether you want soft touches or deeper pressure, we adjust to fit you. You can visit us at any outlet, book a hotel room session, or ask us to come to your home. Every option gives you the same careful service. We want you to leave feeling closer to each other and free from the weight you carried in. ",
         image: "/images/fpkdl.com_960_1760686433_caucasian-couple-customer-enjoying-relaxing-antistress-massage-quiescent_31965-342335.jpg",
       },
       // {
@@ -311,11 +311,10 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 className="relative text-center px-6"
               >
                 <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
-                  About <span className="text-emerald-300">Our Couple Massage</span>
+                  Relax Together, <span className="text-emerald-300">Reconnect Deeply with Couple Massage in Gurgaon</span>
                 </h1>
                 <p className="mt-4 text-lg md:text-xl text-gray-100 max-w-2xl mx-auto drop-shadow">
-                  Discover the art of relaxation with our luxury spa treatments designed
-                  to rejuvenate your body, mind, and soul.
+                  Enjoy Romantic Relaxing Couple Massage in Gurgaon With Certified Therapists
                 </p>
         
                 <a
@@ -345,13 +344,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       </div>
 
       <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-        <span className="block font-serif text-5xl md:text-6xl mb-3 text-emerald-800">Couple Massage</span>
-        Ultimate Relaxation, 
-        <span className="block mt-2 font-medium">Top & Bottom <span className="text-rose-600">Therapy Blend</span></span>
+        <span className="block font-serif text-5xl md:text-6xl mb-3 text-emerald-800">Spa in Gurgaon:</span>
+        Massage Centre
+        <span className="block mt-2 font-medium">for Couple Massage <span className="text-rose-600">Service in Gurgaon</span></span>
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-        The Couple Massage is our luxurious, two-therapist experience that pampers you from both sides simultaneously. Warm oil, synchronized strokes, and expert techniques combine to provide deep relaxation and muscle relief, ensuring every inch of tension is gently melted away.
+        Spa in Gurgaon provides a special couple massage in Gurgaon that helps partners feel calm and close. Our trained therapists know how to make your time together peaceful and meaningful. You both get to lie side by side while expert hands work to remove stress from your bodies. The room is quiet and comfortable. We use methods that match your needs. This service is built for two people who want to relax at the same time in the same space.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -488,7 +487,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.3, duration: 0.6 }}
                       >
-                       Our Couple <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Massage Techniques</span>
+                       Our Couple <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Massage Services in Gurgaon</span>
                       </motion.h2>
                       
                       <motion.p
@@ -497,7 +496,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4, duration: 0.5 }}
                       >
-                        Experience tranquility with our curated selection of premium spa treatments, each designed to transport you to a state of complete relaxation.
+                       Spa in Gurgaon has different couple massage options that bring you closer while making you feel rested.
                       </motion.p>
                       
                       <motion.div
@@ -595,8 +594,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 transition={{ duration: 0.6 }}
               >
                 <span className="text-sm uppercase tracking-widest text-emerald-600 font-semibold">Curated Experiences</span>
-                <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-[#2f2a27] leading-tight">Elevate Your Wellbeing — Bespoke Spa Journeys in Delhi</h2>
-                <p className="mt-4 text-gray-600 max-w-2xl mx-auto">Thoughtfully designed treatments combining traditional wisdom, modern science and compassionate touch — for transformation, not just relaxation.</p>
+                <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-[#2f2a27] leading-tight">Reignite Your Bond with Best Couple Massage Therapist in Gurgaon</h2>
+                <p className="mt-4 text-gray-600 max-w-2xl mx-auto">Spa in Gurgaon has skilled therapists who know how to make couples feel relaxed and connected during their time together.</p>
               </motion.div>
       
               {/* cards + visual */}
@@ -661,8 +660,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                   <div>
                     <div className="flex items-center justify-between">
                       <div>
-                        <h4 className="text-2xl font-bold">Personalized Spa Journey</h4>
-                        <p className="text-sm opacity-90 mt-2 max-w-xs">Start with a confidential wellness consultation and receive a tailored program with measurable outcomes.</p>
+                        <h4 className="text-2xl font-bold">Personalized Couple Massage Services Gurgaon</h4>
+                        <p className="text-sm opacity-90 mt-2 max-w-xs">No two couples are the same. Spa in Gurgaon changes each session based on what you want. You can ask for a lighter or firmer touch. You pick the oil scent you like. The therapist listens to what bothers you most. Maybe your shoulders hurt, or your lower back feels stiff. We focus on those areas. The goal is to give you both exactly what your bodies need. When the session is over, you feel taken care of in your own way.</p>
                       </div>
                       <div className="w-28 h-28 bg-white/10 rounded-lg flex items-center justify-center overflow-hidden">
                         <img src="/images/fpkdl.com_960_1758980177_natural-elements-spa-with-candles_23-2148199485.jpg" alt="consult" className="object-cover w-full h-full" />
@@ -754,8 +753,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 <div className="max-w-6xl mx-auto p-8 lg:p-12">
                   <div className="flex flex-col lg:flex-row gap-8 items-start">
                     <div className="lg:w-1/2">
-                      <h3 className="text-3xl font-extrabold text-[#114c3b]">Transformational Journey</h3>
-                      <p className="mt-3 text-gray-700">A visual, step-by-step path that guides guests from first contact to lasting wellbeing — designed to build trust and show clear results.</p>
+                      <h3 className="text-3xl font-extrabold text-[#114c3b]">Process to Book Couple Massage in Gurgaon</h3>
+                      <p className="mt-3 text-gray-700">Getting your couple is massage in Gurgaon is easy and takes just a few steps.</p>
       
                       <div className="mt-6 space-y-6">
                         {journey.map((j, idx) => (
@@ -825,7 +824,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Transformative <span className="text-emerald-600">Benefits</span>
+                    Health Benefits of <span className="text-emerald-600">Couple Massage Services Gurgaon</span>
                   </motion.h2>
                   <motion.p
                     className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -834,40 +833,40 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                     Our signature oil therapy massage offers a holistic approach to wellness that addresses both physical and mental needs.
+                     Spa in Gurgaon is couple massage brings good things to your body and your relationship.
                   </motion.p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
                 { 
-                  title: "Muscle Relief", 
-                  description: "Deep tissue manipulation combined with therapeutic oils helps relieve muscle tension and soreness effectively.",
+                  title: "Reduces Relationship Stress", 
+                  description: "When therapists work on both of you together, your bodies release tension at the same time. You breathe easier. Arguments seem smaller. The calm feeling you share makes daily life less heavy. Your mood improves and you treat each other better.",
                   icon: "💆‍♀️"
                 },
                 { 
-                  title: "Stress Reduction", 
-                  description: "Aromatherapy oils calm the nervous system, reducing anxiety and promoting mental clarity.",
+                  title: "Boosts Emotional Connection", 
+                  description: "Going through something relaxing together makes you feel more attached. You remember this quiet time when life gets busy. Trust grows when you share peaceful moments. Words are not required to make your bond stronger.",
                   icon: "🧘‍♂️"
                 },
                 { 
                   title: "Improved Circulation", 
-                  description: "Massage techniques stimulate blood flow, enhancing oxygen delivery to tissues and organs.",
+                  description: "Blood flows through your body more effectively with the help of the massage movements. More oxygen reaches your muscles and organs. Your skin looks healthier. You feel more awake and alive after the session ends.",
                   icon: "❤️"
                 },
                 { 
-                  title: "Skin Rejuvenation", 
-                  description: "Natural oils nourish and hydrate the skin, leaving it soft, supple, and radiant.",
+                  title: "Releases Endorphins", 
+                  description: "Touch from a skilled therapist makes your brain release chemicals that create happiness. You smile more easily. Small problems don't bother you as much. You walk away feeling relieved and happier.",
                   icon: "✨"
                 },
                 { 
-                  title: "Detoxification", 
-                  description: "Stimulates the lymphatic system to flush toxins and boost natural immunity.",
+                  title: "Enhances Sleep Quality", 
+                  description: "The constant massaging of the body teaches your body to relax. You go to sleep quicker when it gets time to sleep. Your sleep is heavier and more restful. You wake up with more energy and better focus.",
                   icon: "🌿"
                 },
                 { 
-                  title: "Better Sleep", 
-                  description: "Promotes relaxation that leads to deeper, more restorative sleep patterns.",
+                  title: "Relieves Muscle Tension", 
+                  description: "Therapists find the tight spots in your neck, back, and legs. They apply pressure that makes those areas let go. Pain fades away. Your body moves more freely. You don't feel as stiff or sore anymore.",
                   icon: "😴"
                 }
               ].map((benefit, index) => (
@@ -1084,14 +1083,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              transition={{ duration: 0.6, delay: 0.2 }}
                                            >
                                              <h3 className="text-3xl font-bold text-emerald-900 font-serif text-center mb-12">
-                                               Our Holistic Approach to Wellness
+                                               Our Couple Massage Spa Services in Gurgaon
                                              </h3>
                                              
                                              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                                                {[
                                                  {
-                                                   title: "Mindful Relaxation",
-                                                   description: "Techniques that calm the mind and reduce stress through focused breathing and meditation",
+                                                   title: "Hotel Spa",
+                                                   description: "Spa in Gurgaon works with high-end hotels where you can get a couple massage in Gurgaon. The rooms are beautiful and quiet. Everything feels fancy. You get relaxation plus a nice setting to remember.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
@@ -1099,8 +1098,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                    )
                                                  },
                                                  {
-                                                   title: "Body Rejuvenation",
-                                                   description: "Therapies that restore physical vitality and promote healing at the cellular level",
+                                                   title: "Home Spa",
+                                                   description: "We bring everything to your place for a couple massages at home in Gurgaon. You stay in your own space where you feel most comfortable. No need to travel or park. Privacy is complete. Just clear a room and we set up the rest.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -1108,8 +1107,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                    )
                                                  },
                                                  {
-                                                   title: "Spiritual Balance",
-                                                   description: "Practices that align your energy centers and connect you with your inner self",
+                                                   title: "Spa Outlet",
+                                                   description: "Come to any of our locations across Gurgaon. The space is designed to feel peaceful. Music plays softly. The air smells good. Our staff treats you well from the moment you walk in. The massage happens in a room built just for this.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -1256,7 +1255,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
                   >
-                    Our Specialty <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Services at Delhi Spa</span>
+                    Why Choose Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Spa Centre for Best Couple Massage in Gurgaon</span>
                   </motion.h2>
                   
                   <motion.p
@@ -1265,7 +1264,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
                   >
-                    Erotic and Nuru Massage, Thai Massage, Couple Massage, Full Body Massage by Expert Therapists
+                  Spa in Gurgaon gives couples a massage experience that feels expensive but also personal and truly relaxing.
                   </motion.p>
                   
                   <motion.div
@@ -1280,23 +1279,21 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
-                            <h3 className="text-xl font-semibold text-emerald-800 mb-4">Expert Therapists</h3>
+                            <h3 className="text-xl font-semibold text-emerald-800 mb-4">Certified Couple Massage Therapists</h3>
                             <p className="text-gray-700 mb-6">
-                              When it comes to indulgent relaxation and rejuvenation, Delhi spa centers stand out for their exceptional massage therapies. Among the most popular and sought-after treatments are erotic massage, nuru massage, thai massage, sandwich massage, and full body massage. Whether you seek pure relaxation, therapeutic relief, or something more sensual, Delhis best spas offer a range of services tailored to suit every need. With both Indian and foreign therapists, these therapies are designed to promote deep relaxation, reduce stress, and rejuvenate the body.
-        
+                             All our therapists learn special skills for working with couples. They know how hard to press and how fast to move. They watch both people to make sure everyone gets the same level of care. Each session mixes technical ability with a warm attitude. This helps couples step away from busy schedules and remember why they like being together. Relaxation becomes a tool for building closeness.  
                             </p>
                           {/* Bullet Points instead of Image */}
-                          <ul className="list-disc list-inside text-gray-700 space-y-2">
+                          {/* <ul className="list-disc list-inside text-gray-700 space-y-2">
                             <li>Highly trained and certified therapists</li>
                             <li>Wide range of massage techniques</li>
                             <li>Focus on relaxation & stress relief</li>
                             <li>Customized treatments for every client</li>
                             <li>Professional and hygienic environment</li>
-                          </ul>
-                          
+                          </ul> */}
+                          <h3 className="text-xl font-semibold text-emerald-800 mb-4">Customized Romantic Ambience</h3>
                           <p className="text-gray-700 mb-6">
-                              When it comes to indulgent relaxation and rejuvenation, Delhi spa centers stand out for their exceptional massage therapies. Among the most popular and sought-after treatments are erotic massage, nuru massage, thai massage, sandwich massage, and full body massage. Whether you seek pure relaxation, therapeutic relief, or something more sensual, Delhis best spas offer a range of services tailored to suit every need.
-        
+                              Spa in Gurgaon sets up the room to match what you like. We place candles where they look best. We pick music that helps you feel calm. The smell in the air comes from oils we choose carefully. Every couple massage session turns into something you experience with all your senses. Your body relaxes while your emotions settle. We change small things to make the space feel like it belongs to just you two.
                             </p>
                       </div>
                       
@@ -1315,13 +1312,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         
                       
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
-                        <span className="font-semibold text-emerald-800 mb-4">Erotic Massage in Delhi: An Intimate Experience</span>
+                        <span className="font-semibold text-emerald-800 mb-4">Affordable Couple Massage Packages</span>
                         <p className="text-gray-700 mb-6">
-                          The erotic massage in Delhi is a highly specialized and intimate therapy that offers a combination of relaxation and sensuality. Ideal for those who wish to experience heightened pleasure while relieving stress, this service is carried out by expert therapists who understand how to deliver a soothing, yet deeply stimulating experience. If youre looking for something beyond the usual therapeutic massage, the erotic massage is a great choice, enhancing both emotional and physical well-being. This service is performed with care and professionalism, ensuring you receive the highest quality relaxation.                  
+                          A good massage does not have to cost too much. Spa in Gurgaon has couple massage packages in Gurgaon that start at ₹1999. You get trained professionals who know what they are doing. We use quality oils that help your skin. The room is set up to feel special. Nothing is skipped to save money. You enjoy top-level wellness that matches what you can spend.                 
                         </p>
-                        <span className="font-semibold text-emerald-800 mb-4">Nuru Massage in Delhi: A Luxurious Sensation</span>
+                        <span className="font-semibold text-emerald-800 mb-4">24+ Accessible Spa Outlets</span>
                         <p>
-                         The nuru massage in Delhi is a uniquely sensual experience that has gained popularity for its exotic, slippery, and intimate nature. This Japanese massage style uses a special gel derived from seaweed, which makes the skin glide smoothly, allowing for a deep body-to-body connection between the therapist and the client. It’s a treatment that blends relaxation with sensual indulgence, making it ideal for individuals seeking a luxurious and intimate spa experience. Nuru massage offers a heightened sense of intimacy while still ensuring ultimate relaxation and stress relief.
+                         Spa in Gurgaon runs more than 24 locations around the city. This means there is always one close to where you live or work. You can pick a spa outlet, request a hotel visit, or schedule a home spa service. Quality stays the same no matter which option you choose. Our therapists go anywhere in Gurgaon. A professional couple massage comes to you instead of making you search for it.
                         </p>
                         {/* <p>
                           Perfect for individuals suffering from stress, muscle pain, or hormonal imbalance, this massage harmonizes body rhythms and enhances immunity. The continuous motion and warm oil offer a meditative experience.
@@ -1363,7 +1360,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Our <span className="text-emerald-600">Pricing Packages</span>
+                    Our Pricing Package <span className="text-emerald-600">for Couple Massage in Gurgaon</span>
                   </motion.h2>
                   <motion.p
                     className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1372,7 +1369,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                    Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
+                    Spa in Gurgaon has pricing that works for different budgets while keeping the luxury couple massage in Gurgaon experience available to everyone.
                   </motion.p>
                 </div>
         
@@ -1480,7 +1477,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Client <span className="text-emerald-600">Experiences</span>
+                    Spa in Gurgaon: <span className="text-emerald-600">Massage Centre for B2B Massage Service in Gurgaon</span>
                   </motion.h2>
                   <motion.p
                     className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1489,7 +1486,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                     Hear from those who have experienced the transformative power of our oil therapy massage.
+                     Couples enjoy the refreshing and intimate massage services offered at Spa in Gurgaon, which brings them closer.
                   </motion.p>
               
             </div>

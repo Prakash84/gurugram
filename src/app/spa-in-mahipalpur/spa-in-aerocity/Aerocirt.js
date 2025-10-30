@@ -11,6 +11,7 @@ import { AnimatePresence } from 'framer-motion';
 import { FaTelegram } from 'react-icons/fa';
 import {  FaClock, FaPhoneAlt,  FaCreditCard } from 'react-icons/fa'
 import { Leaf, HeartHandshake, Clock, Sparkles } from "lucide-react";
+import { ShieldCheck, UserCheck, Sliders,  Smile } from "lucide-react";
 
 
 
@@ -27,86 +28,121 @@ export default function Aerocirt() {
             const faqs = [
                   
                   {
-                    question: "What makes a luxury spa in Aerocity unique?",
-                    answer: " Spa in Aerocity is the premium and luxury spa outlet in Delhi. At the aerocity outlet we offer foreign international therapists to provide spa in top 5 star hotels of Delhi.",
+                    question: "Do you offer hotel room massages in Aerocity?",
+                    answer: " Yes, Spa in Gurgaon brings professional hotel room massage services to all the major 5-star hotels in Aerocity.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                    question: "Are Aerocity spa services near the airport?",
-                    answer: "Yes, Our Aerocity outlets are conveniently located close to IGI Airport hotels. You can call us for your spa session booking and we will come to your door steps to provide 100% relaxation.",
+                    question: "Are the therapists certified and trained?",
+                    answer: "Absolutely. All our therapists are certified professionals who know multiple massage techniques for complete relaxation",
                     icon: <FaHandSparkles className="text-teal-600" />
                   },
                   
                   {
-                    question: "Is body massage in Aerocity available?",
-                    answer: "Yes, We offer multiple types of massage therapy in our aerocity spa. Potli massage, hot stone massage, swedish massage or full body massage in Aerocity. For more query contact us.",
+                    question: "Can I book a couple massage in Aerocity hotels?",
+                    answer: "Yes, we do couple massage to guests in luxury hotels in Aerocity.",
                     icon: <FaLeaf className="text-teal-600" />
                   },
                   {
-                    question: "Are Aerocity rates different from other outlets?",
-                    answer: "Yes, Because Aerocity is the premium location and our spa outlet in Aerocity is known for luxury and premium service. Spa in aerocity prices are different from other spas. Check the Pricing page for exact rates.",
+                    question: " Is the service private and discreet?",
+                    answer: "Completely. We place your privacy and your comfort first, both when you make a booking and until the end of the therapy.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                        question: "Can I book a hotel spa in Aerocity?",
-                        answer: "Yes, you can book your spa session at the 5 star hotels in aerocity. We have 5 star hotel spa outlets in aerocity Jw Marriott, Lemon Tree, Novotel and Ibis Hotel.",
+                        question: "What's the price range for a massage in Aerocity?",
+                        answer: "We begin with competitive prices and provide affordable luxury on any types of spa services.",
                         icon: <FaHotTub className="text-teal-600" />
                       },
                       {
-                            question: "Can I pay online for my services?",
-                            answer: "Yes, we offer secure online payment options through our website for your convenience.",
+                            question: "Can I book same-day massage services?",
+                            answer: "Yes, we have same-day booking and on-call services based on the availability of our therapists.",
                             icon: <FaSpa className="text-teal-600" />
                           },
                 ];
+
+                /// NEW
+                const benefits = [
+{
+id: 1,
+title: "Ultimate Privacy",
+desc: "Get soothing massages right in your hotel room with complete discretion.",
+icon: <ShieldCheck className="w-6 h-6 text-emerald-800" />,
+},
+{
+id: 2,
+title: "Certified Therapists",
+desc: "Get treated by trained experts who really know luxury relaxation therapies.",
+icon: <UserCheck className="w-6 h-6 text-emerald-800" />,
+},
+{
+id: 3,
+title: "Personalized Sessions",
+desc: "Every therapy gets customized for what you need, from which oil we use to how much pressure feels right.",
+icon: <Sliders className="w-6 h-6 text-emerald-800" />,
+},
+{
+id: 4,
+title: "Convenience at Your Doorstep",
+desc: "You don't have to go anywhere. Our therapists come to your hotel room right on time.",
+icon: <Clock className="w-6 h-6 text-emerald-800" />,
+},
+{
+id: 5,
+title: "Complete Stress Relief",
+desc: "Relax your body, quiet your thoughts, and wake up that inner balance with each session.",
+icon: <Smile className="w-6 h-6 text-emerald-800" />,
+},
+];
   const hotelOutlets = [
   {
-    title: "JW Marriott Hotel Aerocity",
+    title: "JW Marriott New Delhi Aerocity",
     image: "/images/JW-Marriott-Hotel-New-Delhi-Aerocity.jpeg",
     description:
-      "Spend your time in the quality environment of JW Marriott Hotel Aerocity and include a calming spa experience to your visit. Our professional therapists come with therapies that are designed to relieve the stress and cheer up the senses, hence your visit becomes even more pampering. The calmness of our treatments is the ideal match to the beautiful environment of this popular hotel.",
+      "Spa in Gurgaon introduces therapeutic and relaxing massage to JW Marriott Aerocity where nothing but everything appears good and serene. You will be in the hands of our certified therapists and they will ensure you are comfortable throughout. They apply warm oils, light movements and relaxing music that makes your stay at the hotel to become truly refreshing.",
   },
   {
-    title: "Lemon Tree Premier Aerocity",
+    title: "Andaz Delhi – A Concept by Hyatt",
     image: "/images/Lemon tree cover image.jpg",
     description:
-      "Lemon Tree Premier Aerocity combines style with relaxation, and Spa In Gurgaon adds to that comfort with on-demand massage sessions in your room. Whether you want a couple's massage or need complete body relaxation, our spa centre in Mahipalpur helps you unwind after a busy schedule in the bustling Aerocity area.",
+      "Treat yourself to a great massage at Andaz Delhi with our expert therapists. Whether it's deep tissue work or B2B massage, each session brings you balance, peace, and that luxury feeling you won't forget even after you check out.",
   },
   {
     title: "Novotel New Delhi Aerocity",
     image: "/images/R.jpg",
     description:
-      "Novotel Aerocity is a convenient and luxurious place to stay, and our spa services are an added bonus to your stay. Whether it is reviving full-body massage or relaxing treatments aimed at alleviating stress, each of the services makes you feel refreshed. Your stay will be something to remember with the help of our therapists.",
+      "Our master therapists in Spa in Gurgaon also provide refreshing massages to your room in Novotel. Each session combines aromatherapy, warmth, and the appropriate degree of pressure to eliminate fatigue and improve the general mood.",
   },
   {
-    title: "Pride Plaza Hotel",
+    title: "Roseate House, Aerocity",
     image: "/images/278261524.jpg",
     description:
-      "Visit to Pride Plaza Hotel is even more comfortable with Spa In Gurgaon. Our Best spa in Aerocity is designed to minimize muscle aches, energize you, and leave you feeling refreshed. The soothing atmosphere we create takes luxury relaxation to the next level. ",
+      "Get incredible relaxation at Roseate House Aerocity with our luxurious massage services. Our expert therapists make every session feel indulgent, harmonious, and completely peaceful from the moment it starts until it ends.",
   },
   {
-    title: "IBIS New Delhi Aerocity",
-    image: "/images/27203214.jpg",
-    description:
-      "IBIS Aerocity is popular due to comfort and practicality, and Spa In Gurgaon is the one that makes your relaxation instantly available to your door. You can experience stress relief, sore muscles, and complete recharge with our massages customized to your needs while on-site. Each session has been designed to be comfortable.",
-  },
-  {
-    title: "Pullman Aerocity",
+    title: "Pullman New Delhi Aerocity",
     image: "/images/pullmanAerocity.jpg",
     description:
-      "Pullman Aerocity is where wellness and indulgence are united. Our professional hands mean that every therapy is unique, whether it is stress-relieving aromatherapy or the deep tissue bodywork. Spa In Gurgaon ensures your body feels lighter and refreshed, turning your time at Pullman into a complete wellness getaway.",
+      "Spa in Gurgaon also provides special massage programs in Pullman aerocity which are very effective in allowing a guest to have some quiet and personal time to rejuvenate. Each touch is also tailored to you to warm up and melt away tension, quiet your body, and awaken your senses like a fashionable wave of energy.",
   },
-  {
-    title: "Jaypee Vasant Aerocity",
-    image: "/images/jaypeeVasantAerocity.png",
-    description:
-      "At Jaypee Vasant Aerocity, Spa In Gurgaon creates a soothing break from the demands of travel. Our spa in Mahipalpur relaxes the body, reduces stress, and gives clarity to the mind. Getting a professional service in the comfort of your hotel room means enjoying a relaxing getaway without having to leave the comfort of your room. ",
-  },
-  {
-    title: "The Ashok (Chanakyapuri)",
-    image: "/images/94ab3fa8152cc658b79fc7dcf7f7f8e0.jpg",
-    description:
-      "The massage services at Spa In Gurgaon are as attractive as the Ashok. Our therapies restore balance and relaxation, blending seamlessly with the luxurious ambiance of the hotel. All the sessions are well scheduled so that you can enjoy your stay as both healing and refreshing.",
-  },
+
+  // {
+  //   title: "IBIS New Delhi Aerocity",
+  //   image: "/images/27203214.jpg",
+  //   description:
+  //     "IBIS Aerocity is popular due to comfort and practicality, and Spa In Gurgaon is the one that makes your relaxation instantly available to your door. You can experience stress relief, sore muscles, and complete recharge with our massages customized to your needs while on-site. Each session has been designed to be comfortable.",
+  // }, 
+  // {
+  //   title: "Jaypee Vasant Aerocity",
+  //   image: "/images/jaypeeVasantAerocity.png",
+  //   description:
+  //     "At Jaypee Vasant Aerocity, Spa In Gurgaon creates a soothing break from the demands of travel. Our spa in Mahipalpur relaxes the body, reduces stress, and gives clarity to the mind. Getting a professional service in the comfort of your hotel room means enjoying a relaxing getaway without having to leave the comfort of your room. ",
+  // },
+  // {
+  //   title: "The Ashok (Chanakyapuri)",
+  //   image: "/images/94ab3fa8152cc658b79fc7dcf7f7f8e0.jpg",
+  //   description:
+  //     "The massage services at Spa In Gurgaon are as attractive as the Ashok. Our therapies restore balance and relaxation, blending seamlessly with the luxurious ambiance of the hotel. All the sessions are well scheduled so that you can enjoy your stay as both healing and refreshing.",
+  // },
 ];
   const pricingPlans = [
     {
@@ -161,13 +197,13 @@ export default function Aerocirt() {
 {/* End Our Process */}
   const services = [
     {
-      title: "B2B Massage",
-      description: "This therapy focuses on comfort and deep relaxation. The technique melts away stress and leaves you feeling revived and fresh.",
+      title: "Sandwich Massage",
+      description: "Experience rhythmic contact and serious relaxation with our Sandwich Massage. This one balances your energy and brings peaceful calm, while it refreshes your body and gets rid of every bit of tension you're carrying.",
       icon: "💆‍♂️",
     },
     {
-      title: "Couples Massage",
-      description: "Our couple massage offers a shared moment of relaxation. Perfect for couples celebrating a trip or a special occasion, it builds emotional connection alongside complete body relaxation.",
+      title: "Couple Massage",
+      description: "Relax with your partner in Aerocity Couple Massage. It is ideal to couples who want to have some time together. The treatment is a combination of the same techniques and scented oils that will form a memorable spa time together.",
       icon: "👫",
     },
     // {
@@ -177,23 +213,23 @@ export default function Aerocirt() {
     // },
     
     {
-      title: "Aromatherapy",
-      description: "This soothing therapy combines soft techniques with essential oils. It creates a calming environment that lifts the mood and eases away stress.",
+      title: "Full Body Massage",
+      description: "Revitalize your body with Full Body Massage. Our therapists apply natural oils and smooth procedures that will ensure that your blood flows more efficiently, as well as relaxing the weary muscles fully.",
       icon: "🌸",
     },
     {
-      title: "Hot Stone Therapy",
-      description: "Warm stones during this treatment are applied in a cautious manner over your body to eliminate muscle stiffness and enhance blood circulation. The warmth makes you feel relaxed totally, and the stress is relieved.",
+      title: "B2B Massage",
+      description: "SPA in Gurgaon has a special B2B massage service, to awaken your senses. This session is carried out by our talented female therapists who provide you with the gentle balance, relaxation, and complete renewal of the body.",
       icon: "🪨",
     },
     {
-      title: "Sandwich Massage",
-      description: "Warm stones during this treatment are applied in a cautious manner over your body to eliminate muscle stiffness and enhance blood circulation. The warmth makes you feel relaxed totally, and the stress is relieved.",
+      title: "Thai Massage",
+      description: "Our Thai massage in Aerocity puts together acupressure and stretching for complete body alignment. It releases stuck energy and gets your natural flexibility back in a peaceful setting.",
       icon: "🪨",
     },
     {
-      title: "Full Body Massage",
-      description: "Warm stones during this treatment are applied in a cautious manner over your body to eliminate muscle stiffness and enhance blood circulation. The warmth makes you feel relaxed totally, and the stress is relieved.",
+      title: "Aromatherapy Massage",
+      description: "Let calming scents wrap around your mind. This therapy uses real essential oils and rhythmic movements to ease stress and give you emotional clarity.",
       icon: "🪨",
     },
   ];
@@ -267,10 +303,10 @@ export default function Aerocirt() {
 const SERVICES_LEFT = [
   {
     id: 'foreigner',
-    title: 'Unmatched Luxury and Ambiance',
+    title: 'Certified & Experienced Therapists',
     subtitle: 'International therapists for authentic treatments',
     desc:
-      "All of the Spa In Gurgaon branches are designed to be relaxing. With cozy interiors and relaxing scents, each and every component is created to help you relax.",
+      "Our therapists have professional training and certification in different massage styles. They mix technical skill with gut feeling, so every touch removes your fatigue and lifts your energy up.",
     chips: ['Russian Therapist', 'Afgani Therapist', 'Uzbeki Therapist'],
     time: '60-90 min',
     price: 'From ₹2,800',
@@ -278,10 +314,10 @@ const SERVICES_LEFT = [
   },
   {
     id: 'body',
-    title: 'Highly Skilled Global Therapists',
+    title: 'Luxury Oils & Premium Products',
     subtitle: 'Mastery across 23 specialised modalities',
     desc:
-      "Our therapists are professionally trained, experienced and have knowledge of international spa techniques. They deliver treatments focused on quality and care for each client.",
+      "We use imported oils, creams, and herbs that people know for their natural healing and aromatic qualities. Each element makes the experience better, keeping it soothing, safe, and nourishing for your skin.",
     chips: [
       'Thai Herbal Compress',
       'Shiatsu',
@@ -299,10 +335,10 @@ const SERVICES_LEFT = [
 const SERVICES_RIGHT = [
   {
     id: 'top',
-    title: 'Wide Range of Premium Treatments',
+    title: 'WComplete Privacy & Comfort',
     subtitle: 'Sustainable + award-winning',
     desc:
-      "With many therapies like full-body massage, couple massage, aromatherapy, and body-to-body, our menu adapts to everyone’s needs.",
+      "Every session happens discreetly because your privacy and peace of mind matter to us. Our hotel spa setup is built for total comfort and relaxation.",
     chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
     time: '60-120 min',
     price: 'From ₹2,500',
@@ -310,10 +346,10 @@ const SERVICES_RIGHT = [
   },
   {
     id: 'packages',
-    title: 'Accessible at Delhi’s Top Hotels',
+    title: 'Quick On-Call Service',
     subtitle: 'Premium in-room & home journeys',
     desc:
-      "Spa In Gurgaon is available in leading hotels in Aerocity, including JW Marriott, Novotel, and Pullman. The easy access makes our services convenient for anyone who values comfort.",
+      "Book a massage whenever you need one. Our therapists can come on short notice to any of Aerocity's 5-star hotels, ready to bring that peaceful feeling to your room.",
     chips: ['JW Marriott Aerocity', 'The Suryaa', 'The Park CP'],
     time: '3-6 hours',
     price: 'From ₹8,500',
@@ -324,17 +360,17 @@ const topSteps = [
     {
       icon: <FaHotel className="text-emerald-700 text-xl" />,
       title: 'Therapist Arrival at Your Hotel',
-      text: 'Our therapist arrives at your hotel punctually with all the materials required to carry out your massage like oils, towels, and linens.',
+      text: 'Pick which hotel you are at and what type of massage you want.',
     },
     {
       icon: <FaClock className="text-emerald-700 text-xl" />,
       title: '24/7 Availability in Aerocity',
-      text: 'We accept bookings any time of the day or night, which is very accommodating to busy travellers.',
+      text: 'Call us or message on WhatsApp to check if we are available.',
     },
     {
       icon: <FaPhoneAlt className="text-emerald-700 text-xl" />,
       title: 'Quick Call or Telegram Booking',
-      text: 'Get in touch with either a direct call or Telegram and schedule your session immediately.',
+      text: 'Choose your therapist and pick a time that works for you.',
     },
   ]
 
@@ -342,12 +378,12 @@ const topSteps = [
     {
       icon: <FaSpa className="text-emerald-700 text-2xl" />,
       title: 'Expect a Spa-Grade Setup in Your Room',
-      text: 'We bring fresh sheets, calming oils, mood lighting and sanitized equipment. You just relax, we handle the rest.',
+      text: 'Get your booking confirmation right away.',
     },
     {
       icon: <FaCreditCard className="text-emerald-700 text-2xl" />,
       title: 'Flexible Payments & Feedback System',
-      text: 'Pay via UPI, cash, card or online. After your session, rate your therapist and share feedback — we value your experience.',
+      text: 'Enjoy a private, professional, and refreshing massage in your hotel room.',
     },
   ]
 
@@ -451,13 +487,13 @@ const topSteps = [
           </div>
 
           <h1 className="space-y-2 text-4xl font-light leading-tight text-gray-900 md:text-5xl">
-            <span className="block font-serif text-5xl md:text-6xl text-emerald-900">Luxury Massage</span>
-            <span className="block">at Top Hotels in</span>
-            <span className="block font-medium">Aerocity – Spa In Gurgaon <span className="text-rose-600">Tranquility</span></span>
+            <span className="block font-serif text-5xl md:text-6xl text-emerald-900">Premium </span>
+            <span className="block">Massage in</span>
+            <span className="block font-medium">Aerocity to Enjoy <span className="text-rose-600">Relaxation</span></span>
           </h1>
 
           <p className="mx-auto mt-4 max-w-xl leading-relaxed text-gray-600 lg:mx-0">
-            Step into comfort and relaxation with Spa In Gurgaon’s luxury spa services in Aerocity, available at the finest hotels nearby. Whether you’re here for work, on holiday, or simply seeking soothing care, our expert therapists deliver a calm and refreshing experience—without leaving your hotel.
+            You know that feeling when the city just wears you down? That Is where we come in. Spa in Gurgaon brings its trusted massage treatments right to Aerocity. We mix soothing touch, nice-smelling oils, and real relaxation into something that actually makes a difference. Whether you are here for work or just passing through, our hotel spa services take away the stress. You walk out feeling better, more centered, and actually refreshed.
           </p>
 
           {/* Service area chips */}
@@ -593,7 +629,7 @@ const topSteps = [
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.6 }}
                     >
-                      Body Massage in Aerocity <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">at Top Hotels</span>
+                      Our Luxury Outlets <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">For Hotel Spa in Aerocity</span>
                     </motion.h2>
                     
                     <motion.p
@@ -602,7 +638,7 @@ const topSteps = [
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4, duration: 0.5 }}
                     >
-                      Spa In Gurgaon offers exclusive massage services at some of the most prestigious hotels in Aerocity. Each session is designed to alleviate stress and promote balance in your mind and body. Our expert therapists will offer personalized therapy in your hotel room, ensuring every moment is a health retreat. The following are the hotels where we have our services:
+                     We bring personalized spa treatments to the best 5-star hotels in Aerocity. Our professional therapists come straight to your hotel room with premium massage services. You get total relaxation without leaving your private space.
                     </motion.p>
                     
                     <motion.div
@@ -699,16 +735,15 @@ const topSteps = [
             viewport={{ once: true }}
             className="mb-4 text-4xl font-bold leading-tight text-gray-800 md:text-5xl lg:text-4xl"
           >
-            Step Into Luxury{" "}
+            Best Spa in Aerocity{" "}
             <span className="relative ml-1 inline-block">
-              <span className="relative z-10 text-emerald-600">Wellness at Aerocity with Spa In Gurgaon</span>
+              <span className="relative z-10 text-emerald-600">For Finest Massage Service</span>
               <span aria-hidden className="absolute bottom-1 left-0 right-0 h-3 rounded-sm bg-emerald-200/60" />
             </span>
           </motion.h2>
 
           <p className="mb-6 text-lg text-gray-700">
-            Spa In Gurgaon elevates your Aerocity stay with restorative, in-room therapies across leading hotels—JW Marriott, Lemon Tree, Pullman, and Novotel. Enjoy tailored care, discreet service, and deep relaxation without stepping outside your suite.
-            Enjoy tailored care, discreet service, and deep relaxation without stepping outside your suite.
+            The spa in Gurgaon is the place where individuals rely on to get luxury spa in Aerocity. Each treatment shows the weight we assign to excellence, peace, and privacy. The certified therapists develop a well-chosen combination of methods. Whether it is a gentle B2B and full body massage or aromatherapy and couple, it all works to heal your body, mind, and soul. Our standards of cleanliness, privacy, and comfort are extremely high. Perhaps you are a business traveller who is exhausted after a lengthy flight, or perhaps you are a local businessperson who requires ultimate relaxation. In any case, Spa in Gurgaon will make every single moment special, dazzling, and fully refreshed.
           </p>
 
           {/* Feature list */}
@@ -858,7 +893,7 @@ const topSteps = [
             transition={{ duration: 0.5, delay: 0.05 }}
             className="mx-auto mt-4 max-w-3xl font-serif text-4xl font-bold leading-tight text-gray-900 md:text-5xl"
           >
-            Why Choose <span className="bg-gradient-to-r from-emerald-600 to-emerald-400 bg-clip-text text-transparent">Spa In Gurgaon for Spa Services in Delhi</span>
+            Our Hotel <span className="bg-gradient-to-r from-emerald-600 to-emerald-400 bg-clip-text text-transparent">Massage in Aerocity</span>
           </motion.h2>
 
           <motion.p
@@ -868,7 +903,7 @@ const topSteps = [
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-emerald-900/80 md:text-xl"
           >
-            Spa In Gurgaon blends reliability with luxury. Enjoy top‑quality comfort in premier hotels—whether you’re here for work, sightseeing, or pure relaxation.
+           Get top-quality spa and massage services without leaving your hotel. Spa in Gurgaon has a complete menu of luxury massages that heal, comfort, and refresh both your body and mind.
           </motion.p>
         </div>
 
@@ -1316,10 +1351,10 @@ const topSteps = [
           transition={{ duration: 0.6 }}
         >
           <span className="text-sm font-medium text-emerald-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-          <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Our Massage Services at Hotels in Aerocity</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Why Choose Spa in Gurgaon as Best Centre for Massage in Aerocity</h1>
           <div className="mx-auto w-28 h-1 bg-emerald-600 rounded-full" />
           <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-           Spa In Gurgaon offers a great variety of treatments to meet the needs of all guests. Every service is designed so that relaxation and recovery are fully achieved to ensure that your stay is easier and more comfortable.
+           Relaxation meets real expertise at Spa in Gurgaon. Here is why spa lovers in Aerocity keep choosing us.
           </p>
         </motion.div>
 
@@ -1437,9 +1472,9 @@ const topSteps = [
             >
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div>
-                  <h4 className="text-2xl font-bold">A Promise of Total Rejuvenation</h4>
+                  <h4 className="text-2xl font-bold">Book Relaxing Hotel Massage in Aerocity Today</h4>
                   <p className="mt-2 opacity-95">
-                    Every massage is designed to relax, refresh, and heal. We ensure you return energized, calm, and fully satisfied with your therapy.
+                    Give your mind and body a break with the city is most trusted spa brand. Spa in Gurgaon is hotel massage services in Aerocity bring peace, comfort, and real care right to where you are. Book today and step into a world of serenity and pure relaxation.
                   </p>
                 </div>
                 <div className="flex gap-3">
@@ -1487,15 +1522,15 @@ const topSteps = [
             className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-emerald-900"
           >
             <span className="block font-[Great_Vibes] text-4xl md:text-5xl text-emerald-800">
-              How to Book Massage Therapy in Aerocity&apos;s
+              How to Book Luxury Massage in Aerocity&apos;s
             </span>
             <span className="block font-[Great_Vibes] text-3xl md:text-4xl bg-gradient-to-r from-emerald-600 to-emerald-400 text-transparent bg-clip-text">
-              Prestigious Hotels?
+              at Top Hotels
             </span>
           </motion.h1>
 
           <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
-            Booking a Spa In Gurgaon session is quick and simple. We have simplified our process so that you can have an excellent time enjoying therapy.
+            Booking a luxury massage with Spa in Gurgaon is simple and private.
           </p>
         </header>
 
@@ -1556,6 +1591,64 @@ const topSteps = [
       </div>
     </section>
                         {/* how to book Aerocity spa outlets */}
+                        {/* //// */}
+                                    <section className="py-24 bg-gradient-to-b from-emerald-50 to-emerald-100">
+      <div className="container mx-auto px-6 md:px-10 xl:px-20">
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          className="max-w-7xl mx-auto bg-white/80 backdrop-blur-md rounded-3xl shadow-2xl border border-emerald-200 p-8 md:p-14"
+        >
+          <h2 className="text-center text-3xl md:text-5xl font-serif font-extrabold text-emerald-900 leading-tight mb-6">
+            Benefits of Booking Hotel Massage in Aerocity at Best Hotels
+          </h2>
+
+          <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+            Enjoy luxurious in-room spa treatments with expert therapists who bring relaxation, balance, and complete comfort straight to your hotel suite.
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {benefits.map((item) => (
+              <motion.div
+                key={item.id}
+                whileHover={{ translateY: -6 }}
+                transition={{ type: "spring", stiffness: 300 }}
+                className="group flex flex-col items-start gap-3 p-6 rounded-2xl border border-emerald-100 bg-white/70 hover:bg-emerald-50 hover:shadow-lg transition-all duration-300"
+              >
+                <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-emerald-200/70 text-emerald-900 shadow-inner group-hover:scale-110 transition-transform">
+                  {item.icon}
+                </div>
+                <h3 className="text-lg font-semibold text-emerald-900">{item.title}</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
+              </motion.div>
+            ))}
+          </div>
+
+          <div className="mt-10 flex justify-center gap-4 flex-wrap">
+            <motion.a
+              whileTap={{ scale: 0.97 }}
+              href="#book"
+              className="px-8 py-3 rounded-full bg-emerald-700 text-white font-medium shadow-md hover:shadow-lg hover:bg-emerald-800 transition"
+            >
+              Book Now
+            </motion.a>
+
+            <motion.a
+              whileTap={{ scale: 0.97 }}
+              href="#learn"
+              className="px-8 py-3 rounded-full border border-emerald-300 text-emerald-900 font-medium bg-white/70 hover:bg-white transition"
+            >
+              Learn More
+            </motion.a>
+          </div>
+
+          <p className="text-xs text-gray-500 text-center mt-8">Available at selected premium hotels in Aerocity. Terms &amp; conditions apply.</p>
+        </motion.div>
+      </div>
+    </section>
+
 {/* Pricing Section */}
             <section id= "Pricing" className="py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-emerald-50 relative overflow-hidden">
             {/* Decorative elements */}
@@ -1581,7 +1674,7 @@ const topSteps = [
                   viewport={{ once: true }}
                   transition={{ delay: 0.1 }}
                 >
-                  Our <span className="text-emerald-600">Pricing Packages</span>
+                  Our Pricing <span className="text-emerald-600">Package for Hotel Spa in Aerocity</span>
                 </motion.h2>
                 <motion.p
                   className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1590,7 +1683,7 @@ const topSteps = [
                   viewport={{ once: true }}
                   transition={{ delay: 0.2 }}
                 >
-                  Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
+                  Affordable luxury packages customized for every relaxation need and hotel experience.
                 </motion.p>
                 <motion.div
                    className="flex justify-center mt-10"
@@ -1843,7 +1936,7 @@ const topSteps = [
           Frequently Asked <span className="text-emerald-600">Questions</span>
         </h2>
         <p className="text-emerald-800 max-w-2xl text-lg">
-          Everything you need to know about our luxurious spa services and how to book them.
+          Here is what guests usually ask before they book their massage in Aerocity.
         </p>
         <div className="flex md:justify-start justify-center mt-6">
           <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full"></div>

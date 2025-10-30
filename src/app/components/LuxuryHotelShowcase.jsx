@@ -10,41 +10,51 @@ const LuxuryHotelShowcase = () => {
   const hotels = [
     {
       id: 1,
-      name: 'Andaz Delhi',
-      location: 'Aerocity, New Delhi',
+      name: 'WelcomeHotel by ITC',
+      location: 'Dwarka, New Delhi',
       rating: 4.9,
       description:
-        'Andaz specializes in couple massages with high-level ambiance and luxury services guaranteed to leave one highly revitalized.',
+        'Trained therapists from Spa in Gurgaon visit WelcomeHotel by ITC in Dwarka. They bring beautiful sandwich massage services to people staying there. You get comfort, fancy treatment, and skilled work all together.',
       features: ['special B2B Therapy', 'Couple Massage', 'Sandwich Massage', 'Female-to-Male'],
       tags: ['Foreigner Therapist', 'Luxury', 'Russian Model'],
     },
     {
       id: 2,
-      name: 'The Park',
-      location: 'Connaught Place, New Delhi',
+      name: 'Andaz Delhi',
+      location: 'Aerocity, New Delhi',
       rating: 4.8,
       description:
-        'Experience the full luxury of a romantic couple massage at The Park, where elegance and luxury is in action to provide complete relaxation.',
+        'Spa in Gurgaon brings excellent sandwich massage to Andaz Delhi guests. You get personal attention with two therapists working together. The session feels deeply relaxing and special.',
       features: ['Sandwich Massage', 'Female-to-Male', 'special B2B Therapy', 'Couple Massage'],
       tags: ['Foreigner Therapist', 'Romantic', 'Luxury'],
     },
     {
       id: 3,
-      name: 'The Surya in NFC',
-      location: 'NFC, New Delhi',
+      name: 'The Leela Ambience ',
+      location: 'Gurgaon, New Delhi',
       rating: 4.7,
       description:
-        'Discover an exceptional couple spa experience at The Surya, offering high-quality services in quiet and calm surroundings.',
+        'People staying at The Leela Ambience can get a luxury sandwich massage from the Spa in Gurgaon. The service takes away your tension and helps your body feel renewed.',
       features: ['Full Body Massage', 'Thai Massage', 'Female-to-Male', 'special B2B Therapy'],
       tags: ['Tropical', 'Private', 'Exclusive'],
     },
     {
       id: 4,
-      name: 'Welcomehotel by ITC in Dwarka',
+      name: 'Trident Hotel Gurgaon',
       location: 'Dwarka, New Delhi',
       rating: 4.9,
       description:
-        'Staying at Welcomhotel by ITC Dwarka? Our team of massage therapists visits your hotel to offers royal couple massage services, looking for relaxation and pampering.',
+        'Spa in Gurgaon trained therapists visit Trident Hotel Gurgaon to offer massage service right to your door. Our sandwich massage is of high quality and will make you completely relax. The atmosphere is of high quality and calmness.',
+      features: ['special B2B Therapy', 'Couple Massage', 'Sandwich Massage', 'Female-to-Male'],
+      tags: ['Mountain', 'Alpine', 'Wellness'],
+    },
+    {
+      id: 4,
+      name: 'The Westin Gurgaon',
+      location: 'Gurgaon, New Delhi',
+      rating: 4.9,
+      description:
+        'Get elite sandwich massage services at The Westin Gurgaon via Spa in Gurgaon. Each session will be associated with comfort, health, and luxury treatment.',
       features: ['special B2B Therapy', 'Couple Massage', 'Sandwich Massage', 'Female-to-Male'],
       tags: ['Mountain', 'Alpine', 'Wellness'],
     },
@@ -59,10 +69,10 @@ const LuxuryHotelShowcase = () => {
             Exclusive Partnerships
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 mb-6">
-           Luxury Hotel Spa for Couple Massage Delhi
+           Luxury Hotel Spa For Personalized Sandwich Massage in Gurgaon
           </h2>
           <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-            We provide couple massage in Delhi to luxurious hotel right at your doorstep. Here are our list of luxury hotels where we bring to your best couple massage in Karol Bagh and other locations:
+            Get special spa treatments at expensive hotels through the Spa in Gurgaon expert staff.
           </p>
         </div>
 

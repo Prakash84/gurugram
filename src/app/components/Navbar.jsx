@@ -41,7 +41,7 @@ export default function Navbar() {
     { name: "Sandwich Massage", href: "/massage-service-in-gurgaon/sandwich-massage-in-gurgaon" },
     { name: "Couple Massage", href: "/massage-service-in-gurgaon/couples-massage-in-gurgaon" },
     { name: "B2B Massage", href: "/massage-service-in-gurgaon/b2b-massage-in-gurgaon" },
-    { name: "Full Body Massage", href: "/massage-service-in-gurgaon/ull-body-massage-in-gurgaon" },
+    { name: "Full Body Massage", href: "/massage-service-in-gurgaon/full-body-massage-in-gurgaon" },
     { name: "We Are Hiring", href: "/massage-service-in-gurgaon/spa-therapist-jobs-in-gurgaon" },
   ];
 

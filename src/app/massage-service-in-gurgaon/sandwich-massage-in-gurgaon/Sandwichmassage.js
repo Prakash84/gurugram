@@ -44,26 +44,26 @@ import { GiLotus } from 'react-icons/gi';
     {
       title: "Four-Hand Synchronized Flow",
       image: "/images/fpkdl.com_960_1760598531_woman-is-being-massaged-by-woman_133748-19192.jpg",
-      description: "Two therapists move their hands together in the same pattern. This feels amazing and helps your body relax completely.",
+      description: "Two trained therapists work on you at the same time. They move together in a smooth way that feels nice. Their hands work in perfect timing to help your muscles relax. The pressure stays steady and feels good all over your body. This method takes away stress fast. You feel like your whole body gets attention at once.",
       // duration: "60 min"
     },
     {
       title: "Deep Tissue Pressure Therapy",
       image: "/images/cc.jpg",
-      description: "If you like strong pressure, this is for you. The oil penetrates deep into your muscles, relieves tightness, and helps you feel light and energetic again.",
+      description: "This type of massage goes deep into your muscles. It targets the areas where you feel pain or tightness. Our therapists at Spa in Gurgaon know exactly how much pressure to use. Your blood flows better after this treatment. The soreness you felt before goes away. Your body feels fresh and ready for anything.",
       // duration: "90 min"
     },
     
     {
       title: "Alternate Wave Massage",
       image: "/images/woman-spending-time-spa-getting-exfoliation-massage.jpg",
-      description: "In this technique, two therapists use fast and slow movements simultaneously; one therapist is fast, and the other is slow. It feels like gentle waves on your body and is excellent for relieving mental fatigue.",
+      description: "This massage uses movements that feel like waves. The therapists move their hands in a pattern across your body. It helps your energy move the right way. Spa in Gurgaon staff adjust how hard they press based on what you need. Your stress disappears during the session. You feel better in both body and mind.",
       // duration: "60 min"
     },
     {
       title: "Fusion Exotic Experience",
       image: "/images/woman-giving-massage-another-woman-lying-down.jpg",
-      description: "This is a blend of various massage styles like Swedish, Thai, and Balinese. It is tailored according to your body’s needs, providing both relaxation and healing in one session.",
+      description: "This service is a combination of old and new massage styles. You receive special treatment which is fancy and different. The therapists at Gurgaon spa apply pleasant-smelling oils to you. Their hands move simultaneously in patterns that feel amazing. You get deep comfort that lasts long after the massage ends.",
       // duration: "60 min"
     }
   ];
@@ -84,22 +84,22 @@ const container = {
    const journey = [
       {
         step: "1",
-        title: "Consultation & Assessment",
-        text: "A confidential intake captures your history, goals and immediate concerns — the foundation for a personalized plan.",
+        title: "Book & Consult",
+        text: "You can call us or book through our website. Talk to our therapists about what you want from the massage. They even hear your needs and assist in planning the ideal session. This is done to ensure that you receive the best treatment.",
         icon: <FaMapSigns className="w-6 h-6" />,
         img: "/images/fpkdl.com_750_1758980084_composition-various-objects-used-spa-treatments_138888-664.jpg",
       },
       {
         step: "2",
-        title: "Tailored Treatment",
-        text: "Combining manual therapy, movement and breathwork to address your specific pattern of tension and imbalance.",
+        title: "Select Massage Session",
+        text: "Select the type of sandwich massage which you want in Gurgaon. Choose when you want to come and how much pressure feels good. You can add extra things to your session too. Everything gets set up the way you like it.",
         icon: <FaHeartbeat className="w-6 h-6" />,
         img: "/images/fpkdl.com_750_1758981403_modern-house-bed-room-interior-design_1143383-1039.jpg",
       },
       {
         step: "3",
-        title: "Home Integration",
-        text: "Short, evidence-backed routines and small rituals to reinforce session benefits at home.",
+        title: "Get Massage and Relax",
+        text: "Our trained therapists come to you, or you visit our spa. They give you the massage you picked. You just lie down and let the stress leave your body. The whole experience feels peaceful and calm.",
         icon: <FaRegSmile className="w-6 h-6" />,
         img: "/images/fpkdl.com_960_1758962771_young-relaxing-woman-getting-massage-with-cosmetic-oil-spa-salon-background_852367-2763.jpg",
       },
@@ -236,9 +236,9 @@ const container = {
 const [isMenuOpen, setIsMenuOpen] = useState(false);
     const sections = [
       {
-        title: "Oil Therapy",
+        title: "Spa in Gurgaon: Best Massage Centre For Sandwich Massage in Gurgaon",
         description1:
-          "Oil therapy is a traditional wellness practice that uses warm, herb-infused oils tailored to your skin type and body condition. This technique not only moisturizes and nourishes your skin but also stimulates deep tissue relaxation. The application of gentle pressure with warm oil improves lymphatic drainage, detoxifies the body, and boosts energy flow. Whether you're dealing with fatigue, anxiety, or physical stiffness, oil therapy helps restore balance to your mind and body. It's especially beneficial for those seeking natural healing rooted in ancient Ayurvedic principles. The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. Ayurvedic oil massage, also known as Abhyanga, uses herbal oils that balance the body's doshas—Vata, Pitta, and Kapha. The warm oil is massaged into the skin to energize vital points, improve blood circulation, and promote internal healing. This therapy not only revitalizes the skin but also clears toxins stored in deeper tissues.",
+          "Spa in Gurgaon gives the best sandwich massage in Gurgaon with therapists trained around the world. We mix deep muscle work with two therapists working together and special oils. Every session gets made just for you. The massage helps stress go away and blood flow better. Your energy comes back strong. You can get this at your home, hotel room, or our spa location. Each time feels fancy and relaxing. We plan everything carefully so you leave feeling new and full of life. Pick Spa in Gurgaon when you want good quality and real care every time.",
         image: "/images/process1.jpeg",
       },
       // {
@@ -311,11 +311,10 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 className="relative text-center px-6"
               >
                 <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
-                  About <span className="text-emerald-300">Our Sandwich Massage</span>
+                  Enjoy Soothing Relaxing <span className="text-emerald-300">Sandwich Massage in Gurgaon With a Certified Therapist</span>
                 </h1>
                 <p className="mt-4 text-lg md:text-xl text-gray-100 max-w-2xl mx-auto drop-shadow">
-                  Discover the art of relaxation with our luxury spa treatments designed
-                  to rejuvenate your body, mind, and soul.
+                  Relax, Rejuvenate, and Refresh with Sandwich Massage in Gurgaon
                 </p>
         
                 <a
@@ -345,13 +344,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       </div>
 
       <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-        <span className="block font-serif text-5xl md:text-6xl mb-3 text-emerald-800">Sandwich Massage</span>
-        Ultimate Relaxation, 
-        <span className="block mt-2 font-medium">Top & Bottom <span className="text-rose-600">Therapy Blend</span></span>
+        <span className="block font-serif text-5xl md:text-6xl mb-3 text-emerald-800">Spa in Gurgaon:</span>
+        Massage Centre, 
+        <span className="block mt-2 font-medium">for Sandwich Massage <span className="text-rose-600">Service in Gurgaon</span></span>
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-        The Sandwich Massage is our luxurious, two-therapist experience that pampers you from both sides simultaneously. Warm oil, synchronized strokes, and expert techniques combine to provide deep relaxation and muscle relief, ensuring every inch of tension is gently melted away.
+        Spa in Gurgaon brings you high-quality sandwich massage in Gurgaon. This service makes your body feel better and relieves your muscles of tension. Our professional therapists understand how to provide you with the best care. Every session is customized. You get professional attention that makes your visit special and worth it.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -488,7 +487,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.3, duration: 0.6 }}
                       >
-                       Our Sandwich <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Massage Techniques</span>
+                       Our Sandwich <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Massage Services in Gurgaon</span>
                       </motion.h2>
                       
                       <motion.p
@@ -497,7 +496,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4, duration: 0.5 }}
                       >
-                        Experience tranquility with our curated selection of premium spa treatments, each designed to transport you to a state of complete relaxation.
+                        Spa in Gurgaon has special sandwich massage services that help you feel calm and peaceful.
                       </motion.p>
                       
                       <motion.div
@@ -595,8 +594,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 transition={{ duration: 0.6 }}
               >
                 <span className="text-sm uppercase tracking-widest text-emerald-600 font-semibold">Curated Experiences</span>
-                <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-[#2f2a27] leading-tight">Elevate Your Wellbeing — Bespoke Spa Journeys in Delhi</h2>
-                <p className="mt-4 text-gray-600 max-w-2xl mx-auto">Thoughtfully designed treatments combining traditional wisdom, modern science and compassionate touch — for transformation, not just relaxation.</p>
+                <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-[#2f2a27] leading-tight">Eliminate Your Stress with Best Sandwich Massage Therapist in Gurgaon</h2>
+                <p className="mt-4 text-gray-600 max-w-2xl mx-auto">The spa in Gurgaon has expert therapists who give sandwich massages with great care. They ensure that you receive what your body requires.</p>
               </motion.div>
       
               {/* cards + visual */}
@@ -661,8 +660,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                   <div>
                     <div className="flex items-center justify-between">
                       <div>
-                        <h4 className="text-2xl font-bold">Personalized Spa Journey</h4>
-                        <p className="text-sm opacity-90 mt-2 max-w-xs">Start with a confidential wellness consultation and receive a tailored program with measurable outcomes.</p>
+                        <h4 className="text-2xl font-bold">Personalized Sandwich Massage Services Gurgaon</h4>
+                        <p className="text-sm opacity-90 mt-2 max-w-xs">Each visit to Spa in Gurgaon suits your particular requirements. The therapists adjust the intensity of the press depending on what is right for you. They vary their techniques and duration of massage. Maybe you want to relax, or maybe your muscles hurt. Either way, the session gets planned around you. This makes every visit feel special and right for your body.</p>
                       </div>
                       <div className="w-28 h-28 bg-white/10 rounded-lg flex items-center justify-center overflow-hidden">
                         <img src="/images/fpkdl.com_960_1758980177_natural-elements-spa-with-candles_23-2148199485.jpg" alt="consult" className="object-cover w-full h-full" />
@@ -754,8 +753,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 <div className="max-w-6xl mx-auto p-8 lg:p-12">
                   <div className="flex flex-col lg:flex-row gap-8 items-start">
                     <div className="lg:w-1/2">
-                      <h3 className="text-3xl font-extrabold text-[#114c3b]">Transformational Journey</h3>
-                      <p className="mt-3 text-gray-700">A visual, step-by-step path that guides guests from first contact to lasting wellbeing — designed to build trust and show clear results.</p>
+                      <h3 className="text-3xl font-extrabold text-[#114c3b]">Process to Book Sandwich Massage in Gurgaon</h3>
+                      <p className="mt-3 text-gray-700">Getting your sandwich massage in Gurgaon scheduled is easy and quick.</p>
       
                       <div className="mt-6 space-y-6">
                         {journey.map((j, idx) => (
@@ -825,7 +824,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Transformative <span className="text-emerald-600">Benefits</span>
+                    Health Benefits of <span className="text-emerald-600">Sandwich Massage Services Gurgaon</span>
                   </motion.h2>
                   <motion.p
                     className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -834,40 +833,40 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                     Our signature oil therapy massage offers a holistic approach to wellness that addresses both physical and mental needs.
+                        Spa in Gurgaon sandwich massage helps your body in many ways. You feel more energetic and are able to move better.
                   </motion.p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
                 { 
-                  title: "Muscle Relief", 
-                  description: "Deep tissue manipulation combined with therapeutic oils helps relieve muscle tension and soreness effectively.",
+                  title: "Relieves Muscle Tension", 
+                  description: "The massage works in tight areas of your muscles. It helps areas that have been stiff for a long time. You can bend and move easier after the session. The pain and soreness go away. Your body feels new and strong again.",
                   icon: "💆‍♀️"
                 },
                 { 
-                  title: "Stress Reduction", 
-                  description: "Aromatherapy oils calm the nervous system, reducing anxiety and promoting mental clarity.",
+                  title: "Improves Circulation", 
+                  description: "This therapy makes your blood move better through your body. More oxygen reaches all your parts. Your tissues get the food they need to heal. Your whole body works better and feels more alive.",
                   icon: "🧘‍♂️"
                 },
                 { 
-                  title: "Improved Circulation", 
-                  description: "Massage techniques stimulate blood flow, enhancing oxygen delivery to tissues and organs.",
+                  title: "Reduces Stress Hormones", 
+                  description: "Coming for sessions often brings down your stress chemicals. The hormone called cortisol drops in your body. Your mind feels peaceful and quiet. Your emotions stay balanced and you feel happier.",
                   icon: "❤️"
                 },
                 { 
-                  title: "Skin Rejuvenation", 
-                  description: "Natural oils nourish and hydrate the skin, leaving it soft, supple, and radiant.",
+                  title: "Boosts Immunity", 
+                  description: "Better blood flow and less stress help your defense system. Your body fights off sickness better. You stay healthy more often. Your body gets stronger at protecting itself.",
                   icon: "✨"
                 },
                 { 
-                  title: "Detoxification", 
-                  description: "Stimulates the lymphatic system to flush toxins and boost natural immunity.",
+                  title: "Enhances Sleep Quality", 
+                  description: "The calm feeling from massage helps you sleep deeper. You fall asleep faster at night. Your rest feels complete and good. You wake up with more energy for your day.",
                   icon: "🌿"
                 },
                 { 
-                  title: "Better Sleep", 
-                  description: "Promotes relaxation that leads to deeper, more restorative sleep patterns.",
+                  title: "Increases Mental Focus", 
+                  description: "Less stress means your brain works better. Your blood carries more oxygen to your head. You can think more clearly about things. Your work gets done faster and better.",
                   icon: "😴"
                 }
               ].map((benefit, index) => (
@@ -1084,14 +1083,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              transition={{ duration: 0.6, delay: 0.2 }}
                                            >
                                              <h3 className="text-3xl font-bold text-emerald-900 font-serif text-center mb-12">
-                                               Our Holistic Approach to Wellness
+                                               Our Sandwich Massage Spa Services in Gurgaon
                                              </h3>
                                              
                                              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                                                {[
                                                  {
-                                                   title: "Mindful Relaxation",
-                                                   description: "Techniques that calm the mind and reduce stress through focused breathing and meditation",
+                                                   title: "Hotel Spa",
+                                                   description: "Spa in Gurgaon comes to fancy hotels for your massage. You get amazing sandwich massage services in Gurgaon right where you stay. The experience feels peaceful and special.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
@@ -1099,8 +1098,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                    )
                                                  },
                                                  {
-                                                   title: "Body Rejuvenation",
-                                                   description: "Therapies that restore physical vitality and promote healing at the cellular level",
+                                                   title: "Home Spa",
+                                                   description: "We bring spa home service in Gurgaon to your house. Our trained therapists carry everything needed for your treatment. You get top quality massage without leaving your home.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -1108,8 +1107,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                    )
                                                  },
                                                  {
-                                                   title: "Spiritual Balance",
-                                                   description: "Practices that align your energy centers and connect you with your inner self",
+                                                   title: "Spa Outlet",
+                                                   description: "Come visit our Spa in Gurgaon locations for complete massage service. The places look nice and feel relaxing. You get a professional sandwich massage in Gurgaon with perfect surroundings.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -1256,7 +1255,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
                   >
-                    Our Specialty <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Services at Delhi Spa</span>
+                    Why Choose Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Spa Centre for Best Sandwich Massage in Gurgaon</span>
                   </motion.h2>
                   
                   <motion.p
@@ -1265,7 +1264,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
                   >
-                    Erotic and Nuru Massage, Thai Massage, Sandwich Massage, Full Body Massage by Expert Therapists
+                    Spa in Gurgaon offers top sandwich massage services in Gurgaon with skilled care made just for you.
                   </motion.p>
                   
                   <motion.div
@@ -1280,23 +1279,20 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
-                            <h3 className="text-xl font-semibold text-emerald-800 mb-4">Expert Therapists</h3>
+                            <h3 className="text-xl font-semibold text-emerald-800 mb-4">Global Massage Expertise</h3>
                             <p className="text-gray-700 mb-6">
-                              When it comes to indulgent relaxation and rejuvenation, Delhi spa centers stand out for their exceptional massage therapies. Among the most popular and sought-after treatments are erotic massage, nuru massage, thai massage, sandwich massage, and full body massage. Whether you seek pure relaxation, therapeutic relief, or something more sensual, Delhis best spas offer a range of services tailored to suit every need. With both Indian and foreign therapists, these therapies are designed to promote deep relaxation, reduce stress, and rejuvenate the body.
-        
+                             Our staff learned massage skills from different countries. They use methods from many places in the world. Every session combines the best ways to help your muscles feel good. Spa in Gurgaon makes sure each person gets personal attention. The therapists change how they press and move based on what works for you. They continue to acquire new skills continuously. It implies that you receive the latest and most effective techniques. Each time you visit, you receive international quality care.
                             </p>
                           {/* Bullet Points instead of Image */}
-                          <ul className="list-disc list-inside text-gray-700 space-y-2">
+                          {/* <ul className="list-disc list-inside text-gray-700 space-y-2">
                             <li>Highly trained and certified therapists</li>
-                            <li>Wide range of massage techniques</li>
                             <li>Focus on relaxation & stress relief</li>
                             <li>Customized treatments for every client</li>
                             <li>Professional and hygienic environment</li>
-                          </ul>
-                          
+                          </ul> */}
+                          <h3 className="text-xl font-semibold text-emerald-800 mb-4">Affordable Pricing</h3>
                           <p className="text-gray-700 mb-6">
-                              When it comes to indulgent relaxation and rejuvenation, Delhi spa centers stand out for their exceptional massage therapies. Among the most popular and sought-after treatments are erotic massage, nuru massage, thai massage, sandwich massage, and full body massage. Whether you seek pure relaxation, therapeutic relief, or something more sensual, Delhis best spas offer a range of services tailored to suit every need.
-        
+                             Spa in Gurgaon will allow you to have a fancy sandwich massage in Gurgaon without incurring a lot of money. Sessions begin at just ₹1999. You receive superb services at affordable prices. All our packages are very attractive to you. You get deep relaxation and muscle relief that feels professional. Our prices stay clear and simple. No extra charges surprise you later. We think everyone should be able to feel this good. Spa in Gurgaon makes luxury something you can actually afford.
                             </p>
                       </div>
                       
@@ -1315,13 +1311,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         
                       
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
-                        <span className="font-semibold text-emerald-800 mb-4">Erotic Massage in Delhi: An Intimate Experience</span>
+                        <span className="font-semibold text-emerald-800 mb-4">Easy Booking Experience</span>
                         <p className="text-gray-700 mb-6">
-                          The erotic massage in Delhi is a highly specialized and intimate therapy that offers a combination of relaxation and sensuality. Ideal for those who wish to experience heightened pleasure while relieving stress, this service is carried out by expert therapists who understand how to deliver a soothing, yet deeply stimulating experience. If youre looking for something beyond the usual therapeutic massage, the erotic massage is a great choice, enhancing both emotional and physical well-being. This service is performed with care and professionalism, ensuring you receive the highest quality relaxation.                  
+                          Setting up your sandwich massage in Gurgaon takes just minutes. You can book on our website, through our app, or by phone. Pick what time works for you and which place you want to visit. Our team helps you choose the right service. We talk with you first to understand what you need. Your therapy gets matched to your body. Confirm everything in seconds and you are done. The whole system saves your time. You can focus on getting ready to relax instead.                  
                         </p>
-                        <span className="font-semibold text-emerald-800 mb-4">Nuru Massage in Delhi: A Luxurious Sensation</span>
+                        <span className="font-semibold text-emerald-800 mb-4">24+ Outlets Across Gurgaon</span>
                         <p>
-                         The nuru massage in Delhi is a uniquely sensual experience that has gained popularity for its exotic, slippery, and intimate nature. This Japanese massage style uses a special gel derived from seaweed, which makes the skin glide smoothly, allowing for a deep body-to-body connection between the therapist and the client. It’s a treatment that blends relaxation with sensual indulgence, making it ideal for individuals seeking a luxurious and intimate spa experience. Nuru massage offers a heightened sense of intimacy while still ensuring ultimate relaxation and stress relief.
+                         Spa in Gurgaon has more than 24 places around the city. It is easy to access a sandwich massage anywhere. All places are clean and serene. The employees treat you with the same special attention everywhere. You may choose spa venues, stay within the hotel or at home. The quality never changes. You are always relaxed and taken care of. We bring wellness to your fingertips wherever you are.
                         </p>
                         {/* <p>
                           Perfect for individuals suffering from stress, muscle pain, or hormonal imbalance, this massage harmonizes body rhythms and enhances immunity. The continuous motion and warm oil offer a meditative experience.
@@ -1363,7 +1359,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Our <span className="text-emerald-600">Pricing Packages</span>
+                    Our Pricing <span className="text-emerald-600"> Package for Sandwich Massage in Gurgaon</span>
                   </motion.h2>
                   <motion.p
                     className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1372,7 +1368,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                    Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
+                    Spa is an establishment providing alternative prices of sandwich massage in Gurgaon. Personal care will start at ₹1999, which is easy to access with luxury.
                   </motion.p>
                 </div>
         
@@ -1480,7 +1476,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Client <span className="text-emerald-600">Experiences</span>
+                    Our <span className="text-emerald-600">Happy Clients</span>
                   </motion.h2>
                   <motion.p
                     className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1489,7 +1485,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                     Hear from those who have experienced the transformative power of our oil therapy massage.
+                     People who visit Spa in Gurgaon love their personal massage experiences.
                   </motion.p>
               
             </div>
@@ -1523,9 +1519,9 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         {/* CTA Section */}
         <section className="py-20 bg-gradient-to-r from-emerald-700 to-emerald-800 text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-6">Ready for Transformation?</h2>
+            <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-6">Ready to Calm Your Senses and Enjoy Sandwich Massage in Gurgaon?</h2>
             <p className="text-emerald-100 max-w-2xl mx-auto mb-10 text-lg">
-              Book your oil therapy massage today and embark on a journey to complete relaxation and rejuvenation.
+              Turn to Spa in Gurgaon for top-class sandwich massage at home or a hotel room. Be relaxed, restore your energy, and restore your strength with professionalism and erotic experience.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a 

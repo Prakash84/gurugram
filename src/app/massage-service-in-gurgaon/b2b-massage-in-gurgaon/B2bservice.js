@@ -42,28 +42,28 @@ import { GiLotus } from 'react-icons/gi';
   });
   const services = [
     {
-      title: "Four-Hand Synchronized Flow",
+      title: "Aromatic Full-Body Indulgence",
       image: "/images/fpkdl.com_960_1760598531_woman-is-being-massaged-by-woman_133748-19192.jpg",
-      description: "Two therapists move their hands together in the same pattern. This feels amazing and helps your body relax completely.",
+      description: "The aromatic body-to-body massage is provided with the highest essential oils, light pressure, and sensual motions to dissolve fatigue. It is a combination of being relaxed, yet stimulated, in a soft way that awakens all senses and makes you entirely relaxed and very comfortable.",
       // duration: "60 min"
     },
     {
-      title: "Deep Tissue Pressure Therapy",
+      title: "Hot Oil B2B Therapy",
       image: "/images/cc.jpg",
-      description: "If you like strong pressure, this is for you. The oil penetrates deep into your muscles, relieves tightness, and helps you feel light and energetic again.",
+      description: "Have a warm and cozy body-to-body treatment involving warm aromatic oils, slow rhythmic massage, and even a share of tension. The warmth enhances pleasures and increases blood circulation that makes it silky-smooth and intimate and refreshing.",
       // duration: "90 min"
     },
     
     {
-      title: "Alternate Wave Massage",
+      title: "Soft Feather Sensation Massage",
       image: "/images/woman-spending-time-spa-getting-exfoliation-massage.jpg",
-      description: "In this technique, two therapists use fast and slow movements simultaneously; one therapist is fast, and the other is slow. It feels like gentle waves on your body and is excellent for relieving mental fatigue.",
+      description: "A massage that is distinctly sensual incorporating the delicate methods of the feathers with flowing throughout his body. It produces stimulating moments in every part of your body, makes you relaxed, and it gives sensuality back in an intimate atmosphere.",
       // duration: "60 min"
     },
     {
-      title: "Fusion Exotic Experience",
+      title: "Exotic Cream Bliss Therapy",
       image: "/images/woman-giving-massage-another-woman-lying-down.jpg",
-      description: "This is a blend of various massage styles like Swedish, Thai, and Balinese. It is tailored according to your body’s needs, providing both relaxation and healing in one session.",
+      description: "Our exotic cream treatment is a skin replenishing cream therapy that helps maintain sensual balance. Light strokes, soft pressure and warm touch are the components that make your body light and beautifully rejuvenated through an immersive experience of relaxation.",
       // duration: "60 min"
     }
   ];
@@ -84,22 +84,22 @@ const container = {
    const journey = [
       {
         step: "1",
-        title: "Consultation & Assessment",
-        text: "A confidential intake captures your history, goals and immediate concerns — the foundation for a personalized plan.",
+        title: "Book Your Session",
+        text: "Contact or text our staff and select the type of therapist, time, and length of session.",
         icon: <FaMapSigns className="w-6 h-6" />,
         img: "/images/fpkdl.com_750_1758980084_composition-various-objects-used-spa-treatments_138888-664.jpg",
       },
       {
         step: "2",
-        title: "Tailored Treatment",
-        text: "Combining manual therapy, movement and breathwork to address your specific pattern of tension and imbalance.",
+        title: "Confirm Appointment",
+        text: "Get immediate confirmation and specific instructions on your home or personal spa session.",
         icon: <FaHeartbeat className="w-6 h-6" />,
         img: "/images/fpkdl.com_750_1758981403_modern-house-bed-room-interior-design_1143383-1039.jpg",
       },
       {
         step: "3",
-        title: "Home Integration",
-        text: "Short, evidence-backed routines and small rituals to reinforce session benefits at home.",
+        title: "Relax & Enjoy",
+        text: "One of our trained therapists will come to your booked time, which will provide you with a relaxing, comfortable, and refreshing B2B massage.",
         icon: <FaRegSmile className="w-6 h-6" />,
         img: "/images/fpkdl.com_960_1758962771_young-relaxing-woman-getting-massage-with-cosmetic-oil-spa-salon-background_852367-2763.jpg",
       },
@@ -230,9 +230,9 @@ const container = {
 const [isMenuOpen, setIsMenuOpen] = useState(false);
     const sections = [
       {
-        title: "Oil Therapy",
+        title: "Spa in Gurgaon: Best Massage Centre For B2B Massage in Gurgaon",
         description1:
-          "Oil therapy is a traditional wellness practice that uses warm, herb-infused oils tailored to your skin type and body condition. This technique not only moisturizes and nourishes your skin but also stimulates deep tissue relaxation. The application of gentle pressure with warm oil improves lymphatic drainage, detoxifies the body, and boosts energy flow. Whether you're dealing with fatigue, anxiety, or physical stiffness, oil therapy helps restore balance to your mind and body. It's especially beneficial for those seeking natural healing rooted in ancient Ayurvedic principles. The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. Ayurvedic oil massage, also known as Abhyanga, uses herbal oils that balance the body's doshas—Vata, Pitta, and Kapha. The warm oil is massaged into the skin to energize vital points, improve blood circulation, and promote internal healing. This therapy not only revitalizes the skin but also clears toxins stored in deeper tissues.",
+          "Spa in Gurgaon is also one of the most reliable brands when it comes to body-to-body massage in Gurgaon. Each of the sessions will be structured to maintain a balance between physical relaxation and sensual revitalization of the body by means of light body touch, relaxing atmosphere, and oily aromas. Our qualified therapists are devoted to adding warmth, flow and comfort to every touch so that it will be a relaxing but properly stimulating experience. Home session or spa outlet, in any case, our mission is to make you forget your fatigue, restore your energy, and find your sensual serenity again. Trained therapists, total privacy, and a relaxing environment make Spa in Gurgaon a journey that everyone will surely enjoy, as it will be a deeply refreshing experience.",
         image: "/images/process1.jpeg",
       },
       // {
@@ -339,13 +339,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       </div>
 
       <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-        <span className="block font-serif text-5xl md:text-6xl mb-3 text-emerald-800">B2B Massage</span>
-        Ultimate Relaxation, 
-        <span className="block mt-2 font-medium">Top & Bottom <span className="text-rose-600">Therapy Blend</span></span>
+        <span className="block font-serif text-5xl md:text-6xl mb-3 text-emerald-800">Spa in Gurgaon:</span>
+        Massage Centre, 
+        <span className="block mt-2 font-medium">for B2B Massage <span className="text-rose-600">Service in Gurgaon</span></span>
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-        The B2B Massage is our luxurious, two-therapist experience that pampers you from both sides simultaneously. Warm oil, synchronized strokes, and expert techniques combine to provide deep relaxation and muscle relief, ensuring every inch of tension is gently melted away.
+        Spa in Gurgaon has been providing professional and relaxing B2B massage in Gurgaon to help you to get out of stress, revive and re-connect with your inner self. Our trained female therapists offer soft and intimate body to body touch therapies that will help to relax your body, calm your mind and incite your energy.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -482,7 +482,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.3, duration: 0.6 }}
                       >
-                       Our B2B <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Massage Techniques</span>
+                       Our B2B <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Massage Services in Gurgaon</span>
                       </motion.h2>
                       
                       <motion.p
@@ -491,7 +491,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4, duration: 0.5 }}
                       >
-                        Experience tranquility with our curated selection of premium spa treatments, each designed to transport you to a state of complete relaxation.
+                        Your personalised sensual relaxation with Spa at Gurgaon with the expert B2B therapists.
                       </motion.p>
                       
                       <motion.div
@@ -589,8 +589,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 transition={{ duration: 0.6 }}
               >
                 <span className="text-sm uppercase tracking-widest text-emerald-600 font-semibold">Curated Experiences</span>
-                <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-[#2f2a27] leading-tight">Elevate Your Wellbeing — Bespoke Spa Journeys in Delhi</h2>
-                <p className="mt-4 text-gray-600 max-w-2xl mx-auto">Thoughtfully designed treatments combining traditional wisdom, modern science and compassionate touch — for transformation, not just relaxation.</p>
+                <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-[#2f2a27] leading-tight">Luxury Spa in Gurgaon Offering World-Class B2B Massage Therapies</h2>
+                <p className="mt-4 text-gray-600 max-w-2xl mx-auto">Treat yourself with our professional B2B massage therapists that provide high-quality body-to-body massage.</p>
               </motion.div>
       
               {/* cards + visual */}
@@ -655,8 +655,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                   <div>
                     <div className="flex items-center justify-between">
                       <div>
-                        <h4 className="text-2xl font-bold">Personalized Spa Journey</h4>
-                        <p className="text-sm opacity-90 mt-2 max-w-xs">Start with a confidential wellness consultation and receive a tailored program with measurable outcomes.</p>
+                        <h4 className="text-2xl font-bold">Personalized B2B Massage Services Gurgaon</h4>
+                        <p className="text-sm opacity-90 mt-2 max-w-xs">Spa in Gurgaon customizes individual B2B session to your liking with oil type and level of pressure, flow and speed of the massage. Each therapy is adapted to the comfort and energy rhythm of your body, and it will become completely satisfied and relaxed in the mind.</p>
                       </div>
                       <div className="w-28 h-28 bg-white/10 rounded-lg flex items-center justify-center overflow-hidden">
                         <img src="/images/fpkdl.com_960_1758980177_natural-elements-spa-with-candles_23-2148199485.jpg" alt="consult" className="object-cover w-full h-full" />
@@ -748,8 +748,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 <div className="max-w-6xl mx-auto p-8 lg:p-12">
                   <div className="flex flex-col lg:flex-row gap-8 items-start">
                     <div className="lg:w-1/2">
-                      <h3 className="text-3xl font-extrabold text-[#114c3b]">Transformational Journey</h3>
-                      <p className="mt-3 text-gray-700">A visual, step-by-step path that guides guests from first contact to lasting wellbeing — designed to build trust and show clear results.</p>
+                      <h3 className="text-3xl font-extrabold text-[#114c3b]">Process to book B2B massage in Gurgaon</h3>
+                      <p className="mt-3 text-gray-700">Reservation of your sensual relaxation with Spa in Gurgaon is fast and confidential.</p>
       
                       <div className="mt-6 space-y-6">
                         {journey.map((j, idx) => (
@@ -819,7 +819,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Transformative <span className="text-emerald-600">Benefits</span>
+                    Health Benefits of <span className="text-emerald-600">B2B Massage Services Gurgaon</span>
                   </motion.h2>
                   <motion.p
                     className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -828,40 +828,40 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                     Our signature oil therapy massage offers a holistic approach to wellness that addresses both physical and mental needs.
+                   B2B massage is not only relaxing but also invigorating and restoring the lost sensuality.
                   </motion.p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
                 { 
-                  title: "Muscle Relief", 
-                  description: "Deep tissue manipulation combined with therapeutic oils helps relieve muscle tension and soreness effectively.",
+                  title: "Relieves Body Fatigue", 
+                  description: "The light body-to-body motions aid in relieving muscular stress, as well as getting rid of body stiffness.",
                   icon: "💆‍♀️"
                 },
                 { 
-                  title: "Stress Reduction", 
-                  description: "Aromatherapy oils calm the nervous system, reducing anxiety and promoting mental clarity.",
+                  title: "Stimulates Circulation", 
+                  description: "Increases blood flow and oxygen, which leaves you with a radiant complexion and muscles achingly restored.",
                   icon: "🧘‍♂️"
                 },
                 { 
-                  title: "Improved Circulation", 
-                  description: "Massage techniques stimulate blood flow, enhancing oxygen delivery to tissues and organs.",
+                  title: "Increases Mood and Sexual Energy.", 
+                  description: "Releases endorphins and restores sexual confidence so that you feel good and focused.",
                   icon: "❤️"
                 },
                 { 
-                  title: "Skin Rejuvenation", 
-                  description: "Natural oils nourish and hydrate the skin, leaving it soft, supple, and radiant.",
+                  title: "Improves Skin Texture", 
+                  description: "Lotions and oils applied during the massage are of premium quality and nourish the skin, making it brighter.",
                   icon: "✨"
                 },
                 { 
-                  title: "Detoxification", 
-                  description: "Stimulates the lymphatic system to flush toxins and boost natural immunity.",
+                  title: "Promotes Deeper Sleep", 
+                  description: "The serene, erotic repose assists the body in calmness thereby guaranteeing deep, restful sleep.",
                   icon: "🌿"
                 },
                 { 
-                  title: "Better Sleep", 
-                  description: "Promotes relaxation that leads to deeper, more restorative sleep patterns.",
+                  title: "Releases Emotional Stress", 
+                  description: "Light rhythmical massage reduces anxiety, emotional stress, and psychological exhaustion.",
                   icon: "😴"
                 }
               ].map((benefit, index) => (
@@ -1078,14 +1078,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              transition={{ duration: 0.6, delay: 0.2 }}
                                            >
                                              <h3 className="text-3xl font-bold text-emerald-900 font-serif text-center mb-12">
-                                               Our Holistic Approach to Wellness
+                                               Our B2B Massage Spa Services in Gurgaon
                                              </h3>
                                              
                                              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                                                {[
                                                  {
-                                                   title: "Mindful Relaxation",
-                                                   description: "Techniques that calm the mind and reduce stress through focused breathing and meditation",
+                                                   title: "Hotel Spa",
+                                                   description: "Spa in Gurgaon offers B2B massage in top hotels, where you are assured of complete comfort and privacy when you are having your relaxation.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
@@ -1093,8 +1093,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                    )
                                                  },
                                                  {
-                                                   title: "Body Rejuvenation",
-                                                   description: "Therapies that restore physical vitality and promote healing at the cellular level",
+                                                   title: "Home Spa",
+                                                   description: "You can have the complete comfort of getting a sensual B2B massage at home in Gurgaon by our certified female therapists.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -1102,8 +1102,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                    )
                                                  },
                                                  {
-                                                   title: "Spiritual Balance",
-                                                   description: "Practices that align your energy centers and connect you with your inner self",
+                                                   title: "Spa Outlet",
+                                                   description: "Pay us a visit at our luxury spa outlet in Gurgaon and have a relaxing time with a professional B2B massage.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -1250,7 +1250,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
                   >
-                    Our Specialty <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Services at Delhi Spa</span>
+                    Why Choose our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">spa centre for Best B2B Massage in Gurgaon</span>
                   </motion.h2>
                   
                   <motion.p
@@ -1259,7 +1259,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
                   >
-                    Erotic and Nuru Massage, Thai Massage, B2B Massage, Full Body Massage by Expert Therapists
+                    We have combined luxury, privacy, and professionalism to produce memorable B2B experiences.
                   </motion.p>
                   
                   <motion.div
@@ -1274,23 +1274,21 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
-                            <h3 className="text-xl font-semibold text-emerald-800 mb-4">Expert Therapists</h3>
+                            <h3 className="text-xl font-semibold text-emerald-800 mb-4">Licensed Female Therapists</h3>
                             <p className="text-gray-700 mb-6">
-                              When it comes to indulgent relaxation and rejuvenation, Delhi spa centers stand out for their exceptional massage therapies. Among the most popular and sought-after treatments are erotic massage, nuru massage, thai massage, sandwich massage, and full body massage. Whether you seek pure relaxation, therapeutic relief, or something more sensual, Delhis best spas offer a range of services tailored to suit every need. With both Indian and foreign therapists, these therapies are designed to promote deep relaxation, reduce stress, and rejuvenate the body.
-        
+                              We have certified, well-trained, and experienced therapists, who are trained on body-to-body methods that emphasize on comfort and care. They know the points of pressure, flow of pleasure and appropriate rhythm to rejuvenate your body and mind.
                             </p>
                           {/* Bullet Points instead of Image */}
-                          <ul className="list-disc list-inside text-gray-700 space-y-2">
+                          {/* <ul className="list-disc list-inside text-gray-700 space-y-2">
                             <li>Highly trained and certified therapists</li>
                             <li>Wide range of massage techniques</li>
                             <li>Focus on relaxation & stress relief</li>
                             <li>Customized treatments for every client</li>
                             <li>Professional and hygienic environment</li>
-                          </ul>
-                          
+                          </ul> */}
+                          <h3 className="text-xl font-semibold text-emerald-800 mb-4">Luxury Aromatic Ambience Oils</h3>
                           <p className="text-gray-700 mb-6">
-                              When it comes to indulgent relaxation and rejuvenation, Delhi spa centers stand out for their exceptional massage therapies. Among the most popular and sought-after treatments are erotic massage, nuru massage, thai massage, sandwich massage, and full body massage. Whether you seek pure relaxation, therapeutic relief, or something more sensual, Delhis best spas offer a range of services tailored to suit every need.
-        
+                              We have imported essential oils and peaceful aromas that make us more sensitive on touch and relax. All the rooms are dimly illuminated, air-conditioned, and played with soothing music to be in the right mood.
                             </p>
                       </div>
                       
@@ -1309,13 +1307,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         
                       
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
-                        <span className="font-semibold text-emerald-800 mb-4">Erotic Massage in Delhi: An Intimate Experience</span>
+                        <span className="font-semibold text-emerald-800 mb-4">Personalized Treatment of each customer</span>
                         <p className="text-gray-700 mb-6">
-                          The erotic massage in Delhi is a highly specialized and intimate therapy that offers a combination of relaxation and sensuality. Ideal for those who wish to experience heightened pleasure while relieving stress, this service is carried out by expert therapists who understand how to deliver a soothing, yet deeply stimulating experience. If youre looking for something beyond the usual therapeutic massage, the erotic massage is a great choice, enhancing both emotional and physical well-being. This service is performed with care and professionalism, ensuring you receive the highest quality relaxation.                  
+                          Every client is different. We customize your B2B experience to suit your body requirements such as type of oil, level of pressure and energy of therapist. The flow of the therapy depends on what is comfortable to you.                  
                         </p>
-                        <span className="font-semibold text-emerald-800 mb-4">Nuru Massage in Delhi: A Luxurious Sensation</span>
+                        <span className="font-semibold text-emerald-800 mb-4">Complete Privacy and Confidentiality</span>
                         <p>
-                         The nuru massage in Delhi is a uniquely sensual experience that has gained popularity for its exotic, slippery, and intimate nature. This Japanese massage style uses a special gel derived from seaweed, which makes the skin glide smoothly, allowing for a deep body-to-body connection between the therapist and the client. It’s a treatment that blends relaxation with sensual indulgence, making it ideal for individuals seeking a luxurious and intimate spa experience. Nuru massage offers a heightened sense of intimacy while still ensuring ultimate relaxation and stress relief.
+                         In Gurgaon, spa provides total privacy. Whichever option you prefer, be it the use of a spa outlet or paying a home visit, we ensure a high level of confidentiality and delicate arrangements so as to have a comfortable and dignified treatment.
                         </p>
                         {/* <p>
                           Perfect for individuals suffering from stress, muscle pain, or hormonal imbalance, this massage harmonizes body rhythms and enhances immunity. The continuous motion and warm oil offer a meditative experience.
@@ -1357,7 +1355,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Our <span className="text-emerald-600">Pricing Packages</span>
+                    Our Pricing <span className="text-emerald-600">Package for B2B Massage in Gurgaon</span>
                   </motion.h2>
                   <motion.p
                     className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1366,7 +1364,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                    Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
+                    The best-value packages that will leave you with a premium body-to-body relaxation, and will not compromise on quality or comfort.
                   </motion.p>
                 </div>
         
