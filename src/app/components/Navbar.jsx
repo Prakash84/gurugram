@@ -49,8 +49,8 @@ export default function Navbar() {
     { name: "Aerocity", href: "/spa-in-mahipalpur/spa-in-aerocity" },
     { name: "Connaught Place", href: "/spa-in-mahipalpur/spa-in-connaught-place" },
     { name: "Lajpat Nagar", href: "/spa-in-mahipalpur/spa-in-lajpat-nagar" },
-    { name: "Gurugram", href: "/spa-in-mahipalpur/paschimvihar" },
-    { name: "Noida", href: "/spa-in-mahipalpur/noida" },
+    { name: "Gurugram", href: "/spa-in-mahipalpur/massage-service-in-gurgaon" },
+    { name: "Noida", href: "/spa-in-mahipalpur/spa-in-noida" },
   ];
 
   return (
