@@ -1604,13 +1604,13 @@ const faqs = [
 
                     {/* end */}
                     {/* /////// */}
-                        <section className="relative isolate overflow-hidden bg-emerald-50 text-emerald-900">
-      {/* Ambient blobs */}
+                        {/* <section className="relative isolate overflow-hidden bg-emerald-50 text-emerald-900">
+     
       <div className="pointer-events-none absolute -top-28 -right-16 h-80 w-80 rounded-full bg-emerald-200/40 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-28 -left-16 h-80 w-80 rounded-full bg-emerald-300/30 blur-3xl" />
 
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-        {/* Heading / Hero (still same section) */}
+        
         <motion.div
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
@@ -1643,9 +1643,9 @@ const faqs = [
           </div>
         </motion.div>
 
-        {/* One unified content area: left = Why Choose Us (cards), right = Booking Process (steps) */}
+        
         <div className="mt-12 grid gap-8 md:grid-cols-2">
-  {/* Card 1 */}
+  
   <motion.article
     initial={{ opacity: 0, y: 8 }}
     whileInView={{ opacity: 1, y: 0 }}
@@ -1678,7 +1678,7 @@ const faqs = [
     </div>
   </motion.article>
 
-  {/* Card 2 */}
+ 
   <motion.article
     initial={{ opacity: 0, y: 8 }}
     whileInView={{ opacity: 1, y: 0 }}
@@ -1710,7 +1710,7 @@ const faqs = [
     </div>
   </motion.article>
 
-  {/* Card 3 */}
+  
   <motion.article
     initial={{ opacity: 0, y: 8 }}
     whileInView={{ opacity: 1, y: 0 }}
@@ -1742,7 +1742,7 @@ const faqs = [
     </div>
   </motion.article>
 
-  {/* Card 4 */}
+  
   <motion.article
     initial={{ opacity: 0, y: 8 }}
     whileInView={{ opacity: 1, y: 0 }}
@@ -1777,7 +1777,7 @@ const faqs = [
 
 
       </div>
-    </section>
+    </section> */}
                     {/* //// */}
                         <div className="min-h-screen bg-emerald-50 text-emerald-900">
       {/* Hero */}
