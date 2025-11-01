@@ -289,11 +289,11 @@ const faqs = [
     return (
       <main>
         {/* banner */}
-               <div className="relative w-full h-[55vh] md:h-[75vh] min-h-[345px] flex items-center">
+               <div className="relative w-full h-[45vh] md:h-[70vh] min-h-[340px] flex items-center">
       {/* Background image - place your image at /public/images/hero-banner.jpg */}
       <div className="absolute inset-0 -z-20">
         <Image
-          src="/images/modern-luxury-bedroom-design-illuminated-with-electric-lamps-generated-by-ai.jpg"
+          src="/images/image123.png"
           alt="Luxury spa background"
           fill
           sizes="(max-width: 1024px) 100vw, 50vw"
@@ -314,17 +314,17 @@ const faqs = [
               initial={{ opacity: 0, y: -12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-white"
+              className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-white"
             >
-              Grab The <span className="text-emerald-500">Best Luxury Spa</span>
-              <br /> Service in Gurgaon <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-500 to-emerald-500">With Certified Therapist</span>
+              Grab The <span className="text-emerald-300">Best Luxury Spa</span>
+              <br /> Service in Gurgaon <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-300 to-emerald-300">With Certified Therapist</span>
             </motion.h1>
 
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2, duration: 0.6 }}
-              className="mt-6 max-w-2xl text-gray-400"
+              className="mt-6 max-w-2xl text-white"
             >
               Luxury Spa in Gurgaon Offering Professional Massage and Wellness Therapies
             </motion.p>
