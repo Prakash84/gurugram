@@ -2,8 +2,8 @@ import B2bservice from "./B2bservice";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Top 5 Star hotel spa in Delhi NCR  | Visit Our Spa in Rohini",
-  description: "Looking for the best 5-star hotel spa in Delhi NCR? Visit our spa in Rohini for premium body massage service in all over Delhi NCR. Book Now!",
+  title: "Get Body To Body Massage in Gurgaon | B2B Spa At Home",
+  description: "Get a premium body to body massage in Gurgaon. Enjoy a private B2B spa at home and experience total comfort at your doorstep.",
   openGraph: {
     title: "Get Best Body Massage in Delhi | First Visit Offer 1999",
     description: "Looking for a relaxing massage in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi.",

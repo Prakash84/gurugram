@@ -2,8 +2,8 @@ import Noida from "./Noida";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Top 5 Star hotel spa in Delhi NCR  | Visit Our Spa in Rohini",
-  description: "Looking for the best 5-star hotel spa in Delhi NCR? Visit our spa in Rohini for premium body massage service in all over Delhi NCR. Book Now!",
+  title: "Book Massage session at our spa in Noida | Self Care Session",
+  description: "Book your massage session at our spa in Noida today. Treat yourself to a soothing self-care spa therapy designed for total wellness.",
   openGraph: {
     title: "Get Best Body Massage in Delhi | First Visit Offer 1999",
     description: "Looking for a relaxing massage in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi.",

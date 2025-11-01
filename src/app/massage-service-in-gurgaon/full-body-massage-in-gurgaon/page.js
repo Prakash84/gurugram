@@ -2,8 +2,8 @@ import Fullbodymassage from "./Fullbodymassage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Top 5 Star hotel spa in Delhi NCR  | Visit Our Spa in Rohini",
-  description: "Looking for the best 5-star hotel spa in Delhi NCR? Visit our spa in Rohini for premium body massage service in all over Delhi NCR. Book Now!",
+  title: "Best Full Body Massage in Gurgaon By Female Therapists",
+  description: " Book the best full body massage in Gurgaon today. Get Complete care with our  experts at our luxury spa centre in gurgaon. Get Stress Free Now",
   openGraph: {
     title: "Get Best Body Massage in Delhi | First Visit Offer 1999",
     description: "Looking for a relaxing massage in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi.",
