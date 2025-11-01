@@ -780,12 +780,12 @@ const teamMembers = [
           transition={{ duration: 0.6 }}
           className="z-10 text-center lg:text-left"
         >
-          <div className="inline-flex items-center gap-3 mb-4">
+          {/* <div className="inline-flex items-center gap-3 mb-4">
             <span className="rounded-full bg-white/20 px-3 py-1 text-sm font-medium text-white backdrop-blur">
               Premium
             </span>
             <span className="text-sm text-white/80">Authentic Therapists • Organic Oils</span>
-          </div>
+          </div> */}
 
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white leading-tight drop-shadow-lg">
             • World-Class Treatments at Spa in Gurgaon Today
@@ -861,7 +861,7 @@ const teamMembers = [
 
               <div className="absolute left-4 bottom-4 text-white">
                 <div className="text-sm font-medium">5 Star Hotel Spa In Just</div>
-                <div className="text-xs text-white/80 mt-1">60 min · ₹1499</div>
+                <div className="text-xs text-white/80 mt-1">60 min · ₹14999</div>
               </div>
             </div>
 
@@ -1139,7 +1139,7 @@ const teamMembers = [
                     >
                       <div className="rounded-md overflow-hidden border-1 border-white">
                         <Image
-                          src='/images/spaimage.jpeg'
+                          src='/images/fpkdl.com_960_1758980558_relaxing-spa-room-with-candles_1187092-239475.jpg'
                           alt="property 1"
                           width={900}
                           height={600}
@@ -1260,7 +1260,7 @@ const teamMembers = [
                 transition={{ duration: 0.5, delay: 0.1 }}
                 viewport={{ once: true }}
               >
-                Top-Rated Spa <span className="text-emerald-500">SServices in Gurgaon with Foreign Therapists</span>
+                Top-Rated Spa <span className="text-emerald-500">Services in Gurgaon with Foreign Therapists</span>
               </motion.h2>
             </div>
 
@@ -1310,7 +1310,7 @@ const teamMembers = [
                       viewport={{ once: true }}
                       transition={{ delay: 0.1 }}
                     >
-                      Luxury Outlet <span className="text-emerald-600">for Spa in Gurgaon</span>
+                      Luxury Outlet <span className="text-emerald-600">for Spa in Gurgaon, Noida And Delhi</span>
                     </motion.h2>
                     <motion.p
                       className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"

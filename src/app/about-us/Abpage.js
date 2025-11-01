@@ -706,7 +706,7 @@ export default function Abpage({
               <Image src="/images/spamodel.jpg" alt="Rohit Verma" fill className="object-cover" />
             </div>
             <div className="mt-4">
-              <div className="font-semibold text-gray-900">Rohit Verma</div>
+              <div className="font-semibold text-gray-900">Riya Verma</div>
               <div className="text-sm text-gray-600">Spa Manager</div>
             </div>
             <a className="mt-4 inline-block text-sm text-emerald-600 font-medium" href="#">
