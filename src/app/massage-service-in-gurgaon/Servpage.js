@@ -2072,15 +2072,18 @@ const faqs = [
 
                 <div className="relative z-10 text-center max-w-4xl mx-auto">
                   <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6 animate-fade-in">
-                    Enjoy 1st Visit Offer at Just ₹1999
+                    Grab Massage Service in Gurgaon 1st Visit Offer at Just ₹1999
                   </h2>
 
                   <p className="text-gray-600 text-base sm:text-lg mb-3">
-                    Take advantage of our exclusive first visit offer for only ₹1999! Experience our luxurious treatments and discover ultimate relaxation at an unbeatable price.
+                    Your first appointment with Spa in Gurgaon costs only ₹1999. This special price lets new clients try our services. You get trained therapists, quality oils, and a peaceful setting. The therapy cleanses your mind, body, and soul. Reserve your place and get to relax.
                   </p>
 
                   <p className="text-gray-600 text-base sm:text-lg mb-8">
-                    Relax and rejuvenate with our tailored spa experiences at the finest 4, 5, and 7-star hotels across Delhi NCR. Indulge in world-class treatments designed to revitalize your mind, body, and soul.
+                    CTA Title: Book Your Spa Experience in Gurgaon Now
+                  </p>
+                  <p className="text-gray-600 text-base sm:text-lg mb-8">
+                    CTA Content: Reserve your session and feel the difference instantly.
                   </p>
 
                   <ul className="flex justify-center gap-6 flex-wrap text-gray-800 font-medium text-base mb-10">

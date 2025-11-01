@@ -28,34 +28,34 @@ export default function Noida() {
             const faqs = [
                   
                   {
-                    question: "Do you offer hotel room massages in Noida?",
-                    answer: " Yes, Spa in Gurgaon brings professional hotel room massage services to all the major 5-star hotels in Noida.",
+                    question: "Can I book a hotel room massage in Noida?",
+                    answer: "Yes, Spa in Gurgaon provides professional hotel-room massages in the 5-star hotels of Noida.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                    question: "Are the therapists certified and trained?",
-                    answer: "Absolutely. All our therapists are certified professionals who know multiple massage techniques for complete relaxation",
+                    question: "Are your therapists certified?",
+                    answer: "Yes, all therapists have certification and trained on good massage methods to ensure your safety.",
                     icon: <FaHandSparkles className="text-teal-600" />
                   },
                   
                   {
-                    question: "Can I book a couple massage in Noida hotels?",
-                    answer: "Yes, we do couple massage to guests in luxury hotels in Noida.",
+                    question: "Can couples book a massage together?",
+                    answer: "Yes, couples are also welcome to experience our Couple Massage that is bound to be shared and calming.",
                     icon: <FaLeaf className="text-teal-600" />
                   },
                   {
-                    question: " Is the service private and discreet?",
-                    answer: "Completely. We place your privacy and your comfort first, both when you make a booking and until the end of the therapy.",
+                    question: "Is the service private and professional?",
+                    answer: "Yes, all of the services are fully private and professional.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                        question: "What's the price range for a massage in Noida?",
-                        answer: "We begin with competitive prices and provide affordable luxury on any types of spa services.",
+                        question: "What types of massage do you offer in Noida?",
+                        answer: "Sandwich, Couple, Full Body, B2B, Thai, Aromatherapy and Hot Stone massages are the services we provide.",
                         icon: <FaHotTub className="text-teal-600" />
                       },
                       {
-                            question: "Can I book same-day massage services?",
-                            answer: "Yes, we have same-day booking and on-call services based on the availability of our therapists.",
+                            question: "Are same-day bookings available?",
+                            answer: "Yes, it is possible to get the same-day appointments, but it depends on the schedules of therapists and the schedules of the hotel.",
                             icon: <FaSpa className="text-teal-600" />
                           },
                 ];
@@ -64,63 +64,58 @@ export default function Noida() {
                 const benefits = [
 {
 id: 1,
-title: "Ultimate Privacy",
-desc: "Get soothing massages right in your hotel room with complete discretion.",
+title: "Complete Privacy",
+desc: "Relax intelligently in your room without inconvenience and concern.",
 icon: <ShieldCheck className="w-6 h-6 text-emerald-800" />,
 },
 {
 id: 2,
 title: "Certified Therapists",
-desc: "Get treated by trained experts who really know luxury relaxation therapies.",
+desc: "All the therapists arrive with professionalism, skill, and care for a safe experience.",
 icon: <UserCheck className="w-6 h-6 text-emerald-800" />,
 },
 {
 id: 3,
 title: "Personalized Sessions",
-desc: "Every therapy gets customized for what you need, from which oil we use to how much pressure feels right.",
+desc: "Personalize your massage, according to pressure, oils, and style.",
 icon: <Sliders className="w-6 h-6 text-emerald-800" />,
 },
 {
 id: 4,
-title: "Convenience at Your Doorstep",
-desc: "You don't have to go anywhere. Our therapists come to your hotel room right on time.",
+title: "Convenient On-Site Service",
+desc: "Skip travelling and spend your time at the spa in complete comfort.",
 icon: <Clock className="w-6 h-6 text-emerald-800" />,
 },
 {
 id: 5,
-title: "Complete Stress Relief",
-desc: "Relax your body, quiet your thoughts, and wake up that inner balance with each session.",
+title: "Total Stress Relief",
+desc: " Let tension fade as our experts calm your body and clear your mind.",
 icon: <Smile className="w-6 h-6 text-emerald-800" />,
 },
 ];
   const hotelOutlets = [
-  {
-    title: "Hyatt Regency, Noida",
-    image: "/images/JW-Marriott-Hotel-New-Delhi-Noida.jpeg",
-    description:
-      "Spa in Gurgaon offers soothing therapies at Hyatt Regency, Noida. Guests enjoy calm sessions with aromatic oils and comfortable techniques that bring both relaxation and energy back to the body.",
-  },
+  
   {
     title: "Radisson Blu, Noida",
-    image: "/images/Lemon tree cover image.jpg",
+    image: "/images/Radisson-Blu-scaled.webp",
     description:
       "Pamper yourself with a luxury massage at Radisson Blu Noida. Spa in Gurgaon’s therapists combine gentle movements, special oils, and steady pressure methods to refresh your body and clear your mind.",
   },
   {
     title: "Jaypee Greens Golf & Spa Resort",
-    image: "/images/R.jpg",
+    image: "/images/hotel.jpg",
     description:
       "Enjoy a relaxing hotel spa at Jaypee Greens with personalized massages focused on better blood flow, muscle relaxation, and mental peace for a complete wellness experience.",
   },
   {
     title: "Lemon Tree Premier, Sector 29",
-    image: "/images/278261524.jpg",
+    image: "/images/Lemon tree cover image.jpg",
     description:
       "At Lemon Tree Premier, Spa in Gurgaon offers calming massage therapies that help you relax fully and rejuvenate your body with soft care and attention to detail.",
   },
   {
     title: "Crowne Plaza, Greater Noida",
-    image: "/images/pullmanNoida.jpg",
+    image: "/images/Crowne_Plaza.jpg",
     description:
       "Spa in Gurgaon is a provider of professional spa services in Greater Noida, Crowne Plaza. Our qualified therapists offer stress relieving sessions which restore comfort, enhance circulation and renew inner energy.",
   },
@@ -306,7 +301,7 @@ const SERVICES_LEFT = [
     title: 'Certified & Experienced Therapists',
     subtitle: 'International therapists for authentic treatments',
     desc:
-      "Our therapists have professional training and certification in different massage styles. They mix technical skill with gut feeling, so every touch removes your fatigue and lifts your energy up.",
+      "All therapists are trained professionals in various forms of massage to ensure that your session is relaxing, safe, and personal.",
     chips: ['Russian Therapist', 'Afgani Therapist', 'Uzbeki Therapist'],
     time: '60-90 min',
     price: 'From ₹2,800',
@@ -314,10 +309,10 @@ const SERVICES_LEFT = [
   },
   {
     id: 'body',
-    title: 'Luxury Oils & Premium Products',
+    title: 'Premium Oils & Products',
     subtitle: 'Mastery across 23 specialised modalities',
     desc:
-      "We use imported oils, creams, and herbs that people know for their natural healing and aromatic qualities. Each element makes the experience better, keeping it soothing, safe, and nourishing for your skin.",
+      "We only use high-quality natural oils and creams that care for your skin and make your body feel smooth and nourished.",
     chips: [
       'Thai Herbal Compress',
       'Shiatsu',
@@ -335,10 +330,10 @@ const SERVICES_LEFT = [
 const SERVICES_RIGHT = [
   {
     id: 'top',
-    title: 'WComplete Privacy & Comfort',
+    title: 'Privacy & Discretion',
     subtitle: 'Sustainable + award-winning',
     desc:
-      "Every session happens discreetly because your privacy and peace of mind matter to us. Our hotel spa setup is built for total comfort and relaxation.",
+      "Every session is private and quiet. Our therapists respect your comfort and ensure calm surroundings throughout the service.",
     chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
     time: '60-120 min',
     price: 'From ₹2,500',
@@ -346,10 +341,10 @@ const SERVICES_RIGHT = [
   },
   {
     id: 'packages',
-    title: 'Quick On-Call Service',
+    title: 'On-Demand Service',
     subtitle: 'Premium in-room & home journeys',
     desc:
-      "Book a massage whenever you need one. Our therapists can come on short notice to any of Noida's 5-star hotels, ready to bring that peaceful feeling to your room.",
+      "Spa in Gurgaon provides hotel massage on request at top 5-star hotels in Noida with full flexibility and convenience.",
     chips: ['JW Marriott Noida', 'The Suryaa', 'The Park CP'],
     time: '3-6 hours',
     price: 'From ₹8,500',
@@ -359,17 +354,17 @@ const SERVICES_RIGHT = [
 const topSteps = [
     {
       icon: <FaHotel className="text-emerald-700 text-xl" />,
-      title: 'Therapist Arrival at Your Hotel',
+      title: 'Select the spa and massage..',
       text: 'Pick which hotel you are at and what type of massage you want.',
     },
     {
       icon: <FaClock className="text-emerald-700 text-xl" />,
-      title: '24/7 Availability in Noida',
+      title: 'Get your booking confirmation.',
       text: 'Call us or message on WhatsApp to check if we are available.',
     },
     {
       icon: <FaPhoneAlt className="text-emerald-700 text-xl" />,
-      title: 'Quick Call or Telegram Booking',
+      title: 'Get in touch with us through phone or WhatsApp.',
       text: 'Choose your therapist and pick a time that works for you.',
     },
   ]
@@ -377,12 +372,12 @@ const topSteps = [
   const bottomSteps = [
     {
       icon: <FaSpa className="text-emerald-700 text-2xl" />,
-      title: 'Expect a Spa-Grade Setup in Your Room',
+      title: 'Select your therapist and time.',
       text: 'Get your booking confirmation right away.',
     },
     {
       icon: <FaCreditCard className="text-emerald-700 text-2xl" />,
-      title: 'Flexible Payments & Feedback System',
+      title: 'Enjoy a peaceful, customized spa experience at your hotel.',
       text: 'Enjoy a private, professional, and refreshing massage in your hotel room.',
     },
   ]
@@ -557,7 +552,7 @@ const topSteps = [
         <div className="relative h-80 md:h-96 lg:h-[450px]">
           <div className="absolute inset-0 overflow-hidden rounded-xl border-4 border-white shadow-2xl">
             <img
-              src="/images/RoseateHouse.jpg"
+              src="/images/Taj_gurgaon.jpg"
               alt="Serene spa ambience at a luxury Noida hotel in Delhi"
               className="h-full w-full object-cover"
               loading="lazy"
@@ -1474,7 +1469,7 @@ const topSteps = [
                 <div>
                   <h4 className="text-2xl font-bold">Book Relaxing Hotel Massage in Noida Today</h4>
                   <p className="mt-2 opacity-95">
-                    Give your mind and body a break with the city is most trusted spa brand. Spa in Gurgaon is hotel massage services in Noida bring peace, comfort, and real care right to where you are. Book today and step into a world of serenity and pure relaxation.
+                    Experience peace and comfort with Spa in Gurgaon’s hotel massage in Noida. Relax in the comfort of your own room, and be refreshed and rejuvenated. Book your appointment today and make it a day to remember.
                   </p>
                 </div>
                 <div className="flex gap-3">
@@ -1530,7 +1525,7 @@ const topSteps = [
           </motion.h1>
 
           <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
-            Booking a luxury massage with Spa in Gurgaon is simple and private.
+            The process of booking a hotel massage in Noida is fast and simple:
           </p>
         </header>
 
@@ -1683,7 +1678,7 @@ const topSteps = [
                   viewport={{ once: true }}
                   transition={{ delay: 0.2 }}
                 >
-                  Affordable luxury packages customized for every relaxation need and hotel experience.
+                Enjoy premium spa services in Noida at fair prices with packages built for comfort and quality in leading hotels.
                 </motion.p>
                 <motion.div
                    className="flex justify-center mt-10"
