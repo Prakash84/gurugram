@@ -11,6 +11,7 @@ import { AnimatePresence } from 'framer-motion';
 import { FaTelegram } from 'react-icons/fa';
 import {  FaClock, FaPhoneAlt,  FaCreditCard } from 'react-icons/fa'
 import { Leaf, HeartHandshake, Clock, Sparkles } from "lucide-react";
+import { ShieldCheck, UserCheck, Sliders,  Smile } from "lucide-react";
 
 
 
@@ -27,86 +28,64 @@ export default function Lajpatnagar() {
             const faqs = [
                   
                   {
-                    question: "What makes a luxury spa in Lajpatnagar unique?",
-                    answer: " Spa in Lajpatnagar is the premium and luxury spa outlet in Delhi. At the aerocity outlet we offer foreign international therapists to provide spa in top 5 star hotels of Delhi.",
+                    question: "Do you offer hotel room massages in Lajpatnagar?",
+                    answer: " Yes, Spa is a professional massage service offering hotel massage in both 5-star hotels in the major areas of Connaught place, both to the residents and travelers.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                    question: "Are Lajpatnagar spa services near the airport?",
-                    answer: "Yes, Our Lajpatnagar outlets are conveniently located close to IGI Airport hotels. You can call us for your spa session booking and we will come to your door steps to provide 100% relaxation.",
+                    question: "Are your therapists certified and trained?",
+                    answer: "Gurgaon therapists of Spa have certification of being trained in various massage methods that ensure safety and quality.",
                     icon: <FaHandSparkles className="text-teal-600" />
                   },
                   
                   {
-                    question: "Is body massage in Lajpatnagar available?",
-                    answer: "Yes, We offer multiple types of massage therapy in our aerocity spa. Potli massage, hot stone massage, swedish massage or full body massage in Lajpatnagar. For more query contact us.",
+                    question: "Can I book a couple massage session at my hotel?",
+                    answer: "Absolutely. Our services include a variety of Couple Massage, which can be discovered in your hotel room, which is synchronized to a relaxing effect.",
                     icon: <FaLeaf className="text-teal-600" />
                   },
                   {
-                    question: "Are Lajpatnagar rates different from other outlets?",
-                    answer: "Yes, Because Lajpatnagar is the premium location and our spa outlet in Lajpatnagar is known for luxury and premium service. Spa in aerocity prices are different from other spas. Check the Pricing page for exact rates.",
+                    question: "Is privacy guaranteed during a B2B or full-body session?",
+                    answer: "Yes. Each session is carried out in a highly discretionary manner, in a professional approach and with respect to the comfort of the clients.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                        question: "Can I book a hotel spa in Lajpatnagar?",
-                        answer: "Yes, you can book your spa session at the 5 star hotels in aerocity. We have 5 star hotel spa outlets in aerocity Jw Marriott, Lemon Tree, Novotel and Ibis Hotel.",
+                        question: "How soon can I book a session?",
+                        answer: "The majority of the bookings will be on the same day. Normal reservations secure the desired time and therapist.",
                         icon: <FaHotTub className="text-teal-600" />
                       },
                       {
-                            question: "Can I pay online for my services?",
-                            answer: "Yes, we offer secure online payment options through our website for your convenience.",
+                            question: "What makes Spa in Gurgaon different from other spas?",
+                            answer: "We are the top mix of qualified therapists, modernized environment, customer service, and 5 5-star hotel in a convenient place, which makes us the best spa in town.",
                             icon: <FaSpa className="text-teal-600" />
                           },
                 ];
   const hotelOutlets = [
   {
-    title: "JW Marriott Hotel Lajpatnagar",
-    image: "/images/JW Marriott Hotel Lajpatnagar.jpg",
+    title: "The Imperial Lajpatnagar",
+    image: "/images/the-imperial-new-delhi.jpeg",
     description:
-      "Spend your time in the quality environment of JW Marriott Hotel Lajpatnagar and include a calming spa experience to your visit. Our professional therapists come with therapies that are designed to relieve the stress and cheer up the senses, hence your visit becomes even more pampering. The calmness of our treatments is the ideal match to the beautiful environment of this popular hotel.",
+      "The Imperial is one of the best heritage hotels in Delhi that is renowned to provide outstanding massage services in spa in Gurgaon. Our therapies combine luxury oils, soft music and accurate techniques to enable total renewal within an eternal environment.",
   },
   {
-    title: "Lemon Tree Premier Lajpatnagar",
-    image: "/images/LemonTreePremierLajpatnagar.jpg",
+    title: "The Part Hotel Lajpatnagar",
+    image: "/images/The_Park_Cp.jpg",
     description:
-      "Lemon Tree Premier Lajpatnagar combines style with relaxation, and Spa In Gurgaon adds to that comfort with on-demand massage sessions in your room. Whether you want a couple's massage or need complete body relaxation, our spa centre in Mahipalpur helps you unwind after a busy schedule in the bustling Lajpatnagar area.",
+      "In the Park Hotel, spa in Gurgaon comes with high quality massage services. Starting with whole body to aromatherapy treatments, all the treatments will combine relaxation with a touch of luxury towards a peaceful stay.",
   },
   {
-    title: "Novotel New Delhi Lajpatnagar",
-    image: "/images/NovotelNewDelhiLajpatnagar.jpeg",
+    title: "Shangri‑La Eros Lajpatnagar",
+    image: "/images/OIP (3).webp",
     description:
-      "Novotel Lajpatnagar is a convenient and luxurious place to stay, and our spa services are an added bonus to your stay. Whether it is reviving full-body massage or relaxing treatments aimed at alleviating stress, each of the services makes you feel refreshed. Your stay will be something to remember with the help of our therapists.",
+      "You will find no peace at a massage salon like you will at the Spa in Shangri-La Eros in the elite massage services of Gurgaon. Every session is a blend of rhythmic movement, oils combined with aroma, and individual attention to relax and balance completely.",
   },
   {
-    title: "Pride Plaza Hotel",
-    image: "/images/pride-plaza-hotel-aerocity1-2.jpg",
+    title: "The LaLiT Lajpatnagar",
+    image: "/images/lalit_delhi.jpg",
     description:
-      "Visit to Pride Plaza Hotel is even more comfortable with Spa In Gurgaon. Our Best spa in Lajpatnagar is designed to minimize muscle aches, energize you, and leave you feeling refreshed. The soothing atmosphere we create takes luxury relaxation to the next level. ",
+      "Spa in Gurgaon offers customized Massage services in the Lalit to the traveler and city dwellers in need of extensive relaxation. Therapies will be aimed at stress points, improve blood flow, and you will be completely recharged.",
   },
-  {
-    title: "IBIS New Delhi Lajpatnagar",
-    image: "/images/IBISNewDelhiLajpatnagar.jpg",
-    description:
-      "IBIS Lajpatnagar is popular due to comfort and practicality, and Spa In Gurgaon is the one that makes your relaxation instantly available to your door. You can experience stress relief, sore muscles, and complete recharge with our massages customized to your needs while on-site. Each session has been designed to be comfortable.",
-  },
-  {
-    title: "Pullman Lajpatnagar",
-    image: "/images/pullmanLajpatnagar.jpg",
-    description:
-      "Pullman Lajpatnagar is where wellness and indulgence are united. Our professional hands mean that every therapy is unique, whether it is stress-relieving aromatherapy or the deep tissue bodywork. Spa In Gurgaon ensures your body feels lighter and refreshed, turning your time at Pullman into a complete wellness getaway.",
-  },
-  {
-    title: "Jaypee Vasant Lajpatnagar",
-    image: "/images/jaypeeVasantLajpatnagar.png",
-    description:
-      "At Jaypee Vasant Lajpatnagar, Spa In Gurgaon creates a soothing break from the demands of travel. Our spa in Mahipalpur relaxes the body, reduces stress, and gives clarity to the mind. Getting a professional service in the comfort of your hotel room means enjoying a relaxing getaway without having to leave the comfort of your room. ",
-  },
-  {
-    title: "The Ashok (Chanakyapuri)",
-    image: "/images/TheAshok(Chanakyapuri).webp",
-    description:
-      "The massage services at Spa In Gurgaon are as attractive as the Ashok. Our therapies restore balance and relaxation, blending seamlessly with the luxurious ambiance of the hotel. All the sessions are well scheduled so that you can enjoy your stay as both healing and refreshing.",
-  },
+  
+  
 ];
   const pricingPlans = [
     {
@@ -137,6 +116,45 @@ export default function Lajpatnagar() {
       icon: <FaCrown className="text-emerald-500" />
     }
   ];
+  /// NEW
+                  const benefits = [
+  {
+  id: 1,
+  title: "Tailored Relaxation",
+  desc: "Each massage is tailored to your body type, level of stress and outcome.",
+  icon: <ShieldCheck className="w-6 h-6 text-emerald-800" />,
+  },
+  {
+  id: 2,
+  title: "Professional Expertise",
+  desc: "Massages are done by trained therapists who are very keen, accurate and professional.",
+  icon: <UserCheck className="w-6 h-6 text-emerald-800" />,
+  },
+  {
+  id: 3,
+  title: "5-Star Comfort",
+  desc: "Have spa-style massages in the comfort of best hotels.",
+  icon: <Sliders className="w-6 h-6 text-emerald-800" />,
+  },
+  {
+  id: 4,
+  title: "Instant Rejuvenation",
+  desc: "Massage therapy is a tension reliever, circulation enhancer and will make your spirits soar in a second.",
+  icon: <Clock className="w-6 h-6 text-emerald-800" />,
+  },
+  {
+  id: 5,
+  title: "On-Demand Convenience",
+  desc: "Make an appointment any time - our therapists will come with your appointment at the hotel.",
+  icon: <Smile className="w-6 h-6 text-emerald-800" />,
+  },
+  {
+  id: 6,
+  title: "Our Pricing Package for Hotel Spa in Lajpatnagar",
+  desc: "Spa at Gurgaon provides luxury packages of massage at competitive prices of 1999 plus guaranteeing high quality relaxation, licensed care, and comfort in the center of connaught place.",
+  icon: <Smile className="w-6 h-6 text-emerald-800" />,
+  },
+  ];
    {/* Our Process */}
   const processSteps = [
   {
@@ -162,12 +180,12 @@ export default function Lajpatnagar() {
   const services = [
     {
       title: "B2B Massage",
-      description: "This therapy focuses on comfort and deep relaxation. The technique melts away stress and leaves you feeling revived and fresh.",
+      description: "B2B Massage in Lajpatnagar, Gurgaon, spa offers both soft, sensual feeling with professional care, which causes soothing relaxation and total stress release.",
       icon: "💆‍♂️",
     },
     {
       title: "Couples Massage",
-      description: "Our couple massage offers a shared moment of relaxation. Perfect for couples celebrating a trip or a special occasion, it builds emotional connection alongside complete body relaxation.",
+      description: "Reunite and relax as a couple. Our Couple Massage combines synchronized movements and aromatherapy to cultivate shared peace and emotional unity.",
       icon: "👫",
     },
     // {
@@ -178,7 +196,7 @@ export default function Lajpatnagar() {
     
     {
       title: "Aromatherapy",
-      description: "This soothing therapy combines soft techniques with essential oils. It creates a calming environment that lifts the mood and eases away stress.",
+      description: "Laced with essential oils that have a pleasant fragrance, the massage soothes the nervous system and elevates your spirits while massaging away muscle fatigue.",
       icon: "🌸",
     },
     {
@@ -188,12 +206,12 @@ export default function Lajpatnagar() {
     },
     {
       title: "Sandwich Massage",
-      description: "Warm stones during this treatment are applied in a cautious manner over your body to eliminate muscle stiffness and enhance blood circulation. The warmth makes you feel relaxed totally, and the stress is relieved.",
+      description: "Move to body-to-body rhythmic movement that is meant to eliminate tiredness and bring sensual relaxation. The respective movements relieve tension and bring natural energy balance back.",
       icon: "🪨",
     },
     {
       title: "Full Body Massage",
-      description: "Warm stones during this treatment are applied in a cautious manner over your body to eliminate muscle stiffness and enhance blood circulation. The warmth makes you feel relaxed totally, and the stress is relieved.",
+      description: "Feel head to toe revitalized. Light strokes and deep pressure massage away the fatigue, revives circulation, and replenish energy.",
       icon: "🪨",
     },
   ];
@@ -227,7 +245,7 @@ export default function Lajpatnagar() {
   {
     id: 'couple',
     title: 'Couple Massage',
-    desc: 'Shared, synchronised therapy for two — perfect for couples staying at Lajpatnagar hotels.',
+    desc: 'Shared, synchronised therapy for two — perfect for couples staying at Connaught hotels.',
     duration: '60 / 90 mins',
     price: '₹3,499 - ₹4,999',
     icon: (
@@ -267,10 +285,10 @@ export default function Lajpatnagar() {
 const SERVICES_LEFT = [
   {
     id: 'foreigner',
-    title: 'Unmatched Luxury and Ambiance',
+    title: 'Professional Therapists (Certified)',
     subtitle: 'International therapists for authentic treatments',
     desc:
-      "All of the Spa In Gurgaon branches are designed to be relaxing. With cozy interiors and relaxing scents, each and every component is created to help you relax.",
+      "All the therapists underwent training in various forms of massage and provide the accuracy, comfort, and individual attention.",
     chips: ['Russian Therapist', 'Afgani Therapist', 'Uzbeki Therapist'],
     time: '60-90 min',
     price: 'From ₹2,800',
@@ -278,10 +296,10 @@ const SERVICES_LEFT = [
   },
   {
     id: 'body',
-    title: 'Highly Skilled Global Therapists',
+    title: 'Premium Oils & Luxurious Ambience',
     subtitle: 'Mastery across 23 specialised modalities',
     desc:
-      "Our therapists are professionally trained, experienced and have knowledge of international spa techniques. They deliver treatments focused on quality and care for each client.",
+      "Imported essential oils and calming lighting are also used to establish a relaxing atmosphere that increases relaxation.",
     chips: [
       'Thai Herbal Compress',
       'Shiatsu',
@@ -292,17 +310,17 @@ const SERVICES_LEFT = [
     ],
     time: '75-90 min',
     price: 'From ₹3,200',
-    image: '/images/services.webp',
+    image: '/images/Step into a world.jpeg',
   },
 ]
 
 const SERVICES_RIGHT = [
   {
     id: 'top',
-    title: 'Wide Range of Premium Treatments',
+    title: 'Total Privacy & Comfort',
     subtitle: 'Sustainable + award-winning',
     desc:
-      "With many therapies like full-body massage, couple massage, aromatherapy, and body-to-body, our menu adapts to everyone’s needs.",
+      "You will be assured of comfort and confidentiality. All the sessions are done in utmost discretion.",
     chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
     time: '60-120 min',
     price: 'From ₹2,500',
@@ -310,30 +328,30 @@ const SERVICES_RIGHT = [
   },
   {
     id: 'packages',
-    title: 'Accessible at Delhi’s Top Hotels',
+    title: 'Flexible Hotel Coverage',
     subtitle: 'Premium in-room & home journeys',
     desc:
-      "Spa In Gurgaon is available in leading hotels in Lajpatnagar, including JW Marriott, Novotel, and Pullman. The easy access makes our services convenient for anyone who values comfort.",
-    chips: ['JW Marriott Lajpatnagar', 'The Suryaa', 'The Park CP'],
+      "Our services and products provide professional hotel massage services across all the big 5-star hotels in Lajpatnagar.",
+    chips: ['JW Marriott Connaught', 'The Suryaa', 'The Park CP'],
     time: '3-6 hours',
     price: 'From ₹8,500',
-    image: '/images/RoseateHouse.jpg',
+    image: '/images/lalit_delhi.jpg',
   },
 ]
 const topSteps = [
     {
       icon: <FaHotel className="text-emerald-700 text-xl" />,
-      title: 'Therapist Arrival at Your Hotel',
+      title: 'Select your preferred hotel and the massage service that you want.',
       text: 'Our therapist arrives at your hotel punctually with all the materials required to carry out your massage like oils, towels, and linens.',
     },
     {
       icon: <FaClock className="text-emerald-700 text-xl" />,
-      title: '24/7 Availability in Lajpatnagar',
+      title: 'Pick your favourite therapist and time.',
       text: 'We accept bookings any time of the day or night, which is very accommodating to busy travellers.',
     },
     {
       icon: <FaPhoneAlt className="text-emerald-700 text-xl" />,
-      title: 'Quick Call or Telegram Booking',
+      title: 'Phone or WhatsApp call to Spa in Gurgaon to take up the slot.',
       text: 'Get in touch with either a direct call or Telegram and schedule your session immediately.',
     },
   ]
@@ -341,12 +359,12 @@ const topSteps = [
   const bottomSteps = [
     {
       icon: <FaSpa className="text-emerald-700 text-2xl" />,
-      title: 'Expect a Spa-Grade Setup in Your Room',
+      title: 'Instant confirmation and booking details.',
       text: 'We bring fresh sheets, calming oils, mood lighting and sanitized equipment. You just relax, we handle the rest.',
     },
     {
       icon: <FaCreditCard className="text-emerald-700 text-2xl" />,
-      title: 'Flexible Payments & Feedback System',
+      title: 'Have a professional and personalized massage in your hotel room.',
       text: 'Pay via UPI, cash, card or online. After your session, rate your therapist and share feedback — we value your experience.',
     },
   ]
@@ -383,7 +401,7 @@ const topSteps = [
           <section className="relative w-full h-[70vh] flex items-center justify-center">
                 {/* Background Image */}
                 <Image
-                  src="/images/cozy-candlelit-bedroom-brings-rustic-elegance-inside-generated-by-ai.jpg" // apni spa banner image ka path
+                  src="/images/connaught-place-delhi.jpg" // apni spa banner image ka path
                   alt="Luxury Body Spa"
                   fill
                   priority
@@ -398,7 +416,7 @@ const topSteps = [
                   className="relative text-center px-6"
                 >
                   <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
-                    About <span className="text-emerald-300">Our Outles In Lajpatnagar</span>
+                    About <span className="text-emerald-300">Our Outles In Connaught</span>
                   </h1>
                   <p className="mt-4 text-lg md:text-xl text-gray-100 max-w-2xl mx-auto drop-shadow">
                     Discover the art of relaxation with our luxury spa treatments designed
@@ -451,13 +469,13 @@ const topSteps = [
           </div>
 
           <h1 className="space-y-2 text-4xl font-light leading-tight text-gray-900 md:text-5xl">
-            <span className="block font-serif text-5xl md:text-6xl text-emerald-900">Luxury Massage</span>
-            <span className="block">at Top Hotels in</span>
-            <span className="block font-medium">Lajpatnagar – Spa In Gurgaon <span className="text-rose-600">Tranquility</span></span>
+            <span className="block font-serif text-5xl md:text-6xl text-emerald-900">Premium </span>
+            <span className="block">Massage in</span>
+            <span className="block font-medium">Lajpatnagar to Enjoy <span className="text-rose-600">Relaxation</span></span>
           </h1>
 
           <p className="mx-auto mt-4 max-w-xl leading-relaxed text-gray-600 lg:mx-0">
-            Step into comfort and relaxation with Spa In Gurgaon’s luxury spa services in Lajpatnagar, available at the finest hotels nearby. Whether you’re here for work, on holiday, or simply seeking soothing care, our expert therapists deliver a calm and refreshing experience—without leaving your hotel.
+           Stress-free stay at Spa in Gurgaon - the most luxurious spa in Lajpatnagar. Ancient healing practices are tailored to modern wellness by our therapists, who provide exceptionally rejuvenating treatments that relieve fatigue, help relieve tension, and find an inner balance. You want a full body escape, or you want to be indulged by the aromatherapy you are in every session is designed to help you relax, refresh and re-awaken your senses.
           </p>
 
           {/* Service area chips */}
@@ -473,7 +491,7 @@ const topSteps = [
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"/>
                 </svg>
               )},
-              { label: "Lajpatnagar", icon: (
+              { label: "Connaught", icon: (
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"/>
                 </svg>
@@ -521,8 +539,8 @@ const topSteps = [
         <div className="relative h-80 md:h-96 lg:h-[450px]">
           <div className="absolute inset-0 overflow-hidden rounded-xl border-4 border-white shadow-2xl">
             <img
-              src="/images/RoseateHouse.jpg"
-              alt="Serene spa ambience at a luxury Lajpatnagar hotel in Delhi"
+              src="/images/The_Park_Cp.jpg"
+              alt="Serene spa ambience at a luxury Connaught hotel in Delhi"
               className="h-full w-full object-cover"
               loading="lazy"
             />
@@ -593,7 +611,7 @@ const topSteps = [
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.6 }}
                     >
-                      Body Massage in Lajpatnagar <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">at Top Hotels</span>
+                      Our Luxury Outlets <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">For Hotel Spa in Lajpatnagar</span>
                     </motion.h2>
                     
                     <motion.p
@@ -602,7 +620,7 @@ const topSteps = [
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4, duration: 0.5 }}
                     >
-                      Spa In Gurgaon offers exclusive massage services at some of the most prestigious hotels in Lajpatnagar. Each session is designed to alleviate stress and promote balance in your mind and body. Our expert therapists will offer personalized therapy in your hotel room, ensuring every moment is a health retreat. The following are the hotels where we have our services:
+                     Spa in Gurgaon is the premium provider of massage services to the most elite hotels in Connaught place. The services provided by our therapists are of the standard of professional hotel room spa services in which the comfort, discretion, and tranquility are guaranteed to all guests throughout the contact point to the very last second.
                     </motion.p>
                     
                     <motion.div
@@ -688,7 +706,7 @@ const topSteps = [
             viewport={{ once: true }}
             className="mb-5 inline-flex items-center rounded-full bg-emerald-100 px-4 py-2 text-sm font-medium text-emerald-700"
           >
-            <span className="mr-2">✦</span> About Our Lajpatnagar Spa Outlets
+            <span className="mr-2">✦</span> About Our Connaught Spa Outlets
           </motion.span>
 
           {/* Heading */}
@@ -699,16 +717,15 @@ const topSteps = [
             viewport={{ once: true }}
             className="mb-4 text-4xl font-bold leading-tight text-gray-800 md:text-5xl lg:text-4xl"
           >
-            Step Into Luxury{" "}
+            Best Spa in{" "}
             <span className="relative ml-1 inline-block">
-              <span className="relative z-10 text-emerald-600">Wellness at Lajpatnagar with Spa In Gurgaon</span>
+              <span className="relative z-10 text-emerald-600">Lajpatnagar For Finest Massage Service</span>
               <span aria-hidden className="absolute bottom-1 left-0 right-0 h-3 rounded-sm bg-emerald-200/60" />
             </span>
           </motion.h2>
 
           <p className="mb-6 text-lg text-gray-700">
-            Spa In Gurgaon elevates your Lajpatnagar stay with restorative, in-room therapies across leading hotels—JW Marriott, Lemon Tree, Pullman, and Novotel. Enjoy tailored care, discreet service, and deep relaxation without stepping outside your suite.
-            Enjoy tailored care, discreet service, and deep relaxation without stepping outside your suite.
+           Spa in Gurgaon is a reputable brand for luxury spas and massages in Lajpatnagar. Our spa has a reputation for being the best in terms of atmosphere, the qualified therapists, and high-quality oils, which is a blend of comfort and class. All types of therapy incorporate global methods with home-age-old wisdom to refresh the body and mind. It does not matter whether you are in a 5-star hotel or in Lajpatnagar doing business or having fun, our treatments will guarantee you a real sense of peace and rest. The emphasis of spa in Gurgaon on outstanding services, privacy, and care makes it the destination of choice for individuals who want to embark on true wellness and luxury.
           </p>
 
           {/* Feature list */}
@@ -858,7 +875,7 @@ const topSteps = [
             transition={{ duration: 0.5, delay: 0.05 }}
             className="mx-auto mt-4 max-w-3xl font-serif text-4xl font-bold leading-tight text-gray-900 md:text-5xl"
           >
-            Why Choose <span className="bg-gradient-to-r from-emerald-600 to-emerald-400 bg-clip-text text-transparent">Spa In Gurgaon for Spa Services in Delhi</span>
+            Our Hotel <span className="bg-gradient-to-r from-emerald-600 to-emerald-400 bg-clip-text text-transparent">Massage in Lajpatnagar</span>
           </motion.h2>
 
           <motion.p
@@ -868,7 +885,7 @@ const topSteps = [
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-emerald-900/80 md:text-xl"
           >
-            Spa In Gurgaon blends reliability with luxury. Enjoy top‑quality comfort in premier hotels—whether you’re here for work, sightseeing, or pure relaxation.
+          The Spa in Gurgaon offers the most refreshing hotel massage services in Lajpatnagar. Our treatments combine treatment accuracy with relaxing atmosphere to make you relax to the fullest extent.
           </motion.p>
         </div>
 
@@ -929,7 +946,7 @@ const topSteps = [
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
             { k: 'therapists', label: 'Certified Therapists', sub: 'Experienced & verified' },
-            { k: 'inroom', label: 'In‑Room Service', sub: 'At leading Lajpatnagar hotels' },
+            { k: 'inroom', label: 'In‑Room Service', sub: 'At leading Connaught hotels' },
             { k: 'slots', label: 'Flexible Slots', sub: 'Late evenings available' },
             { k: 'hygiene', label: '5‑Step Hygiene', sub: 'Sanitized & safe' },
           ].map((f, idx) => (
@@ -1001,7 +1018,7 @@ const topSteps = [
           </h2>
           <div className="mx-auto mt-4 h-1 w-24 rounded-full bg-emerald-600" />
           <p className="mx-auto mt-4 max-w-3xl text-gray-600">
-            Ease into serenity at our Gurgaon Lajpatnagar outlet. Thoughtfully curated rituals, discreet in-room options, and
+            Ease into serenity at our Gurgaon Connaught outlet. Thoughtfully curated rituals, discreet in-room options, and
             hotel-partner exclusives—so you enjoy deep relaxation without leaving your itinerary.
           </p>
         </motion.header>
@@ -1088,7 +1105,7 @@ const topSteps = [
           >
             <div className="relative overflow-hidden rounded-2xl border border-[#e8d5c9] bg-white/70 shadow-2xl">
               <div className="relative h-[440px] w-full">
-                <Image src="/images/best-western-merrion.jpg" alt="Serene spa ambience at Gurgaon Lajpatnagar outlet" fill className="object-cover" />
+                <Image src="/images/best-western-merrion.jpg" alt="Serene spa ambience at Gurgaon Connaught outlet" fill className="object-cover" />
               </div>
               {/* Overlay content */}
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#1f2937]/60 via-transparent to-transparent" />
@@ -1101,7 +1118,7 @@ const topSteps = [
               {/* Card footer */}
               <div className="absolute inset-x-0 bottom-0 flex items-center justify-between gap-4 p-4">
                 <div>
-                  <div className="font-serif text-lg font-semibold text-white">Gurgaon · Lajpatnagar</div>
+                  <div className="font-serif text-lg font-semibold text-white">Gurgaon · Connaught</div>
                   <div className="text-xs text-white/80">JW Marriott · Pullman · Novotel · Lemon Tree</div>
                 </div>
                 <a
@@ -1172,7 +1189,7 @@ const topSteps = [
           </h2>
           <div className="mx-auto mt-4 h-1 w-24 rounded-full bg-emerald-600" />
           <p className="mx-auto mt-4 max-w-3xl text-[#4b3f3b]/80">
-            Browse a few guest‑favorite experiences at our Lajpatnagar outlet. Designed to help you reset fast—before or after your flight.
+            Browse a few guest‑favorite experiences at our Connaught outlet. Designed to help you reset fast—before or after your flight.
           </p>
         </motion.header>
 
@@ -1188,7 +1205,7 @@ const topSteps = [
           >
             <div className="grid grid-cols-2 gap-4">
               <div className="relative col-span-2 h-64 overflow-hidden rounded-2xl border border-[#e8d5c9]">
-                <Image src="/images/fpkdl.com_960_1760686305_beautiful-young-woman-reciving-relxing-massage-massage-concept-body-massage-massage-health_299057-864.jpg" alt="Serene spa ambience at Lajpatnagar" fill className="object-cover" />
+                <Image src="/images/fpkdl.com_960_1760686305_beautiful-young-woman-reciving-relxing-massage-massage-concept-body-massage-massage-health_299057-864.jpg" alt="Serene spa ambience at Connaught" fill className="object-cover" />
               </div>
               <div className="relative h-48 overflow-hidden rounded-2xl border border-[#e8d5c9]">
                 <Image src="/images/fpkdl.com_960_1758980177_natural-elements-spa-with-candles_23-2148199485.jpg" alt="Natural essential oils" fill className="object-cover" />
@@ -1211,7 +1228,7 @@ const topSteps = [
             transition={{ duration: 0.6, delay: 0.05 }}
             className="relative rounded-2xl border border-[#e8d5c9] bg-white/80 p-8 shadow-lg backdrop-blur-sm"
           >
-            <h3 className="font-serif text-2xl font-semibold text-emerald-800">Why Guests Love Our Lajpatnagar Outlet</h3>
+            <h3 className="font-serif text-2xl font-semibold text-emerald-800">Why Guests Love Our Connaught Outlet</h3>
             <p className="mt-2 text-[#4b3f3b]">Quick to book, easy to reach, and reliably relaxing—ideal between meetings or layovers.</p>
 
             <ul className="mt-6 grid gap-4 sm:grid-cols-2" role="list">
@@ -1316,10 +1333,10 @@ const topSteps = [
           transition={{ duration: 0.6 }}
         >
           <span className="text-sm font-medium text-emerald-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-          <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Our Massage Services at Hotels in Lajpatnagar</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Why Choose Spa in Gurgaon as Best Centre for Massage in Lajpatnagar</h1>
           <div className="mx-auto w-28 h-1 bg-emerald-600 rounded-full" />
           <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-           Spa In Gurgaon offers a great variety of treatments to meet the needs of all guests. Every service is designed so that relaxation and recovery are fully achieved to ensure that your stay is easier and more comfortable.
+          Wellness is redefined by relaxation, expertise, and luxury, creating experiences that are unmatched.
           </p>
         </motion.div>
 
@@ -1437,9 +1454,9 @@ const topSteps = [
             >
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div>
-                  <h4 className="text-2xl font-bold">A Promise of Total Rejuvenation</h4>
+                  <h4 className="text-2xl font-bold">Book Relaxing Hotel Massage in Lajpatnagar Today</h4>
                   <p className="mt-2 opacity-95">
-                    Every massage is designed to relax, refresh, and heal. We ensure you return energized, calm, and fully satisfied with your therapy.
+                    Get the relaxation experience in the comfort of your hotel room at Let Spa in Gurgaon. Feel the best massage treatments, unwind your mind, relieve the stress, and rejuvenate your energy and book your massage now to feel serene.
                   </p>
                 </div>
                 <div className="flex gap-3">
@@ -1475,7 +1492,7 @@ const topSteps = [
       </div>
     </section>
                         {/* end */}
-                        {/* how to book Lajpatnagar spa outlets */}
+                        {/* how to book Connaught spa outlets */}
                         <section className="w-full py-20 bg-gradient-to-b from-white to-emerald-50">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
@@ -1487,15 +1504,15 @@ const topSteps = [
             className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-emerald-900"
           >
             <span className="block font-[Great_Vibes] text-4xl md:text-5xl text-emerald-800">
-              How to Book Massage Therapy in Lajpatnagar&apos;s
+              The procedure of reserving Luxury Massage in Lajpatnagar in the Best Hotels.
             </span>
-            <span className="block font-[Great_Vibes] text-3xl md:text-4xl bg-gradient-to-r from-emerald-600 to-emerald-400 text-transparent bg-clip-text">
+            {/* <span className="block font-[Great_Vibes] text-3xl md:text-4xl bg-gradient-to-r from-emerald-600 to-emerald-400 text-transparent bg-clip-text">
               Prestigious Hotels?
-            </span>
+            </span> */}
           </motion.h1>
 
           <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
-            Booking a Spa In Gurgaon session is quick and simple. We have simplified our process so that you can have an excellent time enjoying therapy.
+           Reserving a massage appointment is fast, easy and totally confidential.
           </p>
         </header>
 
@@ -1555,7 +1572,64 @@ const topSteps = [
         </div>
       </div>
     </section>
-                        {/* how to book Lajpatnagar spa outlets */}
+                        {/* how to book Connaught spa outlets */}
+                        {/* //// */}
+                                                            <section className="py-24 bg-gradient-to-b from-emerald-50 to-emerald-100">
+                              <div className="container mx-auto px-6 md:px-10 xl:px-20">
+                                <motion.div
+                                  initial={{ opacity: 0, y: 12 }}
+                                  whileInView={{ opacity: 1, y: 0 }}
+                                  viewport={{ once: true }}
+                                  transition={{ duration: 0.6, ease: "easeOut" }}
+                                  className="max-w-7xl mx-auto bg-white/80 backdrop-blur-md rounded-3xl shadow-2xl border border-emerald-200 p-8 md:p-14"
+                                >
+                                  <h2 className="text-center text-3xl md:text-5xl font-serif font-extrabold text-emerald-900 leading-tight mb-6">
+                                   Benefits of Booking Hotel Massage in Lajpatnagar at Best Hotels
+                                  </h2>
+                        
+                                  <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+                                    Enjoy luxurious in-room spa treatments with expert therapists who bring relaxation, balance, and complete comfort straight to your hotel suite.
+                                  </p>
+                        
+                                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                                    {benefits.map((item) => (
+                                      <motion.div
+                                        key={item.id}
+                                        whileHover={{ translateY: -6 }}
+                                        transition={{ type: "spring", stiffness: 300 }}
+                                        className="group flex flex-col items-start gap-3 p-6 rounded-2xl border border-emerald-100 bg-white/70 hover:bg-emerald-50 hover:shadow-lg transition-all duration-300"
+                                      >
+                                        <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-emerald-200/70 text-emerald-900 shadow-inner group-hover:scale-110 transition-transform">
+                                          {item.icon}
+                                        </div>
+                                        <h3 className="text-lg font-semibold text-emerald-900">{item.title}</h3>
+                                        <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
+                                      </motion.div>
+                                    ))}
+                                  </div>
+                        
+                                  <div className="mt-10 flex justify-center gap-4 flex-wrap">
+                                    <motion.a
+                                      whileTap={{ scale: 0.97 }}
+                                      href="#book"
+                                      className="px-8 py-3 rounded-full bg-emerald-700 text-white font-medium shadow-md hover:shadow-lg hover:bg-emerald-800 transition"
+                                    >
+                                      Book Now
+                                    </motion.a>
+                        
+                                    <motion.a
+                                      whileTap={{ scale: 0.97 }}
+                                      href="#learn"
+                                      className="px-8 py-3 rounded-full border border-emerald-300 text-emerald-900 font-medium bg-white/70 hover:bg-white transition"
+                                    >
+                                      Learn More
+                                    </motion.a>
+                                  </div>
+                        
+                                  <p className="text-xs text-gray-500 text-center mt-8">Available at selected premium hotels in Aerocity. Terms &amp; conditions apply.</p>
+                                </motion.div>
+                              </div>
+                            </section>
 {/* Pricing Section */}
             <section id= "Pricing" className="py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-emerald-50 relative overflow-hidden">
             {/* Decorative elements */}
@@ -1581,7 +1655,7 @@ const topSteps = [
                   viewport={{ once: true }}
                   transition={{ delay: 0.1 }}
                 >
-                  Our <span className="text-emerald-600">Pricing Packages</span>
+                  Our Pricing Packages <span className="text-emerald-600">for Hotel Spa in Lajpatnagar</span>
                 </motion.h2>
                 <motion.p
                   className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1590,7 +1664,7 @@ const topSteps = [
                   viewport={{ once: true }}
                   transition={{ delay: 0.2 }}
                 >
-                  Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
+                  Spa at Gurgaon provides luxury packages of massage at competitive prices of 1999 plus guaranteeing high quality relaxation, licensed care, and comfort in the center of connaught place.
                 </motion.p>
                 <motion.div
                    className="flex justify-center mt-10"
@@ -1796,9 +1870,9 @@ const topSteps = [
       {/* 700+ Words Content Block */}
       {/* <div className="bg-white py-14 px-6 md:px-20">
         <div className="max-w-5xl mx-auto space-y-6 text-gray-700 text-lg leading-relaxed">
-          <h2 className="text-2xl font-bold text-emerald-700 mb-4 text-center">Why Choose Our Spa in Lajpatnagar?</h2>
+          <h2 className="text-2xl font-bold text-emerald-700 mb-4 text-center">Why Choose Our Spa in Connaught?</h2>
           <p>
-            Lajpatnagar is a destination that blends luxury, convenience, and connectivity — and what better way to enhance your stay than with a relaxing spa session designed to soothe your mind and body? Our spa outlets are located in the most prestigious hotels across Lajpatnagar, giving you access to world-class wellness experiences within arm’s reach.
+            Connaught is a destination that blends luxury, convenience, and connectivity — and what better way to enhance your stay than with a relaxing spa session designed to soothe your mind and body? Our spa outlets are located in the most prestigious hotels across Connaught, giving you access to world-class wellness experiences within arm’s reach.
           </p>
           <p>
             Whether you're a couple looking for a romantic escape, a business traveler seeking stress relief, or a local resident desiring some weekend rejuvenation, our spa services are tailored to meet every need. From couple massages, oil therapy, deep tissue massage to aroma and Swedish therapy — our professionally trained therapists ensure every session is personal, effective, and deeply relaxing.
@@ -1807,16 +1881,16 @@ const topSteps = [
             Our outlets follow the highest hygiene and quality standards. Every treatment room is designed to provide peace and privacy, with soothing music, ambient lighting, and a tranquil environment that elevates your entire experience.
           </p>
           <p>
-            What sets our Lajpatnagar spa services apart is our commitment to customization. We understand that every body is different — so we ask the right questions before beginning any session, and we curate treatments based on your lifestyle, tension areas, and wellness goals. You leave feeling refreshed, realigned, and ready to take on the world.
+            What sets our Connaught spa services apart is our commitment to customization. We understand that every body is different — so we ask the right questions before beginning any session, and we curate treatments based on your lifestyle, tension areas, and wellness goals. You leave feeling refreshed, realigned, and ready to take on the world.
           </p>
           <p>
-            With easy access to the IGI Airport, metro, and luxury shopping arcades, our Lajpatnagar locations are ideal for those short on time but high on expectation. We ensure that even a 60-minute session makes a lasting impact on your mood, energy, and health.
+            With easy access to the IGI Airport, metro, and luxury shopping arcades, our Connaught locations are ideal for those short on time but high on expectation. We ensure that even a 60-minute session makes a lasting impact on your mood, energy, and health.
           </p>
           <p>
             Whether you are staying at JW Marriott, Andaz, Roseate House, Pullman, or Novotel — we are just an elevator ride away. Book your couple spa or signature massage session today and unlock the door to pure bliss.
           </p>
           <p className="font-medium text-center text-emerald-700">
-            Come, experience Lajpatnagar’s best luxury spa — where wellness meets elegance.
+            Come, experience Connaught’s best luxury spa — where wellness meets elegance.
           </p>
         </div>
       </div> */}

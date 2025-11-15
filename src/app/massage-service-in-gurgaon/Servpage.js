@@ -289,7 +289,7 @@ const faqs = [
     return (
       <main>
         {/* banner */}
-               <div className="relative w-full h-[45vh] md:h-[70vh] min-h-[340px] flex items-center">
+               <div className="relative w-full h-[50vh] md:h-[70vh] min-h-[340px] flex items-center">
       {/* Background image - place your image at /public/images/hero-banner.jpg */}
       <div className="absolute inset-0 -z-20">
         <Image
