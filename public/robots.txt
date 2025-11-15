@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+Disallow: /cgi-bin/
+Disallow: /trackback/
+Disallow: /comments/
+Disallow: /search
+Disallow: /*?s=
+Disallow: /*?replytocom=
+Disallow: /author/
+Disallow: /tag/
+
+Sitemap: https://www.spaingurgaon.com/sitemap.xml
