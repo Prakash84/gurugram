@@ -793,14 +793,14 @@ const teamMembers = [
 
           <div className="mt-6 flex flex-col sm:flex-row gap-4 sm:gap-6 items-center">
             <a
-              href="#book"
+              href="https://api.whatsapp.com/send?phone=918826482370"
               className="inline-flex items-center justify-center rounded-full bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 font-semibold shadow-lg transition"
             >
               Book Now
             </a>
 
             <a
-              href="#services"
+              href="/massage-service-in-gurgaon"
               className="inline-flex items-center justify-center rounded-full bg-white/90 hover:bg-white px-5 py-3 font-medium text-slate-800 shadow-sm transition"
             >
               Explore Services
@@ -1011,12 +1011,15 @@ const teamMembers = [
                 >
                   <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-emerald-600 group-hover:from-emerald-600 group-hover:to-emerald-700 transition-all"></div>
                   <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 to-emerald-700 opacity-0 group-hover:opacity-100 transition-all"></div>
-                  <span className="relative z-10 flex items-center gap-2">
+                  <a href="/about-us">
+                    <span className="relative z-10 flex items-center gap-2">
                     Learn More About Us
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 animate-pulse" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                     </svg>
                   </span>
+                  </a>
+                  
                 </motion.a>
 
                 <a
@@ -1115,10 +1118,10 @@ const teamMembers = [
             
                   <div className="mt-10 flex justify-center lg:justify-start">
                     <a
-                      href="/services"
+                      href="/spa-price-in-delhi-ncr"
                       className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r from-emerald-600 to-emerald-600 text-white font-medium shadow-lg hover:shadow-xl transition-shadow duration-200"
                     >
-                      View Services
+                      Out packages
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
                       </svg>
@@ -1363,7 +1366,7 @@ const teamMembers = [
 
                 <div className="flex justify-center mt-10">
                 <a
-                href="/Outlets"
+                href="/spa-in-mahipalpur"
                 className="inline-flex items-center gap-3 bg-gradient-to-r from-emerald-600 to-emerald-600 text-white font-semibold px-6 py-3 rounded-full shadow-md transition-all"
                 >
                 View All Outlets
@@ -1659,7 +1662,8 @@ const teamMembers = [
                             </ul>
                             
                             <a
-                              href={plan.ctaLink}
+                              // href={plan.ctaLink}
+                              href="https://api.whatsapp.com/send?phone=919211059033"
                               className={`mt-auto block text-center py-3 px-6 rounded-full font-bold transition-all duration-300 ${
                                 plan.highlight 
                                   ? "bg-gradient-to-r from-emerald-500 to-emerald-600 text-white hover:shadow-xl hover:from-emerald-600 hover:to-emerald-700"
@@ -1743,7 +1747,7 @@ const teamMembers = [
         </div>
 
         <div className="mt-10">
-          <a href="/Services" className="inline-block mt-2 px-6 py-3 rounded-full bg-emerald-600 text-white font-medium shadow hover:bg-emerald-700 transition">
+          <a href="/spa-in-mahipalpur" className="inline-block mt-2 px-6 py-3 rounded-full bg-emerald-600 text-white font-medium shadow hover:bg-emerald-700 transition">
             Explore All Services
           </a>
         </div>

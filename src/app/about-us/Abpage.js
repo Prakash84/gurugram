@@ -344,7 +344,7 @@ export default function Abpage({
           </p>
           
           <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <a href='/Pricing'>
+            <a href='/spa-price-in-delhi-ncr'>
                <button className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-emerald-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
               <span>Our Pricing</span>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -736,7 +736,7 @@ export default function Abpage({
           <p className="text-gray-600">Book your wellness escape and feel the bliss unfold.</p>
         </div>
         <div className="flex gap-3">
-          <a href="#book" className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-full font-medium shadow">
+          <a href="https://api.whatsapp.com/send?phone=919211059033" className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-full font-medium shadow">
             Book Now
           </a>
           <a href="#contact" className="inline-block border border-emerald-200 px-5 py-3 rounded-full font-medium">
@@ -913,7 +913,7 @@ export default function Abpage({
             className="order-1 md:order-2"
           >
             <Image
-              src="/images/spaimage.jpeg"
+              src="/images/cozy-candlelit-bedroom-brings-rustic-elegance-inside-generated-by-ai.jpg"
               alt="Full Body Massage in Connaught Place"
               width={600}
               height={400}
@@ -1034,13 +1034,13 @@ export default function Abpage({
             {/* CTA row */}
             <div className="mt-8 flex items-center gap-4">
               <a
-                href="#book"
+                href="https://api.whatsapp.com/send?phone=919211059033"
                 className="inline-block px-6 py-3 rounded-full bg-emerald-600 text-white font-semibold shadow hover:scale-[1.02] transition-transform"
               >
                 Book a Session
               </a>
 
-              <a href="#services" className="text-emerald-900 font-medium hover:underline">Explore Services</a>
+              <a href="/massage-service-in-gurgaon" className="text-emerald-900 font-medium hover:underline">Explore Services</a>
             </div>
           </div>
         </div>

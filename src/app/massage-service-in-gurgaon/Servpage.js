@@ -335,11 +335,11 @@ const faqs = [
               transition={{ delay: 0.4 }}
               className="mt-8 flex flex-wrap gap-4"
             >
-              <a href="#book" className="inline-flex items-center gap-3 bg-gradient-to-r from-emerald-600 to-emerald-800 text-white px-6 py-3 rounded-full shadow-lg hover:scale-[1.02] transform transition">
+              <a href="https://api.whatsapp.com/send?phone=919211059033" className="inline-flex items-center gap-3 bg-gradient-to-r from-emerald-600 to-emerald-800 text-white px-6 py-3 rounded-full shadow-lg hover:scale-[1.02] transform transition">
                 Book a Consultation
               </a>
 
-              <a href="#services" className="inline-flex items-center gap-3 bg-white border border-gray-200 px-6 py-3 rounded-full shadow-sm text-gray-700 hover:shadow-md transition">
+              <a href="/massage-service-in-gurgaon" className="inline-flex items-center gap-3 bg-white border border-gray-200 px-6 py-3 rounded-full shadow-sm text-gray-700 hover:shadow-md transition">
                 View Services
               </a>
             </motion.div>
@@ -778,8 +778,8 @@ const faqs = [
                               whileHover={{ scale: 1.03 }}
                               whileTap={{ scale: 0.98 }}
                             >
-                              <a href="/Services" className="flex items-center gap-2">
-                                 View Treatments
+                              <a href="/spa-price-in-delhi-ncr" className="flex items-center gap-2">
+                                 View packages
                               </a>
                               
                             </motion.button>
@@ -932,7 +932,7 @@ const faqs = [
                             viewport={{ once: true }}
                           >
                             <motion.a
-                              href="/about"
+                              href="/spa-in-mahipalpur"
                               className="relative overflow-hidden px-8 py-4 rounded-full font-medium text-white group"
                               whileHover={{ scale: 1.05 }}
                               whileTap={{ scale: 0.95 }}
@@ -940,7 +940,7 @@ const faqs = [
                               <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-emerald-600 group-hover:from-emerald-600 group-hover:to-emerald-700 transition-all"></div>
                               <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 to-emerald-700 opacity-0 group-hover:opacity-100 transition-all"></div>
                               <span className="relative z-10 flex items-center gap-2">
-                                Learn More About Us
+                                Visite Our Outlets
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 animate-pulse" viewBox="0 0 20 20" fill="currentColor">
                                   <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                                 </svg>
@@ -953,8 +953,8 @@ const faqs = [
                               whileHover={{ scale: 1.05 }}
                               whileTap={{ scale: 0.95 }}
                             >
-                              <a href="#Pricing" className="relative z-10 flex items-center gap-2 cursor-pointer">
-                                View Pricing
+                              <a href="/about-us" className="relative z-10 flex items-center gap-2 cursor-pointer">
+                                About Our Journey
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                   <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z" />
                                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 000-1.676.62C6.602" />
@@ -1121,7 +1121,7 @@ const faqs = [
               {/* CTA */}
               <div className="mt-6 flex flex-wrap items-center gap-3">
                 <a
-                  href="#" // TODO: replace with your booking link
+                  href="https://api.whatsapp.com/send?phone=919211059033" // TODO: replace with your booking link
                   className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-emerald-600 to-teal-600 px-6 py-3 text-base font-semibold text-white shadow-md transition-transform hover:-translate-y-0.5 hover:shadow-lg"
                 >
                   Book Now
