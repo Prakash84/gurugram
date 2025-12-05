@@ -3,6 +3,7 @@ import "./globals.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import WhatsappFloat from "./components/WhatsappFloat";
+import Analytics from "./components/Analytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+         <Analytics />
         <Navbar />
         {children}
         <WhatsappFloat />
