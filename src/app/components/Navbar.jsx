@@ -38,19 +38,19 @@ export default function Navbar() {
   };
 
   const servicesDropdown = [
-    { name: "Sandwich Massage", href: "/massage-service-in-gurgaon/sandwich-massage-in-gurgaon" },
-    { name: "Couple Massage", href: "/massage-service-in-gurgaon/couples-massage-in-gurgaon" },
-    { name: "B2B Massage", href: "/massage-service-in-gurgaon/b2b-massage-in-gurgaon" },
-    { name: "Full Body Massage", href: "/massage-service-in-gurgaon/full-body-massage-in-gurgaon" },
-    { name: "We Are Hiring", href: "/massage-service-in-gurgaon/spa-therapist-jobs-in-gurgaon" },
+    { name: "Sandwich Massage", href: "/sandwich-massage-in-gurgaon" },
+    { name: "Couple Massage", href: "/couples-massage-in-gurgaon" },
+    { name: "B2B Massage", href: "/b2b-massage-in-gurgaon" },
+    { name: "Full Body Massage", href: "/full-body-massage-in-gurgaon" },
+    { name: "We Are Hiring", href: "/spa-therapist-jobs-in-gurgaon" },
   ];
 
   const outletDropdown = [
-    { name: "Aerocity", href: "/spa-in-mahipalpur/spa-in-aerocity" },
-    { name: "Connaught Place", href: "/spa-in-mahipalpur/spa-in-connaught-place" },
-    { name: "Lajpat Nagar", href: "/spa-in-mahipalpur/spa-in-lajpat-nagar" },
-    { name: "Gurugram", href: "/spa-in-mahipalpur/massage-service-in-gurgaon" },
-    { name: "Noida", href: "/spa-in-mahipalpur/spa-in-noida" },
+    { name: "Aerocity", href: "/spa-in-aerocity" },
+    { name: "Connaught Place", href: "/spa-in-connaught-place" },
+    { name: "Lajpat Nagar", href: "/spa-in-lajpat-nagar" },
+    { name: "Gurugram", href: "/spa-in-gurgaon" },
+    { name: "Noida", href: "/spa-in-noida" },
   ];
 
   return (

@@ -11,8 +11,8 @@
   import { ArrowRight } from 'lucide-react';
 import { FaCrown } from 'react-icons/fa';
 import { FaSpa, FaHotel, FaStar, FaCheckCircle, FaMapSigns, FaHeartbeat, FaRegSmile, } from "react-icons/fa";
-import luxuryhotelpartners from '../../components/LuxuryHotelPartners';
-import LuxuryHotelShowcase from '../../components/LuxuryHotelShowcase';
+import luxuryhotelpartners from '../components/LuxuryHotelPartners';
+import LuxuryHotelShowcase from '../components/LuxuryHotelShowcase';
   import { FaTelegram } from 'react-icons/fa';
   import { FaLeaf, FaHotTub, FaHandSparkles } from "react-icons/fa";
   import { AnimatePresence } from 'framer-motion';
@@ -42,28 +42,28 @@ import { GiLotus } from 'react-icons/gi';
   });
   const services = [
     {
-      title: "Four-Hand Synchronized Flow",
+      title: "Aromatic Full-Body Indulgence",
       image: "/images/fpkdl.com_960_1760598531_woman-is-being-massaged-by-woman_133748-19192.jpg",
-      description: "Two trained therapists work on you at the same time. They move together in a smooth way that feels nice. Their hands work in perfect timing to help your muscles relax. The pressure stays steady and feels good all over your body. This method takes away stress fast. You feel like your whole body gets attention at once.",
+      description: "The aromatic body-to-body massage is provided with the highest essential oils, light pressure, and sensual motions to dissolve fatigue. It is a combination of being relaxed, yet stimulated, in a soft way that awakens all senses and makes you entirely relaxed and very comfortable.",
       // duration: "60 min"
     },
     {
-      title: "Deep Tissue Pressure Therapy",
+      title: "Hot Oil B2B Therapy",
       image: "/images/cc.jpg",
-      description: "This type of massage goes deep into your muscles. It targets the areas where you feel pain or tightness. Our therapists at Spa in Gurgaon know exactly how much pressure to use. Your blood flows better after this treatment. The soreness you felt before goes away. Your body feels fresh and ready for anything.",
+      description: "Have a warm and cozy body-to-body treatment involving warm aromatic oils, slow rhythmic massage, and even a share of tension. The warmth enhances pleasures and increases blood circulation that makes it silky-smooth and intimate and refreshing.",
       // duration: "90 min"
     },
     
     {
-      title: "Alternate Wave Massage",
+      title: "Soft Feather Sensation Massage",
       image: "/images/woman-spending-time-spa-getting-exfoliation-massage.jpg",
-      description: "This massage uses movements that feel like waves. The therapists move their hands in a pattern across your body. It helps your energy move the right way. Spa in Gurgaon staff adjust how hard they press based on what you need. Your stress disappears during the session. You feel better in both body and mind.",
+      description: "A massage that is distinctly sensual incorporating the delicate methods of the feathers with flowing throughout his body. It produces stimulating moments in every part of your body, makes you relaxed, and it gives sensuality back in an intimate atmosphere.",
       // duration: "60 min"
     },
     {
-      title: "Fusion Exotic Experience",
+      title: "Exotic Cream Bliss Therapy",
       image: "/images/woman-giving-massage-another-woman-lying-down.jpg",
-      description: "This service is a combination of old and new massage styles. You receive special treatment which is fancy and different. The therapists at Gurgaon spa apply pleasant-smelling oils to you. Their hands move simultaneously in patterns that feel amazing. You get deep comfort that lasts long after the massage ends.",
+      description: "Our exotic cream treatment is a skin replenishing cream therapy that helps maintain sensual balance. Light strokes, soft pressure and warm touch are the components that make your body light and beautifully rejuvenated through an immersive experience of relaxation.",
       // duration: "60 min"
     }
   ];
@@ -84,22 +84,22 @@ const container = {
    const journey = [
       {
         step: "1",
-        title: "Book & Consult",
-        text: "You can call us or book through our website. Talk to our therapists about what you want from the massage. They even hear your needs and assist in planning the ideal session. This is done to ensure that you receive the best treatment.",
+        title: "Book Your Session",
+        text: "Contact or text our staff and select the type of therapist, time, and length of session.",
         icon: <FaMapSigns className="w-6 h-6" />,
         img: "/images/fpkdl.com_750_1758980084_composition-various-objects-used-spa-treatments_138888-664.jpg",
       },
       {
         step: "2",
-        title: "Select Massage Session",
-        text: "Select the type of sandwich massage which you want in Gurgaon. Choose when you want to come and how much pressure feels good. You can add extra things to your session too. Everything gets set up the way you like it.",
+        title: "Confirm Appointment",
+        text: "Get immediate confirmation and specific instructions on your home or personal spa session.",
         icon: <FaHeartbeat className="w-6 h-6" />,
         img: "/images/fpkdl.com_750_1758981403_modern-house-bed-room-interior-design_1143383-1039.jpg",
       },
       {
         step: "3",
-        title: "Get Massage and Relax",
-        text: "Our trained therapists come to you, or you visit our spa. They give you the massage you picked. You just lie down and let the stress leave your body. The whole experience feels peaceful and calm.",
+        title: "Relax & Enjoy",
+        text: "One of our trained therapists will come to your booked time, which will provide you with a relaxing, comfortable, and refreshing B2B massage.",
         icon: <FaRegSmile className="w-6 h-6" />,
         img: "/images/fpkdl.com_960_1758962771_young-relaxing-woman-getting-massage-with-cosmetic-oil-spa-salon-background_852367-2763.jpg",
       },
@@ -157,14 +157,8 @@ const container = {
 
 {/* End Our Process */}
 
-  export default function Sandwichmassage() {
-     <Head>
-        <title>Visit Our Best Sandwich Massage Spa in Delhi </title>
-        <meta
-          name="description"
-          content="Relax with Sandwich Massage in Delhi. Just visit our Sandwich Massage Spa in Karol Bagh to get the perfect sandwich massage in Delhi."
-        />
-      </Head>
+  export default function B2bservice() {
+     
     const [isVisible, setIsVisible] = useState(false);
     
       useEffect(() => {
@@ -179,7 +173,7 @@ const container = {
     
       const faqs = [
         {
-          question: "What exactly is a Sandwich Massage Spa in Delhi?",
+          question: "What exactly is a B2B Massage Spa in Delhi?",
           answer: "In sandwich massage. Two therapists provide you synchronized motion for deeper, balanced stimulation. It enhances sensory relaxation and muscle release while maintaining professional consent and privacy standards in a private treatment room.",
           icon: <FaSpa className="text-teal-600" />
         },
@@ -236,9 +230,9 @@ const container = {
 const [isMenuOpen, setIsMenuOpen] = useState(false);
     const sections = [
       {
-        title: "Spa in Gurgaon: Best Massage Centre For Sandwich Massage in Gurgaon",
+        title: "Spa in Gurgaon: Best Massage Centre For B2B Massage in Gurgaon",
         description1:
-          "Spa in Gurgaon gives the best sandwich massage in Gurgaon with therapists trained around the world. We mix deep muscle work with two therapists working together and special oils. Every session gets made just for you. The massage helps stress go away and blood flow better. Your energy comes back strong. You can get this at your home, hotel room, or our spa location. Each time feels fancy and relaxing. We plan everything carefully so you leave feeling new and full of life. Pick Spa in Gurgaon when you want good quality and real care every time.",
+          "Spa in Gurgaon is also one of the most reliable brands when it comes to body-to-body massage in Gurgaon. Each of the sessions will be structured to maintain a balance between physical relaxation and sensual revitalization of the body by means of light body touch, relaxing atmosphere, and oily aromas. Our qualified therapists are devoted to adding warmth, flow and comfort to every touch so that it will be a relaxing but properly stimulating experience. Home session or spa outlet, in any case, our mission is to make you forget your fatigue, restore your energy, and find your sensual serenity again. Trained therapists, total privacy, and a relaxing environment make Spa in Gurgaon a journey that everyone will surely enjoy, as it will be a deeply refreshing experience.",
         image: "/images/process1.jpeg",
       },
       // {
@@ -311,10 +305,11 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 className="relative text-center px-6"
               >
                 <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
-                  Enjoy Soothing Relaxing <span className="text-emerald-300">Sandwich Massage in Gurgaon With a Certified Therapist</span>
+                  About <span className="text-emerald-300">Our B2B Massage</span>
                 </h1>
                 <p className="mt-4 text-lg md:text-xl text-gray-100 max-w-2xl mx-auto drop-shadow">
-                  Relax, Rejuvenate, and Refresh with Sandwich Massage in Gurgaon
+                  Discover the art of relaxation with our luxury spa treatments designed
+                  to rejuvenate your body, mind, and soul.
                 </p>
         
                 <a
@@ -346,11 +341,11 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       <h1 className="text-4xl md:text-5xl font-light text-gray-800">
         <span className="block font-serif text-5xl md:text-6xl mb-3 text-emerald-800">Spa in Gurgaon:</span>
         Massage Centre, 
-        <span className="block mt-2 font-medium">for Sandwich Massage <span className="text-rose-600">Service in Gurgaon</span></span>
+        <span className="block mt-2 font-medium">for B2B Massage <span className="text-rose-600">Service in Gurgaon</span></span>
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-        Spa in Gurgaon brings you high-quality sandwich massage in Gurgaon. This service makes your body feel better and relieves your muscles of tension. Our professional therapists understand how to provide you with the best care. Every session is customized. You get professional attention that makes your visit special and worth it.
+        Spa in Gurgaon has been providing professional and relaxing B2B massage in Gurgaon to help you to get out of stress, revive and re-connect with your inner self. Our trained female therapists offer soft and intimate body to body touch therapies that will help to relax your body, calm your mind and incite your energy.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -396,7 +391,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
       <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
         <button className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-emerald-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
-          <span>Explore Sandwich Massage</span>
+          <span>Explore B2B Massage</span>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
@@ -423,7 +418,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
         <img
           src="/images/OIP (1).webp"
-          alt="Sandwich Massage Spa"
+          alt="B2B Massage Spa"
           className="w-full h-full object-cover"
         />
       </div>
@@ -487,7 +482,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.3, duration: 0.6 }}
                       >
-                       Our Sandwich <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Massage Services in Gurgaon</span>
+                       Our B2B <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Massage Services in Gurgaon</span>
                       </motion.h2>
                       
                       <motion.p
@@ -496,7 +491,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4, duration: 0.5 }}
                       >
-                        Spa in Gurgaon has special sandwich massage services that help you feel calm and peaceful.
+                        Your personalised sensual relaxation with Spa at Gurgaon with the expert B2B therapists.
                       </motion.p>
                       
                       <motion.div
@@ -594,8 +589,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 transition={{ duration: 0.6 }}
               >
                 <span className="text-sm uppercase tracking-widest text-emerald-600 font-semibold">Curated Experiences</span>
-                <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-[#2f2a27] leading-tight">Eliminate Your Stress with Best Sandwich Massage Therapist in Gurgaon</h2>
-                <p className="mt-4 text-gray-600 max-w-2xl mx-auto">The spa in Gurgaon has expert therapists who give sandwich massages with great care. They ensure that you receive what your body requires.</p>
+                <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-[#2f2a27] leading-tight">Luxury Spa in Gurgaon Offering World-Class B2B Massage Therapies</h2>
+                <p className="mt-4 text-gray-600 max-w-2xl mx-auto">Treat yourself with our professional B2B massage therapists that provide high-quality body-to-body massage.</p>
               </motion.div>
       
               {/* cards + visual */}
@@ -660,8 +655,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                   <div>
                     <div className="flex items-center justify-between">
                       <div>
-                        <h4 className="text-2xl font-bold">Personalized Sandwich Massage Services Gurgaon</h4>
-                        <p className="text-sm opacity-90 mt-2 max-w-xs">Each visit to Spa in Gurgaon suits your particular requirements. The therapists adjust the intensity of the press depending on what is right for you. They vary their techniques and duration of massage. Maybe you want to relax, or maybe your muscles hurt. Either way, the session gets planned around you. This makes every visit feel special and right for your body.</p>
+                        <h4 className="text-2xl font-bold">Personalized B2B Massage Services Gurgaon</h4>
+                        <p className="text-sm opacity-90 mt-2 max-w-xs">Spa in Gurgaon customizes individual B2B session to your liking with oil type and level of pressure, flow and speed of the massage. Each therapy is adapted to the comfort and energy rhythm of your body, and it will become completely satisfied and relaxed in the mind.</p>
                       </div>
                       <div className="w-28 h-28 bg-white/10 rounded-lg flex items-center justify-center overflow-hidden">
                         <img src="/images/fpkdl.com_960_1758980177_natural-elements-spa-with-candles_23-2148199485.jpg" alt="consult" className="object-cover w-full h-full" />
@@ -753,8 +748,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 <div className="max-w-6xl mx-auto p-8 lg:p-12">
                   <div className="flex flex-col lg:flex-row gap-8 items-start">
                     <div className="lg:w-1/2">
-                      <h3 className="text-3xl font-extrabold text-[#114c3b]">Process to Book Sandwich Massage in Gurgaon</h3>
-                      <p className="mt-3 text-gray-700">Getting your sandwich massage in Gurgaon scheduled is easy and quick.</p>
+                      <h3 className="text-3xl font-extrabold text-[#114c3b]">Process to book B2B massage in Gurgaon</h3>
+                      <p className="mt-3 text-gray-700">Reservation of your sensual relaxation with Spa in Gurgaon is fast and confidential.</p>
       
                       <div className="mt-6 space-y-6">
                         {journey.map((j, idx) => (
@@ -824,7 +819,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Health Benefits of <span className="text-emerald-600">Sandwich Massage Services Gurgaon</span>
+                    Health Benefits of <span className="text-emerald-600">B2B Massage Services Gurgaon</span>
                   </motion.h2>
                   <motion.p
                     className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -833,40 +828,40 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                        Spa in Gurgaon sandwich massage helps your body in many ways. You feel more energetic and are able to move better.
+                   B2B massage is not only relaxing but also invigorating and restoring the lost sensuality.
                   </motion.p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
                 { 
-                  title: "Relieves Muscle Tension", 
-                  description: "The massage works in tight areas of your muscles. It helps areas that have been stiff for a long time. You can bend and move easier after the session. The pain and soreness go away. Your body feels new and strong again.",
+                  title: "Relieves Body Fatigue", 
+                  description: "The light body-to-body motions aid in relieving muscular stress, as well as getting rid of body stiffness.",
                   icon: "💆‍♀️"
                 },
                 { 
-                  title: "Improves Circulation", 
-                  description: "This therapy makes your blood move better through your body. More oxygen reaches all your parts. Your tissues get the food they need to heal. Your whole body works better and feels more alive.",
+                  title: "Stimulates Circulation", 
+                  description: "Increases blood flow and oxygen, which leaves you with a radiant complexion and muscles achingly restored.",
                   icon: "🧘‍♂️"
                 },
                 { 
-                  title: "Reduces Stress Hormones", 
-                  description: "Coming for sessions often brings down your stress chemicals. The hormone called cortisol drops in your body. Your mind feels peaceful and quiet. Your emotions stay balanced and you feel happier.",
+                  title: "Increases Mood and Sexual Energy.", 
+                  description: "Releases endorphins and restores sexual confidence so that you feel good and focused.",
                   icon: "❤️"
                 },
                 { 
-                  title: "Boosts Immunity", 
-                  description: "Better blood flow and less stress help your defense system. Your body fights off sickness better. You stay healthy more often. Your body gets stronger at protecting itself.",
+                  title: "Improves Skin Texture", 
+                  description: "Lotions and oils applied during the massage are of premium quality and nourish the skin, making it brighter.",
                   icon: "✨"
                 },
                 { 
-                  title: "Enhances Sleep Quality", 
-                  description: "The calm feeling from massage helps you sleep deeper. You fall asleep faster at night. Your rest feels complete and good. You wake up with more energy for your day.",
+                  title: "Promotes Deeper Sleep", 
+                  description: "The serene, erotic repose assists the body in calmness thereby guaranteeing deep, restful sleep.",
                   icon: "🌿"
                 },
                 { 
-                  title: "Increases Mental Focus", 
-                  description: "Less stress means your brain works better. Your blood carries more oxygen to your head. You can think more clearly about things. Your work gets done faster and better.",
+                  title: "Releases Emotional Stress", 
+                  description: "Light rhythmical massage reduces anxiety, emotional stress, and psychological exhaustion.",
                   icon: "😴"
                 }
               ].map((benefit, index) => (
@@ -1083,14 +1078,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              transition={{ duration: 0.6, delay: 0.2 }}
                                            >
                                              <h3 className="text-3xl font-bold text-emerald-900 font-serif text-center mb-12">
-                                               Our Sandwich Massage Spa Services in Gurgaon
+                                               Our B2B Massage Spa Services in Gurgaon
                                              </h3>
                                              
                                              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                                                {[
                                                  {
                                                    title: "Hotel Spa",
-                                                   description: "Spa in Gurgaon comes to fancy hotels for your massage. You get amazing sandwich massage services in Gurgaon right where you stay. The experience feels peaceful and special.",
+                                                   description: "Spa in Gurgaon offers B2B massage in top hotels, where you are assured of complete comfort and privacy when you are having your relaxation.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
@@ -1099,7 +1094,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                  },
                                                  {
                                                    title: "Home Spa",
-                                                   description: "We bring spa home service in Gurgaon to your house. Our trained therapists carry everything needed for your treatment. You get top quality massage without leaving your home.",
+                                                   description: "You can have the complete comfort of getting a sensual B2B massage at home in Gurgaon by our certified female therapists.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -1108,7 +1103,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                  },
                                                  {
                                                    title: "Spa Outlet",
-                                                   description: "Come visit our Spa in Gurgaon locations for complete massage service. The places look nice and feel relaxing. You get a professional sandwich massage in Gurgaon with perfect surroundings.",
+                                                   description: "Pay us a visit at our luxury spa outlet in Gurgaon and have a relaxing time with a professional B2B massage.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -1255,7 +1250,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
                   >
-                    Why Choose Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Spa Centre for Best Sandwich Massage in Gurgaon</span>
+                    Why Choose our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">spa centre for Best B2B Massage in Gurgaon</span>
                   </motion.h2>
                   
                   <motion.p
@@ -1264,7 +1259,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
                   >
-                    Spa in Gurgaon offers top sandwich massage services in Gurgaon with skilled care made just for you.
+                    We have combined luxury, privacy, and professionalism to produce memorable B2B experiences.
                   </motion.p>
                   
                   <motion.div
@@ -1279,20 +1274,21 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
-                            <h3 className="text-xl font-semibold text-emerald-800 mb-4">Global Massage Expertise</h3>
+                            <h3 className="text-xl font-semibold text-emerald-800 mb-4">Licensed Female Therapists</h3>
                             <p className="text-gray-700 mb-6">
-                             Our staff learned massage skills from different countries. They use methods from many places in the world. Every session combines the best ways to help your muscles feel good. Spa in Gurgaon makes sure each person gets personal attention. The therapists change how they press and move based on what works for you. They continue to acquire new skills continuously. It implies that you receive the latest and most effective techniques. Each time you visit, you receive international quality care.
+                              We have certified, well-trained, and experienced therapists, who are trained on body-to-body methods that emphasize on comfort and care. They know the points of pressure, flow of pleasure and appropriate rhythm to rejuvenate your body and mind.
                             </p>
                           {/* Bullet Points instead of Image */}
                           {/* <ul className="list-disc list-inside text-gray-700 space-y-2">
                             <li>Highly trained and certified therapists</li>
+                            <li>Wide range of massage techniques</li>
                             <li>Focus on relaxation & stress relief</li>
                             <li>Customized treatments for every client</li>
                             <li>Professional and hygienic environment</li>
                           </ul> */}
-                          <h3 className="text-xl font-semibold text-emerald-800 mb-4">Affordable Pricing</h3>
+                          <h3 className="text-xl font-semibold text-emerald-800 mb-4">Luxury Aromatic Ambience Oils</h3>
                           <p className="text-gray-700 mb-6">
-                             Spa in Gurgaon will allow you to have a fancy sandwich massage in Gurgaon without incurring a lot of money. Sessions begin at just ₹1999. You receive superb services at affordable prices. All our packages are very attractive to you. You get deep relaxation and muscle relief that feels professional. Our prices stay clear and simple. No extra charges surprise you later. We think everyone should be able to feel this good. Spa in Gurgaon makes luxury something you can actually afford.
+                              We have imported essential oils and peaceful aromas that make us more sensitive on touch and relax. All the rooms are dimly illuminated, air-conditioned, and played with soothing music to be in the right mood.
                             </p>
                       </div>
                       
@@ -1311,13 +1307,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         
                       
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
-                        <span className="font-semibold text-emerald-800 mb-4">Easy Booking Experience</span>
+                        <span className="font-semibold text-emerald-800 mb-4">Personalized Treatment of each customer</span>
                         <p className="text-gray-700 mb-6">
-                          Setting up your sandwich massage in Gurgaon takes just minutes. You can book on our website, through our app, or by phone. Pick what time works for you and which place you want to visit. Our team helps you choose the right service. We talk with you first to understand what you need. Your therapy gets matched to your body. Confirm everything in seconds and you are done. The whole system saves your time. You can focus on getting ready to relax instead.                  
+                          Every client is different. We customize your B2B experience to suit your body requirements such as type of oil, level of pressure and energy of therapist. The flow of the therapy depends on what is comfortable to you.                  
                         </p>
-                        <span className="font-semibold text-emerald-800 mb-4">24+ Outlets Across Gurgaon</span>
+                        <span className="font-semibold text-emerald-800 mb-4">Complete Privacy and Confidentiality</span>
                         <p>
-                         Spa in Gurgaon has more than 24 places around the city. It is easy to access a sandwich massage anywhere. All places are clean and serene. The employees treat you with the same special attention everywhere. You may choose spa venues, stay within the hotel or at home. The quality never changes. You are always relaxed and taken care of. We bring wellness to your fingertips wherever you are.
+                         In Gurgaon, spa provides total privacy. Whichever option you prefer, be it the use of a spa outlet or paying a home visit, we ensure a high level of confidentiality and delicate arrangements so as to have a comfortable and dignified treatment.
                         </p>
                         {/* <p>
                           Perfect for individuals suffering from stress, muscle pain, or hormonal imbalance, this massage harmonizes body rhythms and enhances immunity. The continuous motion and warm oil offer a meditative experience.
@@ -1359,7 +1355,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Our Pricing <span className="text-emerald-600"> Package for Sandwich Massage in Gurgaon</span>
+                    Our Pricing <span className="text-emerald-600">Package for B2B Massage in Gurgaon</span>
                   </motion.h2>
                   <motion.p
                     className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1368,7 +1364,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                    Spa is an establishment providing alternative prices of sandwich massage in Gurgaon. Personal care will start at ₹1999, which is easy to access with luxury.
+                    The best-value packages that will leave you with a premium body-to-body relaxation, and will not compromise on quality or comfort.
                   </motion.p>
                 </div>
         
@@ -1476,7 +1472,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Our <span className="text-emerald-600">Happy Clients</span>
+                    Client <span className="text-emerald-600">Experiences</span>
                   </motion.h2>
                   <motion.p
                     className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1485,7 +1481,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                     People who visit Spa in Gurgaon love their personal massage experiences.
+                     Hear from those who have experienced the transformative power of our oil therapy massage.
                   </motion.p>
               
             </div>
@@ -1519,9 +1515,9 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         {/* CTA Section */}
         <section className="py-20 bg-gradient-to-r from-emerald-700 to-emerald-800 text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-6">Ready to Calm Your Senses and Enjoy Sandwich Massage in Gurgaon?</h2>
+            <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-6">Ready for Transformation?</h2>
             <p className="text-emerald-100 max-w-2xl mx-auto mb-10 text-lg">
-              Turn to Spa in Gurgaon for top-class sandwich massage at home or a hotel room. Be relaxed, restore your energy, and restore your strength with professionalism and erotic experience.
+              Book your oil therapy massage today and embark on a journey to complete relaxation and rejuvenation.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a 
