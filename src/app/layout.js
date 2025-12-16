@@ -1,19 +1,24 @@
-import { Geist, Geist_Mono } from "next/font/google";
+// import { GeistSans, GeistMono } from 'geist/font'
 import "./globals.css";
+import { Inter } from 'next/font/google'
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import WhatsappFloat from "./components/WhatsappFloat";
 import Analytics from "./components/Analytics";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geist = Geist({
+//   subsets: ['latin'],
+//   variable: '--font-geist',
+// })
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = GeistMono({
+//   subsets: ['latin'],
+//   variable: '--font-geist-mono',
+// })
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata = {
   title: "Luxury Body Spa | Gurgaon",
@@ -29,7 +34,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={inter.className}
       >
          <Analytics />
         <Navbar />
